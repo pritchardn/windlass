@@ -1,11 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/ICRAR/daliuge.git
-cd daliuge || exit
-pip install -e daliuge-common
-pip install -e daliuge-translator
-pip install -e daliuge-runtime
-cd ..
+pip install daliuge
 
 git clone https://github.com/ICRAR/EAGLE.git
 cd EAGLE || exit
