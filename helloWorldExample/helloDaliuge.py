@@ -17,5 +17,14 @@ print(HOME)
 print(TEMP)
 print(LGFILES)
 
+lg = 'HelloWorld3.graph'
 
-# common.terminate_or_kill(self.web_proc, 10)
+fill = tool.start_process('fill', ['-L', lg], stdout=subprocess.PIPE)
+unroll = tool.start_process('unroll', [], stdin=fill.stdout, stdout=subprocess.PIPE)
+partition = tool.start_process('partition', stdin=unroll.stdout, stdout=subprocess.PIPE)
+map_ = tool.start_process('map', ['-N', '127.0.0.1,127.0.0.1'], stdin=partition.stdout, stdout=subprocess.PIPE)
+#mapc = map_.communicate()[0]
+#print(mapc)
+#TODO: Somehow capture node output for reading
+sub = tool.start_process('submit', ['-p', '8000', '-w'], stdin=map_.stdout, stdout=subprocess.PIPE)
+print(sub.communicate()[0])
