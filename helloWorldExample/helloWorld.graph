@@ -1,0 +1,173 @@
+{
+    "linkDataArray": [
+        {
+            "from": -2,
+            "fromPort": "b7daa907-04b0-49a1-91a8-b6b72bfb498a",
+            "to": -3,
+            "toPort": "776db793-a22e-4283-9bd1-92808ea7014d"
+        },
+        {
+            "from": -3,
+            "fromPort": "98515154-b5d3-4b9c-ab78-2ee3857b2c7f",
+            "to": -1,
+            "toPort": "5c91730c-631a-4ec0-80aa-819b03d6961a"
+        }
+    ],
+    "modelData": {
+        "filePath": "helloWorld.graph",
+        "fileType": "graph",
+        "git_url": "",
+        "repo": "",
+        "repoService": "Unknown",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "colour": "#394BB2",
+            "description": "",
+            "exitAppName": "",
+            "fields": [
+                {
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                }
+            ],
+            "inputAppFields": [],
+            "inputAppName": "",
+            "inputApplication": "Unknown",
+            "inputLocalPorts": [],
+            "inputPorts": [],
+            "isData": true,
+            "isGroup": false,
+            "key": -2,
+            "loc": "-37 93",
+            "outputAppFields": [],
+            "outputAppName": "",
+            "outputApplication": "Unknown",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "b7daa907-04b0-49a1-91a8-b6b72bfb498a",
+                    "IdText": "event"
+                }
+            ],
+            "streaming": false,
+            "subject": null,
+            "text": "Memory"
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "colour": "#394BB2",
+            "description": "",
+            "exitAppName": "",
+            "fields": [
+                {
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                }
+            ],
+            "inputAppFields": [],
+            "inputAppName": "",
+            "inputApplication": "Unknown",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "5c91730c-631a-4ec0-80aa-819b03d6961a",
+                    "IdText": "event"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -1,
+            "loc": "560 95",
+            "outputAppFields": [],
+            "outputAppName": "",
+            "outputApplication": "Unknown",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "streaming": false,
+            "subject": null,
+            "text": "Memory"
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "BashShellApp",
+            "categoryType": "Application",
+            "collapsed": false,
+            "colour": "#1C2833",
+            "description": "A bash script that echoes \"Hello World\"",
+            "exitAppName": "",
+            "fields": [
+                {
+                    "name": "execution_time",
+                    "text": "Execution time",
+                    "value": "5"
+                },
+                {
+                    "name": "num_cpus",
+                    "text": "Num CPUs",
+                    "value": "1"
+                },
+                {
+                    "name": "group_start",
+                    "text": "Group start",
+                    "value": "0"
+                },
+                {
+                    "name": "Arg01",
+                    "text": "Arg01",
+                    "value": "echo \"Hello World\""
+                }
+            ],
+            "inputAppFields": [],
+            "inputAppName": "",
+            "inputApplication": "Unknown",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "776db793-a22e-4283-9bd1-92808ea7014d",
+                    "IdText": "event"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -3,
+            "loc": "276 94",
+            "outputAppFields": [],
+            "outputAppName": "",
+            "outputApplication": "Unknown",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "98515154-b5d3-4b9c-ab78-2ee3857b2c7f",
+                    "IdText": "event"
+                }
+            ],
+            "streaming": false,
+            "subject": null,
+            "text": "HelloWorldBash"
+        }
+    ]
+}
