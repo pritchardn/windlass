@@ -1,0 +1,216 @@
+{
+    "modelData": {
+        "fileType": "graph",
+        "repoService": "GitHub",
+        "repo": "ICRAR/EAGLE_test_repo",
+        "filePath": "simple_tests/simple_01_basic.graph",
+        "sha": "",
+        "git_url": ""
+    },
+    "nodeDataArray": [
+        {
+            "category": "memory",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "colour": "#394BB2",
+            "key": -1,
+            "text": "Memory",
+            "description": "",
+            "loc": "471 375",
+            "collapsed": false,
+            "streaming": false,
+            "subject": null,
+            "inputAppName": "",
+            "outputAppName": "",
+            "exitAppName": "",
+            "inputApplication": "Unknown",
+            "outputApplication": "Unknown",
+            "inputPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "eba8f9fd-259b-4bd3-bc5e-b17be45aae6e",
+                    "IdText": "event"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": "5"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "category": "memory",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "colour": "#394BB2",
+            "key": -2,
+            "text": "Memory",
+            "description": "",
+            "loc": "919 375",
+            "collapsed": false,
+            "streaming": false,
+            "subject": null,
+            "inputAppName": "",
+            "outputAppName": "",
+            "exitAppName": "",
+            "inputApplication": "Unknown",
+            "outputApplication": "Unknown",
+            "inputPorts": [
+                {
+                    "Id": "279ee7d5-fcd1-4871-8a5b-91bfcbcb5d12",
+                    "IdText": "event"
+                }
+            ],
+            "outputPorts": [],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": "5"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "category": "Component",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "colour": "#3498DB",
+            "key": -3,
+            "text": "Python Sleep App",
+            "description": "Python Sleep App",
+            "loc": "635 361",
+            "collapsed": false,
+            "streaming": false,
+            "subject": null,
+            "inputAppName": "",
+            "outputAppName": "",
+            "exitAppName": "",
+            "inputApplication": "Unknown",
+            "outputApplication": "Unknown",
+            "inputPorts": [
+                {
+                    "Id": "4de79720-e16d-4eb1-aec6-79a994a8e819",
+                    "IdText": "event"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "fbafc3ba-8c0c-4b0e-b88a-541cf228248d",
+                    "IdText": "event"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "fields": [
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": "5"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": "1"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": "0"
+                },
+                {
+                    "text": "Appclass",
+                    "name": "appclass",
+                    "value": "dlg.apps.SleepApp"
+                },
+                {
+                    "text": "Arg01",
+                    "name": "arg01",
+                    "value": "sleep time=10"
+                }
+            ]
+        },
+        {
+            "category": "Comment",
+            "categoryType": "Control",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": false,
+            "canHaveOutputs": false,
+            "colour": "#799938",
+            "key": -4,
+            "text": "Comment",
+            "description": "",
+            "loc": "518 240",
+            "collapsed": false,
+            "streaming": false,
+            "subject": null,
+            "inputAppName": "",
+            "outputAppName": "",
+            "exitAppName": "",
+            "inputApplication": "Unknown",
+            "outputApplication": "Unknown",
+            "inputPorts": [],
+            "outputPorts": [],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "fields": [
+                {
+                    "text": "",
+                    "name": "",
+                    "value": "The simplest graph I can make.\nA start, an end and a Sleep"
+                }
+            ],
+            "desiredSize": {
+                "width": 386,
+                "height": 50
+            }
+        }
+    ],
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "eba8f9fd-259b-4bd3-bc5e-b17be45aae6e",
+            "to": -3,
+            "toPort": "4de79720-e16d-4eb1-aec6-79a994a8e819"
+        },
+        {
+            "from": -3,
+            "fromPort": "fbafc3ba-8c0c-4b0e-b88a-541cf228248d",
+            "to": -2,
+            "toPort": "279ee7d5-fcd1-4871-8a5b-91bfcbcb5d12"
+        }
+    ]
+}
