@@ -10,6 +10,12 @@ $ dlg daemon
 
 We then launch an example with Python.
 
+## Current Thinking
+- I do not think anything relating to EAGLE is functional. As such I may need to test things differently
+  - Write the graphs manually as drops first
+  - Convert this backwards into a JSON graph file 
+  - Run this file in the usual fashion.
+
 ## TODO:
 - `Hello %s`
 - `Hello world` - Scattered and Gathered
