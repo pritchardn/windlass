@@ -14,7 +14,7 @@ We then launch an example with Python.
 - Currently, I ensure execution via waiting, which is not ideal but the DropctxWaiter is still a mystery to me. 
 
 ## TODO:
-- `Hello %s` - Manual Drop Launching
+- `Hello %s` - Bash script apps, Manual Drop Launching
 - `Hello world` - Scattered and Gathered, Manual Drop Launching 
 - `Hello %s` - Bash script -> Python Script -> File, Manual Drop Launching
 - `Hello %s` - Python Script -> Bash Script -> File, Manual Drop Launching
@@ -30,3 +30,4 @@ We then launch an example with Python.
 ## Done
 - `Hello World` - Via DALiuGE Graph Launcher (`daliugebased/helloDaliuge.py`)
 - `Hello World` - Via Manual Drop Launching (`dropbased/helloworld.py`)
+- `Hello %s` - Manual Drop Launching (InMemory Drops)
