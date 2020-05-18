@@ -13,6 +13,7 @@ We then launch an example with Python.
 ## Current Issues/Comments/Questions
 - Currently, I ensure execution via waiting, which is not ideal but the DropctxWaiter is still a mystery to me. 
 - I've been using the StreamingOutput -> Memory -> Streaming Input paradigm. Is there a shorter way than this? 
+- The reliance on kwargs makes use of the system unintuitive. Lots of looking up rather than exploiting IDE tools.
 
 ## TODO:
 - `Hello world` - Scattered and Gathered, Manual Drop Launching 
