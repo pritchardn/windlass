@@ -7,7 +7,6 @@ import os
 
 output_fname = os.getcwd() + '/result3.out'
 
-
 # Initialize our drops
 a = StreamingOutputBashApp('a', 'a', command=r"echo -en 'world'")
 b = InMemoryDROP('b', 'b')
@@ -21,7 +20,7 @@ c.addOutput(d)
 
 # Execute and wait (HACK)
 a.async_execute()
-time.sleep(5)
+time.sleep(7)
 
 # Inspect Results
 for drop in (a, b, c, d):

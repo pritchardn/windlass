@@ -1,4 +1,3 @@
-from dlg.apps.bash_shell_app import StreamingInputBashApp, StreamingOutputBashApp
 from dlg.ddap_protocol import DROPStates
 from dlg.drop import FileDROP, InMemoryDROP, BarrierAppDROP
 from dlg.droputils import allDropContents
@@ -7,7 +6,6 @@ import os
 from six import BytesIO
 
 output_fname = os.getcwd() + '/result2.out'
-
 
 class PrependResult(BarrierAppDROP):
     def dataURL(self):
@@ -37,7 +35,7 @@ b.addOutput(c)
 # Execute and wait (HACK)
 a.write(b"world")
 a.setCompleted()
-time.sleep(5)
+time.sleep(7)
 
 # Inspect Results
 for drop in (a, b, c):
