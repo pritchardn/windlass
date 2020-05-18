@@ -10,11 +10,11 @@ $ dlg daemon
 
 We then launch an example with Python.
 
-## Current Issues
+## Current Issues/Comments/Questions
 - Currently, I ensure execution via waiting, which is not ideal but the DropctxWaiter is still a mystery to me. 
+- I've been using the StreamingOutput -> Memory -> Streaming Input paradigm. Is there a shorter way than this? 
 
 ## TODO:
-- `Hello %s` - Bash script apps, Manual Drop Launching
 - `Hello world` - Scattered and Gathered, Manual Drop Launching 
 - `Hello %s` - Bash script -> Python Script -> File, Manual Drop Launching
 - `Hello %s` - Python Script -> Bash Script -> File, Manual Drop Launching
@@ -31,3 +31,4 @@ We then launch an example with Python.
 - `Hello World` - Via DALiuGE Graph Launcher (`daliugebased/helloDaliuge.py`)
 - `Hello World` - Via Manual Drop Launching (`dropbased/helloworld.py`)
 - `Hello %s` - Manual Drop Launching (InMemory Drops)
+- `Hello %s` - Bash script apps, Manual Drop Launching
