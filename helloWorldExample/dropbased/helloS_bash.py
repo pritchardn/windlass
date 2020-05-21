@@ -11,7 +11,7 @@ output_fname = os.getcwd() + '/result3.out'
 a = StreamingOutputBashApp('a', 'a', command=r"echo -en 'world'")
 b = InMemoryDROP('b', 'b')
 c = StreamingInputBashApp('c', 'c', command="echo Hello $(cat) > %o0")
-d = FileDROP('d', 'd', filename=output_fname)
+d = FileDROP('d', 'd', filepath=output_fname)
 
 # Link Drops together
 a.addOutput(b)

@@ -26,7 +26,7 @@ class PrependResult(BarrierAppDROP):
 # Initialize our drops
 a = InMemoryDROP('a', 'a')
 b = PrependResult('b', 'b', prefix='Hello ')
-c = FileDROP('c', 'c', filename=output_fname)
+c = FileDROP('c', 'c', filepath=output_fname)
 
 # Link Drops together
 a.addConsumer(b)
