@@ -16,11 +16,10 @@ We then launch an example with Python.
 - The reliance on kwargs makes use of the system unintuitive. Lots of looking up rather than exploiting IDE tools.
 
 ## TODO:
-- `Hello world` - Directly writing to file, Manual Drop Launching. The simplest possible example
+- `Hello %s` - File -> Bash Script -> File, Manual Drop Launching
 - `Hello world` - Scattered and Gathered, Manual Drop Launching 
 - `Hello %s` - Bash script -> Python Script -> File, Manual Drop Launching
 - `Hello %s` - Python Script -> Bash Script -> File, Manual Drop Launching
-- `Hello %s` - File -> Bash Script -> File, Manual Drop Launching
 - `Hello %s` - DALiuGE Graph Launching
 - `Hello world` - Scattered and Gathered, DALiuGE Graph Launching 
 - `Hello %s` - Bash script -> Python Script -> File, DALiuGE Graph Launching
@@ -34,3 +33,4 @@ We then launch an example with Python.
 - `Hello World` - Via Manual Drop Launching (`dropbased/helloworld.py`)
 - `Hello %s` - Manual Drop Launching (InMemory Drops)
 - `Hello %s` - Bash script apps, Manual Drop Launching
+- `Hello world` - Directly writing to file, Manual Drop Launching. The simplest possible example
