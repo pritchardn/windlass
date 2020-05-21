@@ -20,7 +20,7 @@ c.addOutput(d)
 
 # Execute and wait (HACK)
 a.async_execute()
-time.sleep(7)
+time.sleep(5)
 
 # Inspect Results
 for drop in (a, b, c, d):

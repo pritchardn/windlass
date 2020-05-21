@@ -35,7 +35,7 @@ b.addOutput(c)
 # Execute and wait (HACK)
 a.write(b"world")
 a.setCompleted()
-time.sleep(7)
+time.sleep(5)
 
 # Inspect Results
 for drop in (a, b, c):
