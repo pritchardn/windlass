@@ -14,7 +14,6 @@ We then launch an example with Python.
 - Currently, I ensure execution via waiting, which is not ideal but the DropctxWaiter is still a mystery to me. 
 
 ## TODO:
-- `Hello world` - File -> Bash -> File -> NGAS, Manual Drop Launching, Replicating pre-existing example
 - `Hello world` - Scattered and Gathered, Manual Drop Launching 
 - `Hello %s` - Bash script -> Python Script -> File, Manual Drop Launching
 - `Hello %s` - Python Script -> Bash Script -> File, Manual Drop Launching
@@ -33,6 +32,7 @@ We then launch an example with Python.
 - `Hello %s` - Bash script apps, Manual Drop Launching
 - `Hello world` - Directly writing to file, Manual Drop Launching. The simplest possible example
 - `Hello %s` - File -> Bash Script -> File, Manual Drop Launching
+- `Hello world` - File -> Bash -> File -> NGAS, Manual Drop Launching, Replicating pre-existing example
 
 ## Resolved Issues/Comments/Questions
 - The reliance on kwargs makes use of the system unintuitive. Lots of looking up rather than exploiting IDE tools.
