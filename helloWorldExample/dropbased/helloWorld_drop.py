@@ -1,10 +1,10 @@
+import os
+import time
+
 from dlg.apps.bash_shell_app import StreamingInputBashApp, StreamingOutputBashApp
 from dlg.ddap_protocol import DROPStates
 from dlg.drop import FileDROP, InMemoryDROP
 from dlg.droputils import allDropContents
-import time
-import os
-
 
 output_fname = os.getcwd() + '/result.out'
 
