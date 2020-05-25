@@ -12,10 +12,9 @@ We then launch an example with Python.
 
 ## Current Issues/Comments/Questions
 - Currently, I ensure execution via waiting, which is not ideal but the DropctxWaiter is still a mystery to me. 
-- I've been using the StreamingOutput -> Memory -> Streaming Input paradigm. Is there a shorter way than this? 
-- The reliance on kwargs makes use of the system unintuitive. Lots of looking up rather than exploiting IDE tools.
 
 ## TODO:
+- `Hello world` - File -> Bash -> File -> NGAS, Manual Drop Launching, Replicating pre-existing example
 - `Hello world` - Scattered and Gathered, Manual Drop Launching 
 - `Hello %s` - Bash script -> Python Script -> File, Manual Drop Launching
 - `Hello %s` - Python Script -> Bash Script -> File, Manual Drop Launching
@@ -34,3 +33,9 @@ We then launch an example with Python.
 - `Hello %s` - Bash script apps, Manual Drop Launching
 - `Hello world` - Directly writing to file, Manual Drop Launching. The simplest possible example
 - `Hello %s` - File -> Bash Script -> File, Manual Drop Launching
+
+## Resolved Issues/Comments/Questions
+- The reliance on kwargs makes use of the system unintuitive. Lots of looking up rather than exploiting IDE tools.
+  - This is why we would build an editor. This is probably the most pythonic way to achieve this. 
+- I've been using the StreamingOutput -> Memory -> Streaming Input paradigm. Is there a shorter way than this? 
+  - Yes, several
