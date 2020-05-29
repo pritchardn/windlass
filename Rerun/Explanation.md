@@ -10,7 +10,19 @@ An abstractDROP will assemble the atomic pieces of run-time information. Each sh
 
 
 ## Current Issues/Comments/Questions
+- My current solution to initialization has a default C
 
+## Added Code
+- daliuge-common
+  - reproducibility
+    - constants.py
+- daliuge-runtime
+  - dlg
+    - drop.py (added functionality)
+  - test
+    - reproducibility
+      - test_drophash.py
+  
 
 ## TODO:
 - Physical node encryption. A 'hash me' type of system. Perhaps using my MerkleTree Implementation
@@ -21,6 +33,8 @@ An abstractDROP will assemble the atomic pieces of run-time information. Each sh
 - Logical graph -> Physical-Graph-Template -> Block-DAG
 - PGT -> PG -> Block-DAG (based on per-drop hashing).
 - The limitations from check-summing are present and will need to be worked around.
-- The default level should be inherited from a DALiuGE global setting 
 
 ## Done
+- The default level should be inherited from a DALiuGE global setting 
+  - An additional DEFAULT constant has been added (for now it is set at RERUN)
+  - I am unsure if this is sufficient
