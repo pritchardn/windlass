@@ -19,12 +19,17 @@ impossible to change this?
 - daliuge-common
   - reproducibility
     - constants.py
+    - setup.py
 - daliuge-runtime
   - dlg
     - drop.py (added functionality)
   - test
     - reproducibility
       - test_drophash.py
+- daliuge-translator
+  - dlg
+    - translator
+      - tool_commands.py - (added CLA -R)
   
 
 ## TODO: 

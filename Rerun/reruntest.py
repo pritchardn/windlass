@@ -18,7 +18,7 @@ print(LGFILES)
 lg = 'HelloWorld3.graph'
 
 parser = optparse.OptionParser()
-fill(parser, ['-L', lg, '--parameter', 'repro=1'])
+fill(parser, ['-L', lg, '-R', '1'])
 
 # unroll = tool.start_process('unroll', [], stdin=fill.stdout, stdout=subprocess.PIPE)
 # partition = tool.start_process('partition', stdin=unroll.stdout, stdout=subprocess.PIPE)
