@@ -14,6 +14,11 @@ An abstractDROP will assemble the atomic pieces of run-time information. Each sh
 - Current behaviour to change reproducibility level is to reset all reproducibility values. I think this is reasonable
 since it avoids having a mismatching reproduciblity level and reproducibility data. I might also consider making it
 impossible to change this?
+- Should I program with type-hinting. It makes code more readable but is a fairly recent feature used only by editors
+- I am not sure how to handle unsupported options. Part of me wants to fit to the Python 'we are adults here' mentality
+but on the other hand, it is good practice to prepare for such situations.
+- My current 'supported' functionality is based on a single function. It could be possible to simply remove unsupported
+flags from the Enum as a cleaner solution?
 
 ## Added Code
 - daliuge-common
