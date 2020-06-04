@@ -6,7 +6,7 @@ other than JSON files that are parsed.
 
 For now I will add a daliuge/reproducible directory to store any extra files. 
 
-An abstractDROP will assemble the atomic pieces of run-time information. Each shall have a reppro-flag. 
+An abstractDROP will assemble the atomic pieces of run-time information. Each shall have a repro-flag. 
 
 
 ## Current Issues/Comments/Questions
@@ -19,6 +19,7 @@ impossible to change this?
 but on the other hand, it is good practice to prepare for such situations.
 - My current 'supported' functionality is based on a single function. It could be possible to simply remove unsupported
 flags from the Enum as a cleaner solution?
+- Groups are handled in-editor by adding a group ID field, nothing more.
 
 ## Added Code
 - daliuge-common
