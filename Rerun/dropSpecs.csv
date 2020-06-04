@@ -1,0 +1,17 @@
+Category,Category Type,canHaveInputs,canHaveOutputs,fields ,isData,isGroup,key,inputPorts,outputPorts,streaming,Notes
+memory,Data,TRUE,TRUE,,TRUE,FALSE,,,,FALSE,
+file,Data,TRUE,TRUE,,TRUE,FALSE,,,,FALSE,
+s3,Data,TRUE,TRUE,,TRUE,FALSE,,,,FALSE,
+NGAS,Data,TRUE,TRUE,,TRUE,FALSE,,,,FALSE,
+BashShellApp,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
+DynlibApp,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
+mpi,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
+docker,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
+Component,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,“Python App”
+GroupBy,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
+Gather,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
+Scatter ,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
+Loop,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
+Comment,Other,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,
+Description,Other,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,
+ExclusiveForceNode,Control,FALSE,FALSE,,FALSE,TRUE,,,,FALSE,
