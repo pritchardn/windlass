@@ -4,35 +4,37 @@ import time
 
 from dlg.apps.pyfunc import PyFuncApp
 from dlg.ddap_protocol import DROPStates
-from dlg.drop import FileDROP
+from dlg.drop import FileDROP, InMemoryDROP
 from dlg.droputils import allDropContents
 
 output_fname = os.getcwd() + '/result6.out'
 
 
-#  TODO: Use an In-Memory drop for arguments
-def hello_world(s='World'):
+def hello_world(s='Everybody'):
     return "Hello " + s
 
 
 fname = 'helloWorldExample.dropbased.helloS_python.hello_world'
 
 # Initialize our Drops
-a = PyFuncApp('a', 'a', func_name=fname)
-b = FileDROP('b', 'b', filepath=output_fname)
+a = InMemoryDROP('a', 'a')
+b = PyFuncApp('b', 'b', func_name=fname)
+c = FileDROP('c', 'c', filepath=output_fname)
 
 # Link Drops together
-a.addOutput(b)
+b.addInput(a)
+b.addOutput(c)
 
 # Execute and wait (HACK)
-a.async_execute()
+a.write(pickle.dumps("World"))
+a.setCompleted()
 time.sleep(5)
 
 # Inspect Results
-for drop in (a, b):
+for drop in (a, b, c):
     print(drop)
     print(drop.status)
     print(drop.status == DROPStates.COMPLETED)
 
 # Check the file was written correctly
-print(pickle.loads(allDropContents(b)))
+print(pickle.loads(allDropContents(c)))
