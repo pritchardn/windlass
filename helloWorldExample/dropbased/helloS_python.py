@@ -1,4 +1,5 @@
 import os
+import pickle
 import time
 
 from dlg.apps.pyfunc import PyFuncApp
@@ -34,4 +35,4 @@ for drop in (a, b):
     print(drop.status == DROPStates.COMPLETED)
 
 # Check the file was written correctly
-print(allDropContents(b))
+print(pickle.loads(allDropContents(b)))

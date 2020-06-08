@@ -1,4 +1,5 @@
 import os
+import pickle
 import time
 
 from dlg.apps.pyfunc import PyFuncApp
@@ -9,7 +10,6 @@ from dlg.droputils import allDropContents
 output_fname = os.getcwd() + '/result6.out'
 
 
-#  TODO: Investigate extra data written to file
 def hello_world():
     return "Hello World"
 
@@ -34,4 +34,4 @@ for drop in (a, b):
     print(drop.status == DROPStates.COMPLETED)
 
 # Check the file was written correctly
-print(allDropContents(b))
+print(pickle.loads(allDropContents(b)))

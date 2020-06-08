@@ -33,9 +33,13 @@ We then launch an example with Python.
 - `Hello world` - Directly writing to file, Manual Drop Launching. The simplest possible example
 - `Hello %s` - File -> Bash Script -> File, Manual Drop Launching
 - `Hello world` - File -> Bash -> File -> NGAS, Manual Drop Launching, Replicating pre-existing example
+- `Hello world` - Python -> File, Manual Drop Launching
+- `Hello %s` - Python -> File, Manual Drop Launching
 
 ## Resolved Issues/Comments/Questions
 - The reliance on kwargs makes use of the system unintuitive. Lots of looking up rather than exploiting IDE tools.
   - This is why we would build an editor. This is probably the most pythonic way to achieve this. 
 - I've been using the StreamingOutput -> Memory -> Streaming Input paradigm. Is there a shorter way than this? 
   - Yes, several
+- Extra data in Python function drops
+  - It is because data is pickled internally. Reading with `pickle.loads(alldropcontents)` resolves this issue.
