@@ -14,7 +14,7 @@ print(HOME)
 print(TEMP)
 print(LGFILES)
 
-lgt = 'HelloWorld3.graph'
+lgt = 'LinkExample.graph'
 lg = 'HelloWorld3LG.graph'
 pgt = 'HelloWorld3PGT.graph'
 pg = 'HelloWorld3PG.graph'

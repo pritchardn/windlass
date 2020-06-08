@@ -45,6 +45,12 @@ flags from the Enum as a cleaner solution?
 - PGT -> PG -> Block-DAG (based on per-drop hashing).
 - The limitations from check-summing are present and will need to be worked around.
 
+## Testing Needs
+- Drop hashing
+- lgt_init
+- lg_init
+- Topological sort algorithm
+
 ## Done
 - The default level should be inherited from a DALiuGE global setting 
   - An additional DEFAULT constant has been added (for now it is set at RERUN)
