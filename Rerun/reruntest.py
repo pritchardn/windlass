@@ -15,9 +15,9 @@ print(TEMP)
 print(LGFILES)
 
 lgt = 'LinkExample.graph'
-lg = 'HelloWorld3LG.graph'
-pgt = 'HelloWorld3PGT.graph'
-pg = 'HelloWorld3PG.graph'
+lg = 'LinkExampleLG.graph'
+pgt = 'LinkExamplePGT.graph'
+pg = 'LinkExamplePG+.graph'
 
 
 parser = optparse.OptionParser()
