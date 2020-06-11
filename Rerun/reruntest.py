@@ -4,7 +4,7 @@
 import optparse
 import pathlib
 
-from dlg.translator.tool_commands import dlg_fill, dlg_unroll
+from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition
 
 HOME = pathlib.Path(__file__).parent.absolute()
 TEMP = HOME / "temp/"
@@ -17,6 +17,7 @@ print(LGFILES)
 lgt = 'LinkExample.graph'
 lg = 'LinkExampleLG.graph'
 pgt = 'LinkExamplePGT.graph'
+pgs = 'LinkExamplePGS.graph'
 pg = 'LinkExamplePG.graph'
 
 
@@ -24,8 +25,8 @@ parser = optparse.OptionParser()
 dlg_fill(parser, ['-L', lgt, '-R', '1', '-o', lg, '-f', 'newline'])
 parser = optparse.OptionParser()
 dlg_unroll(parser, ['-L', lg, '-o', pgt, '-f', 'newline'])
-# unroll = tool.start_process('unroll', [], stdin=fill.stdout, stdout=subprocess.PIPE)
-# partition = tool.start_process('partition', stdin=unroll.stdout, stdout=subprocess.PIPE)
+parser = optparse.OptionParser()
+dlg_partition(parser, ['-P', pgt, '-o', pgs, '-f', 'newline'])
 # map_ = tool.start_process('map', ['-N', '127.0.0.1,127.0.0.1'], stdin=partition.stdout, stdout=subprocess.PIPE)
 # sub = tool.start_process('submit', ['-p', '8000', '-w'], stdin=map_.stdout, stdout=subprocess.PIPE)
 # print(sub.communicate()[0])
