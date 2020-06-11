@@ -17,7 +17,7 @@ print(LGFILES)
 lgt = 'LinkExample.graph'
 lg = 'LinkExampleLG.graph'
 pgt = 'LinkExamplePGT.graph'
-pg = 'LinkExamplePG+.graph'
+pg = 'LinkExamplePG.graph'
 
 
 parser = optparse.OptionParser()

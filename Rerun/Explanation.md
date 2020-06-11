@@ -20,6 +20,7 @@ but on the other hand, it is good practice to prepare for such situations.
 - My current 'supported' functionality is based on a single function. It could be possible to simply remove unsupported
 flags from the Enum as a cleaner solution?
 - Groups are handled in-editor by adding a group ID field, nothing more.
+- Moving from LGT to PGT in the pg_generator.make_single_drop function. This is a self-proclaimed dummy function... 
 
 ## Added Code
 - daliuge-common
@@ -39,8 +40,6 @@ flags from the Enum as a cleaner solution?
   
 
 ## TODO: 
-- Logical graph template -> Block-DAG
-- Logical graph -> Block-DAG"
 - Logical graph -> Physical-Graph-Template -> Block-DAG
 - PGT -> PG -> Block-DAG (based on per-drop hashing).
 - The limitations from check-summing are present and will need to be worked around.
@@ -50,6 +49,10 @@ flags from the Enum as a cleaner solution?
 - lgt_init
 - lg_init
 - Topological sort algorithm
+- Translation to PGT
+  - ! MPI nodes
+  - ! Grouped nodes
+  - Standard nodes
 
 ## Done
 - The default level should be inherited from a DALiuGE global setting 
@@ -58,3 +61,5 @@ flags from the Enum as a cleaner solution?
 - Physical node encryption. A 'hash me' type of system. Perhaps using my MerkleTree Implementation
   - Since I am only interested in execution verification for Rerunning. We only need to look at the flags.
     - This can be defeated much like MPIs flag system.
+- Logical graph template -> Block-DAG
+- Logical graph -> Block-DAG"

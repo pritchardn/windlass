@@ -12,6 +12,14 @@
     "lg_key": -1,
     "dt": "memory",
     "nm": "Memory",
+    "reprodata": {
+      "category_type": "Data",
+      "category": "memory",
+      "streaming": false,
+      "merkleroot": "32d7bf2ea16d3591b0565d50136be281fb6ec6ca1cb436635f6a99fa5a17f3bb",
+      "parenthashes": [],
+      "blockhash": "47e70a82d46ec55cc14b799609cc65495eba3fcb394fbbe91c3e2804ec9e3a96"
+    },
     "consumers": [
       "1_-3_0"
     ]
@@ -30,6 +38,16 @@
     "lg_key": -2,
     "dt": "file",
     "nm": "File",
+    "reprodata": {
+      "category_type": "Data",
+      "category": "file",
+      "streaming": false,
+      "merkleroot": "4ac2592416e2cd33317d6e4118c0ee1e20d6f2db2cdef54f7d1137d5357b2327",
+      "parenthashes": [
+        "1cc555a9e5b4c6b984aa5911c68e2e3c3262d160047024c9a69900b908320590"
+      ],
+      "blockhash": "e8c534d6ee33e26e8df9409ef6f55c46120534f3d286503fcb21532115caf799"
+    },
     "producers": [
       "1_-4_0"
     ]
@@ -49,6 +67,16 @@
     "lg_key": -3,
     "dt": "BashShellApp",
     "nm": "Bash Shell App",
+    "reprodata": {
+      "category_type": "Application",
+      "category": "BashShellApp",
+      "streaming": false,
+      "merkleroot": "e13288b92a503ea7600ec56bc1174349895240832a4ca8204518883474adcefd",
+      "parenthashes": [
+        "47e70a82d46ec55cc14b799609cc65495eba3fcb394fbbe91c3e2804ec9e3a96"
+      ],
+      "blockhash": "8bae7afcd73c8f6afbfaa7667d4505c7a02b732adaef0a3514f590d5577590d5"
+    },
     "inputs": [
       "1_-1_0"
     ],
@@ -71,6 +99,16 @@
     "lg_key": -4,
     "dt": "BashShellApp",
     "nm": "Bash Shell App",
+    "reprodata": {
+      "category_type": "Application",
+      "category": "BashShellApp",
+      "streaming": false,
+      "merkleroot": "e13288b92a503ea7600ec56bc1174349895240832a4ca8204518883474adcefd",
+      "parenthashes": [
+        "8bae7afcd73c8f6afbfaa7667d4505c7a02b732adaef0a3514f590d5577590d5"
+      ],
+      "blockhash": "1cc555a9e5b4c6b984aa5911c68e2e3c3262d160047024c9a69900b908320590"
+    },
     "producers": [
       "1_-3_0"
     ],
