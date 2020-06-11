@@ -4,7 +4,7 @@
 import optparse
 import pathlib
 
-from dlg.translator.tool_commands import fill, dlg_unroll
+from dlg.translator.tool_commands import dlg_fill, dlg_unroll
 
 HOME = pathlib.Path(__file__).parent.absolute()
 TEMP = HOME / "temp/"
@@ -21,7 +21,7 @@ pg = 'LinkExamplePG.graph'
 
 
 parser = optparse.OptionParser()
-fill(parser, ['-L', lgt, '-R', '1', '-o', lg, '-f', 'newline'])
+dlg_fill(parser, ['-L', lgt, '-R', '1', '-o', lg, '-f', 'newline'])
 parser = optparse.OptionParser()
 dlg_unroll(parser, ['-L', lg, '-o', pgt, '-f', 'newline'])
 # unroll = tool.start_process('unroll', [], stdin=fill.stdout, stdout=subprocess.PIPE)
