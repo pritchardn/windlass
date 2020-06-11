@@ -40,7 +40,7 @@ flags from the Enum as a cleaner solution?
   
 
 ## TODO: 
-- Logical graph -> Physical-Graph-Template -> Block-DAG
+- Physical-Graph-Template -> Block-DAG
 - PGT -> PG -> Block-DAG (based on per-drop hashing).
 - The limitations from check-summing are present and will need to be worked around.
 
@@ -63,3 +63,7 @@ flags from the Enum as a cleaner solution?
     - This can be defeated much like MPIs flag system.
 - Logical graph template -> Block-DAG
 - Logical graph -> Block-DAG"
+- Logical graph -> Physical-Graph-Template
+  - Achieved by adding fields in the LG and LGN classes to include their reprodata
+  - pg_generator.unroll now returns the drop_list *and* the LGT reprodata as a final element
+  - This is then popped by the partition function.
