@@ -1,0 +1,173 @@
+{
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "56418780-b1d0-4d0f-9f40-3cc215cfcd9d",
+            "to": -3,
+            "toPort": "9a40ab56-3f75-409c-bd18-ab88bc45d4cd"
+        },
+        {
+            "from": -3,
+            "fromPort": "54804586-b1af-4276-bffc-86f0bdc50797",
+            "to": -2,
+            "toPort": "faa8e837-375e-4ceb-9c08-b785e9067b31"
+        }
+    ],
+    "modelData": {
+        "filePath": "",
+        "fileType": "graph",
+        "git_url": "",
+        "repo": "",
+        "repoService": "Unknown",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "colour": "#394BB2",
+            "description": "",
+            "exitAppName": "",
+            "fields": [
+                {
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                }
+            ],
+            "inputAppFields": [],
+            "inputAppName": "",
+            "inputApplication": "Unknown",
+            "inputLocalPorts": [],
+            "inputPorts": [],
+            "isData": true,
+            "isGroup": false,
+            "key": -1,
+            "loc": "352 112",
+            "outputAppFields": [],
+            "outputAppName": "",
+            "outputApplication": "Unknown",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "56418780-b1d0-4d0f-9f40-3cc215cfcd9d",
+                    "IdText": "event"
+                }
+            ],
+            "streaming": false,
+            "subject": null,
+            "text": "Memory"
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "colour": "#394BB2",
+            "description": "",
+            "exitAppName": "",
+            "fields": [
+                {
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                }
+            ],
+            "inputAppFields": [],
+            "inputAppName": "",
+            "inputApplication": "Unknown",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "faa8e837-375e-4ceb-9c08-b785e9067b31",
+                    "IdText": "event"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -2,
+            "loc": "808 175",
+            "outputAppFields": [],
+            "outputAppName": "",
+            "outputApplication": "Unknown",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "streaming": false,
+            "subject": null,
+            "text": "Memory"
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "mpi",
+            "categoryType": "Application",
+            "collapsed": false,
+            "colour": "#1E90FF",
+            "description": "An application component using the Message Passing Interface (MPI)",
+            "exitAppName": "",
+            "fields": [
+                {
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                },
+                {
+                    "name": "execution_time",
+                    "text": "Execution time",
+                    "value": "5"
+                },
+                {
+                    "name": "num_cpus",
+                    "text": "Num CPUs",
+                    "value": "1"
+                },
+                {
+                    "name": "num_of_procs",
+                    "text": "Num procs",
+                    "value": "4"
+                }
+            ],
+            "inputAppFields": [],
+            "inputAppName": "",
+            "inputApplication": "Unknown",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "9a40ab56-3f75-409c-bd18-ab88bc45d4cd",
+                    "IdText": "event"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -3,
+            "loc": "496 228",
+            "outputAppFields": [],
+            "outputAppName": "",
+            "outputApplication": "Unknown",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "54804586-b1af-4276-bffc-86f0bdc50797",
+                    "IdText": "event"
+                }
+            ],
+            "streaming": false,
+            "subject": null,
+            "text": "MPI"
+        }
+    ]
+}
