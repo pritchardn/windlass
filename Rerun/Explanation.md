@@ -20,7 +20,11 @@ but on the other hand, it is good practice to prepare for such situations.
 - My current 'supported' functionality is based on a single function. It could be possible to simply remove unsupported
 flags from the Enum as a cleaner solution?
 - Groups are handled in-editor by adding a group ID field, nothing more.
-- Moving from LGT to PGT in the pg_generator.make_single_drop function. This is a self-proclaimed dummy function... 
+- Moving from LGT to PGT in the pg_generator.make_single_drop function. This is a self-proclaimed dummy function...
+- Current behaviour sees reproducibility data be copied when child drops are created in the unrolling process 
+
+## Closed Issues
+- We have added separate unroll and partition pgt functions since it is totally reasonable to do these phases separately
 
 ## Added Code
 - daliuge-common
