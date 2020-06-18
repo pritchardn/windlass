@@ -3,6 +3,7 @@
 
 import optparse
 import pathlib
+import logging
 
 from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map
 
@@ -19,6 +20,9 @@ lg = 'LinkExampleLG.graph'
 pgt = 'LinkExamplePGT.graph'
 pgs = 'LinkExamplePGS.graph'
 pg = 'LinkExamplePG.graph'
+
+lumberjack = logging.getLogger("dlg.common.reproducibility.reproducibility")
+lumberjack.setLevel(logging.INFO)
 
 parser = optparse.OptionParser()
 dlg_fill(parser, ['-L', lgt, '-R', '1', '-o', lg, '-f', 'newline'])
