@@ -15,11 +15,11 @@ print(HOME)
 print(TEMP)
 print(LGFILES)
 
-lgt = 'apps.graph'
-lg = 'appslg.graph'
-pgt = 'appsPGT.graph'
-pgs = 'appsPGS.graph'
-pg = 'appsPG.graph'
+lgt = 'groupUse.graph'
+lg = 'groupUseLG.graph'
+pgt = 'groupUsePGT.graph'
+pgs = 'groupUsePGS.graph'
+pg = 'groupUsePG.graph'
 
 lumberjack = logging.getLogger("dlg.common.reproducibility.reproducibility")
 lumberjack.setLevel(logging.INFO)

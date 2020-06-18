@@ -96,7 +96,7 @@
                 {
                     "name": "libpath",
                     "text": "Library path",
-                    "value": ""
+                    "value": "/usr/bin/example"
                 }
             ],
             "inputAppFields": [],
@@ -214,12 +214,12 @@
                 {
                     "name": "image",
                     "text": "Image",
-                    "value": ""
+                    "value": "dockerimage"
                 },
                 {
                     "name": "command",
                     "text": "Command",
-                    "value": ""
+                    "value": "docker up"
                 },
                 {
                     "name": "user",
