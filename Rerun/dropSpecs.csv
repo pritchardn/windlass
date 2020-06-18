@@ -7,7 +7,7 @@ BashShellApp,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
 DynlibApp,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
 mpi,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
 docker,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,
-Component,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,“Python App”
+Component,Application,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,Python App
 GroupBy,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
 Gather,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
 Scatter ,Group,TRUE,TRUE,,FALSE,TRUE,,,,FALSE,
