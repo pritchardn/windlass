@@ -4,7 +4,7 @@
 import optparse
 import pathlib
 
-from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map
+from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map, dlg_submit
 
 HOME = pathlib.Path(__file__).parent.absolute()
 TEMP = HOME / "temp/"
@@ -29,4 +29,4 @@ dlg_partition(parser, ['-P', pgt, '-o', pgs, '-f', 'newline'])
 parser = optparse.OptionParser()
 dlg_map(parser, ['-P', pgs, '-N', '127.0.0.1,127.0.0.1', '-o', pg, '-f', 'newline'])
 parser = optparse.OptionParser()
-# dlg_submit(parser, ['-P', pg, '-p', '8000', '-w'])
+dlg_submit(parser, ['-P', pg, '-p', '8000', '-w'])
