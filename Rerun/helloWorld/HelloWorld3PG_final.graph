@@ -1,0 +1,60 @@
+{
+  "1_-1_0": {
+    "oid": "1_-1_0",
+    "app": "dlg.apps.bash_shell_app.BashShellApp",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "tw": 5,
+    "command": "echo Hello World",
+    "num_cpus": 1,
+    "iid": "0",
+    "lg_key": -1,
+    "dt": "BashShellApp",
+    "nm": "HelloWorld",
+    "reprodata": {
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "BashShellApp",
+        "streaming": false,
+        "merkleroot": "d52b7bca6c7ee897bff54c321459be59d331c366f54fa9eb9975a781152f9223"
+      },
+      "lg_parenthashes": [],
+      "lg_data": {
+        "merkleroot": null
+      },
+      "lg_blockhash": "2b1002be24b2e75da7480493285a54c1576ac9b3963341c9865a023bd4b6e3b8",
+      "pgt_parenthashes": [],
+      "pgt_data": {
+        "type": "app",
+        "rank": [
+          0
+        ],
+        "app": "dlg.apps.bash_shell_app.BashShellApp",
+        "merkleroot": "da04e413e259561f12bf79983b1b77ad72063efe69ace04ff19c84afa7f69d21"
+      },
+      "pgt_blockhash": "ee8f5c270e4c02a65be6c93a6c000a9893fae56af4f4b7e17decb90312fb5c44",
+      "pg_parenthashes": [],
+      "pg_data": {
+        "run_data": [
+          2
+        ],
+        "run_merkleroot": "6d1be79de51c1a5846bb0498b7779802710b2452c20e1b65013ad3ebe459f51e",
+        "merkleroot": "00fb98236f921a4895691d51fefc916e8bb2c4c51441089fbc684b0dad46c35b"
+      },
+      "pg_blockhash": "5d3a14896c9dc4662eea91871f7993bcee0f444c65851a5e23bd8e3a6000d2f0"
+    },
+    "node": "127.0.0.1",
+    "island": "127.0.0.1"
+  },
+  "reprodata": {
+    "rmode": "1",
+    "meta_data": {
+      "repro_protocol": 0.1,
+      "hashing_alg": "_sha3.sha3_256"
+    },
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a"
+  }
+}
+
