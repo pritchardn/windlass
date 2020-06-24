@@ -1,12 +1,12 @@
-type,app,rank,loop_cxt,iid,num_cpus,fields,node,island,Notes
-app,dlg.apps.bash_shell_app.BashShellApp,[0],null,0,1,command,127.0.0.1,127.0.0.1,
-app,dlg.apps.dynlib.DynlibApp,[0],null,0,,lib,127.0.0.1,127.0.0.1,
-app,dlg.apps.mpi.MPIApp,"[0, 0]",null,0/0,1,"command, maxprocs",127.0.0.1,127.0.0.1,
-app,dlg.apps.mpi.MPIApp,"[0, 1]",null,0/1,1,"command, maxprocs",127.0.0.1,127.0.0.1,
-app,dlg.apps.mpi.MPIApp,"[0, 2]",null,0/2,1,"command, maxprocs",127.0.0.1,127.0.0.1,
-app,dlg.apps.mpi.MPIApp,"[0, 3]",null,0/3,1,"command, maxprocs",127.0.0.1,127.0.0.1,
-app,dlg.apps.dockerapp.DockerApp,[0],null,0,,"image, command, user, ensureUserAndSwitch, removeContainer, additionalBindings",127.0.0.1,127.0.0.1,
-app,test.graphsRepository,[0],null,0,1,,127.0.0.1,127.0.0.1,Python App - Allegedly
-plain,memory,[0],null,0,,,127.0.0.1,127.0.0.1,
-plain,file,[0],null,0,,,127.0.0.1,127.0.0.1,
-plain,ngas,[0],null,0,,,127.0.0.1,127.0.0.1,
+type,app / storage,rank,loop_cxt,iid,num_cpus,fields,node,island,Notes
+app,dlg.apps.bash_shell_app.BashShellApp,[0],null,0,1,command,#0,#0,
+app,dlg.apps.dynlib.DynlibApp,[0],null,0,,lib,#0,#0,
+app,dlg.apps.mpi.MPIApp,"[0, 0]",null,0/0,1,"command, maxprocs",#0,#0,
+app,dlg.apps.mpi.MPIApp,"[0, 1]",null,0/1,1,"command, maxprocs",#0,#0,
+app,dlg.apps.mpi.MPIApp,"[0, 2]",null,0/2,1,"command, maxprocs",#0,#0,
+app,dlg.apps.mpi.MPIApp,"[0, 3]",null,0/3,1,"command, maxprocs",#0,#0,
+app,dlg.apps.dockerapp.DockerApp,[0],null,0,,"image, command, user, ensureUserAndSwitch, removeContainer, additionalBindings",#0,#0,
+app,test.graphsRepository,[0],null,0,1,,#0,#0,Python App - Allegedly
+plain,memory,[0],null,0,,,#0,#0,
+plain,file,[0],null,0,,,#0,#0,
+plain,ngas,[0],null,0,,,#0,#0,
