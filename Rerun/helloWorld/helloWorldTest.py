@@ -19,7 +19,7 @@ lg = 'HelloWorld3LG.graph'
 pgt = 'HelloWorld3PGT.graph'
 pgs = 'HelloWorld3PGS.graph'
 pg = 'HelloWorld3PG.graph'
-rg = 'HelloWorldFinal.graph'
+rg = 'HelloWorld3PG_final.graph'
 
 parser = optparse.OptionParser()
 dlg_fill(parser, ['-L', lgt, '-R', '1', '-o', lg, '-f', 'newline'])

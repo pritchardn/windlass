@@ -45,9 +45,11 @@ flags from the Enum as a cleaner solution?
   - dlg
     - translator
       - tool_commands.py - (added CLA -R)
+      - dlg_submit - added Reproducibility flag and output options
   
 
-## TODO: 
+## TODO:
+- Handling multi-session deployments  
 
 ## Testing Needs
 - Drop hashing
