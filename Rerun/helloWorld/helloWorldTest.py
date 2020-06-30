@@ -19,6 +19,7 @@ lg = 'HelloWorld3LG.graph'
 pgt = 'HelloWorld3PGT.graph'
 pgs = 'HelloWorld3PGS.graph'
 pg = 'HelloWorld3PG.graph'
+rg = 'HelloWorldFinal.graph'
 
 parser = optparse.OptionParser()
 dlg_fill(parser, ['-L', lgt, '-R', '1', '-o', lg, '-f', 'newline'])
@@ -29,4 +30,4 @@ dlg_partition(parser, ['-P', pgt, '-o', pgs, '-f', 'newline'])
 parser = optparse.OptionParser()
 dlg_map(parser, ['-P', pgs, '-N', '127.0.0.1,127.0.0.1', '-o', pg, '-f', 'newline'])
 parser = optparse.OptionParser()
-dlg_submit(parser, ['-P', pg, '-p', '8000', '-R'])
+dlg_submit(parser, ['-P', pg, '-p', '8000', '-R', '-o', rg, '-f', 'newline'])
