@@ -12,3 +12,4 @@ If you do not make sure uwsgi is installed in your current python environment an
 ## Current Progress / Notes
 - Currently developing example codes for explanatory purposes
 - Also looking at implementing workflow rerunning (using a DALiuGE Fork)
+- Developing a systematic method to test Rerunning between two workflows
