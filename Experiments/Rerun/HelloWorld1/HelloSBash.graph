@@ -261,7 +261,7 @@
                     "description": "The command line to be executed",
                     "name": "Arg01",
                     "text": "Arg01",
-                    "value": "echo Hello $(cat) > %o0"
+                    "value": "echo Hello $(cat) > %%o0"
                 }
             ],
             "height": 200,
