@@ -32,7 +32,7 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "Memory",
+            "category": "memory",
             "categoryType": "Data",
             "collapsed": false,
             "color": "#394BB2",
@@ -86,7 +86,7 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "File",
+            "category": "file",
             "categoryType": "Data",
             "collapsed": false,
             "color": "#394BB2",
