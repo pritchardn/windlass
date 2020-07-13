@@ -22,11 +22,11 @@ def run_full_workflow(workflow: str, rmode: ReproduciblityFlags):
     parser = optparse.OptionParser()
     dlg_fill(parser, ['-L', lgt, '-R', rmodes, '-o', lg, '-f', 'newline'])
     parser = optparse.OptionParser()
-    dlg_unroll(parser, ['-L', lg, '-o', pgt, '-f', 'newline'])
+    dlg_unroll(parser, ['-L', lg, '-o', pgs, '-f', 'newline'])
     parser = optparse.OptionParser()
-    dlg_partition(parser, ['-P', pgt, '-o', pgs, '-f', 'newline'])
+    dlg_partition(parser, ['-P', pgs, '-o', pgt, '-f', 'newline'])
     parser = optparse.OptionParser()
-    dlg_map(parser, ['-P', pgs, '-N', '127.0.0.1,127.0.0.1', '-o', pg, '-f', 'newline'])
+    dlg_map(parser, ['-P', pgt, '-N', '127.0.0.1,127.0.0.1', '-o', pg, '-f', 'newline'])
     parser = optparse.OptionParser()
     dlg_submit(parser, ['-P', pg, '-p', '8000', '-R', '-o', rg, '-f', 'newline'])
 
@@ -36,7 +36,7 @@ def summarise_run(workflow: str):
 
 
 if __name__ == "__main__":
-    run_full_workflow("HelloSBash", ReproduciblityFlags.RERUN)
+    #run_full_workflow("HelloSBash", ReproduciblityFlags.RERUN)
     run_full_workflow("HelloWorldBash", ReproduciblityFlags.RERUN)
-    summarise_run("HelloSBash")
-    summarise_run("HelloWorldBash")
+    #summarise_run("HelloSBash")
+    #summarise_run("HelloWorldBash")

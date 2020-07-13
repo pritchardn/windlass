@@ -1,14 +1,14 @@
 {
     "linkDataArray": [
         {
-            "from": -1,
-            "fromPort": "41bacdad-fb2d-4ea6-828a-d9d37f41fabf",
-            "to": -3,
-            "toPort": "1e392b12-0066-422f-a8d6-e944b59047cc"
-        },
-        {
             "from": -3,
             "fromPort": "9e17da2e-1ef4-4770-b388-ef4e964fff9f",
+            "to": -1,
+            "toPort": "98bacdad-fb2d-4ea6-828a-d9d37f41fabf"
+        },
+        {
+            "from": -1,
+            "fromPort": "41bacdad-fb2d-4ea6-828a-d9d37f41fabf",
             "to": -4,
             "toPort": "1e392b12-0066-422f-a8d6-e944b59047cc"
         },
@@ -60,7 +60,12 @@
             "inputApplicationName": "",
             "inputApplicationType": "None",
             "inputLocalPorts": [],
-            "inputPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "98bacdad-fb2d-4ea6-828a-d9d37f41fabf",
+                    "IdText": "event"
+                }
+            ],
             "isData": true,
             "isGroup": false,
             "key": -1,
@@ -112,13 +117,13 @@
                     "description": "",
                     "name": "check_filepath_exists",
                     "text": "Check file path exists",
-                    "value": "1"
+                    "value": "0"
                 },
                 {
                     "description": "",
                     "name": "filepath",
                     "text": "File path",
-                    "value": "/result2.out"
+                    "value": "/result1.out"
                 },
                 {
                     "description": "",
@@ -261,7 +266,7 @@
                     "description": "The command line to be executed",
                     "name": "Arg01",
                     "text": "Arg01",
-                    "value": "echo Hello $(cat) > %%o0"
+                    "value": "echo Hello $(cat) > %o0"
                 }
             ],
             "height": 200,
@@ -290,7 +295,7 @@
             ],
             "selected": false,
             "showPorts": false,
-            "streaming": false,
+            "streaming": true,
             "subject": null,
             "text": "Bash Shell App",
             "width": 200,
