@@ -55,6 +55,9 @@
       "repro_protocol": 0.1,
       "hashing_alg": "_sha3.sha3_256"
     },
-    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a"
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
+    "leaves": [
+      "69d0a6cc3c37caa09590326fd5e63bece6c115221c065a1dc17a56c5e462f2ba"
+    ]
   }
 }
