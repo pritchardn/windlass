@@ -118,7 +118,7 @@
                     "description": "",
                     "name": "filepath",
                     "text": "File path",
-                    "value": "/result1.out"
+                    "value": "result2.out"
                 },
                 {
                     "description": "",
