@@ -1,22 +1,22 @@
 {
     "linkDataArray": [
         {
-            "from": -1,
-            "fromPort": "41bacdad-fb2d-4ea6-828a-d9d37f41fabf",
-            "to": -3,
-            "toPort": "1e392b12-0066-422f-a8d6-e944b59047cc"
+            "from": -3,
+            "fromPort": "3o1",
+            "to": -1,
+            "toPort": "1i1"
         },
         {
-            "from": -3,
-            "fromPort": "9e17da2e-1ef4-4770-b388-ef4e964fff9f",
+            "from": -1,
+            "fromPort": "1o1",
             "to": -4,
-            "toPort": "1e392b12-0066-422f-a8d6-e944b59047cc"
+            "toPort": "4i1"
         },
         {
             "from": -4,
-            "fromPort": "9e17da2e-1ef4-4770-b388-ef4e964fff9f",
+            "fromPort": "4o1",
             "to": -2,
-            "toPort": "14b927a3-62d3-48b7-a205-c33988456007"
+            "toPort": "2i1"
         }
     ],
     "modelData": {
@@ -32,7 +32,7 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "memory",
+            "category": "file",
             "categoryType": "Data",
             "collapsed": false,
             "color": "#394BB2",
@@ -53,6 +53,24 @@
                     "name": "group_end",
                     "text": "Group end",
                     "value": "0"
+                },
+                {
+                    "description": "",
+                    "name": "check_filepath_exists",
+                    "text": "Check file path exists",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "filepath",
+                    "text": "File path",
+                    "value": "result1.in"
+                },
+                {
+                    "description": "",
+                    "name": "dirname",
+                    "text": "Directory name",
+                    "value": ""
                 }
             ],
             "height": 200,
@@ -60,7 +78,12 @@
             "inputApplicationName": "",
             "inputApplicationType": "None",
             "inputLocalPorts": [],
-            "inputPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "1i1",
+                    "IdText": "event"
+                }
+            ],
             "isData": true,
             "isGroup": false,
             "key": -1,
@@ -70,18 +93,18 @@
             "outputLocalPorts": [],
             "outputPorts": [
                 {
-                    "Id": "41bacdad-fb2d-4ea6-828a-d9d37f41fabf",
+                    "Id": "1o1",
                     "IdText": "event"
                 }
             ],
-            "selected": true,
+            "selected": false,
             "showPorts": true,
             "streaming": false,
             "subject": null,
-            "text": "Memory",
+            "text": "File",
             "width": 200,
-            "x": 415,
-            "y": 449
+            "x": 1434,
+            "y": 413
         },
         {
             "canHaveInputs": true,
@@ -118,7 +141,7 @@
                     "description": "",
                     "name": "filepath",
                     "text": "File path",
-                    "value": "result2.out"
+                    "value": "result1.out"
                 },
                 {
                     "description": "",
@@ -134,7 +157,7 @@
             "inputLocalPorts": [],
             "inputPorts": [
                 {
-                    "Id": "14b927a3-62d3-48b7-a205-c33988456007",
+                    "Id": "2i1",
                     "IdText": "event"
                 }
             ],
@@ -190,7 +213,7 @@
                     "description": "The command line to be executed",
                     "name": "Arg01",
                     "text": "Arg01",
-                    "value": "echo -en 'Hello world'"
+                    "value": "echo -en 'Hello world' > %o0"
                 }
             ],
             "height": 200,
@@ -200,7 +223,7 @@
             "inputLocalPorts": [],
             "inputPorts": [
                 {
-                    "Id": "1e392b12-0066-422f-a8d6-e944b59047cc",
+                    "Id": "3i1",
                     "IdText": "event"
                 }
             ],
@@ -213,7 +236,7 @@
             "outputLocalPorts": [],
             "outputPorts": [
                 {
-                    "Id": "9e17da2e-1ef4-4770-b388-ef4e964fff9f",
+                    "Id": "3o1",
                     "IdText": "event"
                 }
             ],
@@ -261,7 +284,7 @@
                     "description": "The command line to be executed",
                     "name": "Arg01",
                     "text": "Arg01",
-                    "value": "cat > %%o0"
+                    "value": "cp %i0 %o0"
                 }
             ],
             "height": 200,
@@ -271,7 +294,7 @@
             "inputLocalPorts": [],
             "inputPorts": [
                 {
-                    "Id": "1e392b12-0066-422f-a8d6-e944b59047cc",
+                    "Id": "4i1",
                     "IdText": "event"
                 }
             ],
@@ -284,7 +307,7 @@
             "outputLocalPorts": [],
             "outputPorts": [
                 {
-                    "Id": "9e17da2e-1ef4-4770-b388-ef4e964fff9f",
+                    "Id": "4o1",
                     "IdText": "event"
                 }
             ],
