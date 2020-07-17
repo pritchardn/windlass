@@ -1,11 +1,11 @@
 import json
 import optparse
 
-from dlg.common.reproducibility.reproducibility import ReproduciblityFlags
+from dlg.common.reproducibility.reproducibility import ReproducibilityFlags
 from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map, dlg_submit
 
 
-def run_full_workflow(workflow: str, rmode: ReproduciblityFlags):
+def run_full_workflow(workflow: str, rmode: ReproducibilityFlags):
     lgt = workflow + ".graph"
     lg = workflow + "LG.graph"
     pgs = workflow + "PGS.graph"
