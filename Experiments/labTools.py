@@ -36,3 +36,8 @@ def test_identical(w1: str, w2: str):
     f2.close()
 
     return set(r1['reprodata']['leaves']) == set(r2['reprodata']['leaves'])
+
+
+def summarise_run(record: dict):
+    return {'result_hash': record['reprodata']['leaves'], 'meta_data': record['reprodata']['meta_data'],
+            'meta_merkleroot': record['reprodata']['merkleroot']}
