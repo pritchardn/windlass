@@ -34,3 +34,31 @@ An overview of what is here
   - Needs testing 
 - Currently developing example codes for explanatory purposes
 - Developing a systematic method to test Rerunning between two workflows
+
+# Windlass - Formal Readme
+## System Requirements
+- OS: POSIX compliant Unix based system (Mac OS or Linux)
+   - Ubuntu 18.04
+   - Windows10 + WSL (Ubuntu 18.04)
+- CPU: 
+   - Modern architecture (x86)
+- Memory:
+   - 4GB+
+- Storage:
+    - 26MB
+### Software Dependencies
+- Python 3.6+
+- DALiuGE 1.0+
+- Merklelib 1.0
+- Jupyter Notebook
+- Voila 
+### Tested Versions
+### Hardware Requirements
+No specialised hardware is required for execution of this software.
+## Installation Guide
+### Typical Install Time
+## Demo
+### Expected Output
+### Expected Runtime
+## Instructions for Use
+### Reproduction Instructions
