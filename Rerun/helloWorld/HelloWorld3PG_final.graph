@@ -25,7 +25,7 @@
       "lg_data": {
         "merkleroot": null
       },
-      "lg_blockhash": "2b1002be24b2e75da7480493285a54c1576ac9b3963341c9865a023bd4b6e3b8",
+      "lg_blockhash": "c272ce95671951e1cad2fe9ba7c01f26d8461b08935cdc2c863e2e57bc6ed8e5",
       "pgt_parenthashes": [],
       "pgt_data": {
         "type": "app",
@@ -35,7 +35,7 @@
         "app": "dlg.apps.bash_shell_app.BashShellApp",
         "merkleroot": "da04e413e259561f12bf79983b1b77ad72063efe69ace04ff19c84afa7f69d21"
       },
-      "pgt_blockhash": "ee8f5c270e4c02a65be6c93a6c000a9893fae56af4f4b7e17decb90312fb5c44",
+      "pgt_blockhash": "28a4cd380db583b53e95560ca2d4e0df02d32882ced1301376649a56436a3217",
       "pg_parenthashes": [],
       "pg_data": {
         "run_data": [
@@ -44,7 +44,7 @@
         "run_merkleroot": "6d1be79de51c1a5846bb0498b7779802710b2452c20e1b65013ad3ebe459f51e",
         "merkleroot": "00fb98236f921a4895691d51fefc916e8bb2c4c51441089fbc684b0dad46c35b"
       },
-      "pg_blockhash": "5d3a14896c9dc4662eea91871f7993bcee0f444c65851a5e23bd8e3a6000d2f0"
+      "pg_blockhash": "686393705447e0015ccf483ca1f2c0884f12bf07b3d393411d9891c250a8e8da"
     },
     "node": "127.0.0.1",
     "island": "127.0.0.1"
@@ -55,6 +55,9 @@
       "repro_protocol": 0.1,
       "hashing_alg": "_sha3.sha3_256"
     },
-    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a"
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
+    "leaves": [
+      "686393705447e0015ccf483ca1f2c0884f12bf07b3d393411d9891c250a8e8da"
+    ]
   }
 }
