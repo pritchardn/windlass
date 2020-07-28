@@ -14,7 +14,7 @@ def hello_world():
     return "Hello World"
 
 
-fname = 'helloWorldExample.dropbased.helloWorld_python.hello_world'
+fname = 'helloWorldTutorial.dropbased.helloWorld_python.hello_world'
 
 # Initialize our Drops
 a = PyFuncApp('a', 'a', func_name=fname)

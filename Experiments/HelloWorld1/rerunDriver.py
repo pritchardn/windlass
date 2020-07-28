@@ -5,7 +5,7 @@
 
 from dlg.common.reproducibility.reproducibility import ReproducibilityFlags
 
-from Experiments.labTools import run_full_workflow, test_identical
+from Experiments.tools.labTools import run_full_workflow, test_identical
 
 if __name__ == "__main__":
     run_full_workflow("HelloSBash", ReproducibilityFlags.RERUN)

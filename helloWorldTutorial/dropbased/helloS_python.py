@@ -14,7 +14,7 @@ def hello_world(s='Everybody'):
     return "Hello " + s
 
 
-fname = 'helloWorldExample.dropbased.helloS_python.hello_world'
+fname = 'helloWorldTutorial.dropbased.helloS_python.hello_world'
 
 # Initialize our Drops
 a = InMemoryDROP('a', 'a')
