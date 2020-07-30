@@ -18,14 +18,16 @@
       "lgt_data": {
         "category_type": "Application",
         "category": "BashShellApp",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
         "streaming": false,
-        "merkleroot": "d52b7bca6c7ee897bff54c321459be59d331c366f54fa9eb9975a781152f9223"
+        "merkleroot": "7fd00248d402f09e3f1b5463ab781331a9d6bed396179e1bb4b0f3228b62aa88"
       },
       "lg_parenthashes": [],
       "lg_data": {
         "merkleroot": null
       },
-      "lg_blockhash": "c272ce95671951e1cad2fe9ba7c01f26d8461b08935cdc2c863e2e57bc6ed8e5",
+      "lg_blockhash": "e8c7107abdaee02d5de50498a190cc50564ded0820864869b1827246ef8916e1",
       "pgt_parenthashes": [],
       "pgt_data": {
         "type": "app",
@@ -35,7 +37,7 @@
         "app": "dlg.apps.bash_shell_app.BashShellApp",
         "merkleroot": "da04e413e259561f12bf79983b1b77ad72063efe69ace04ff19c84afa7f69d21"
       },
-      "pgt_blockhash": "28a4cd380db583b53e95560ca2d4e0df02d32882ced1301376649a56436a3217",
+      "pgt_blockhash": "91566f4d779e0e8b2ae6166571d8b4897a1d914e232ff09aa0bdc3e71d01c043",
       "pg_parenthashes": [],
       "pg_data": {
         "run_data": [
@@ -44,7 +46,7 @@
         "run_merkleroot": "6d1be79de51c1a5846bb0498b7779802710b2452c20e1b65013ad3ebe459f51e",
         "merkleroot": "00fb98236f921a4895691d51fefc916e8bb2c4c51441089fbc684b0dad46c35b"
       },
-      "pg_blockhash": "686393705447e0015ccf483ca1f2c0884f12bf07b3d393411d9891c250a8e8da"
+      "pg_blockhash": "f27a7c1cdaa724fdefc13553fa0a58f33a9908c784ae99b5fc36d65ce5c4087c"
     },
     "node": "127.0.0.1",
     "island": "127.0.0.1"
@@ -56,8 +58,6 @@
       "hashing_alg": "_sha3.sha3_256"
     },
     "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
-    "leaves": [
-      "686393705447e0015ccf483ca1f2c0884f12bf07b3d393411d9891c250a8e8da"
-    ]
+    "signature": "04065e3bb9807d142b3edcbdcf327e9b75ba650e809e3cc50a597d72736cfc63"
   }
 }
