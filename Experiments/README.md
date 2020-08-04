@@ -30,11 +30,15 @@ Here we list a variety of possible planned experiments and track their developme
 - Different logical graph
 - Same Data? (Different data DROP)
 
-## Jackal Pipeline
+## Jacal Pipeline
 - https://github.com/ICRAR/jacal
 
 ## M87 Observation 
 - https://github.com/eventhorizontelescope/2019-D01-02
 
 ## SKA Ingest Pipeline
+
+## Other Considerations
+- Running the final comparison code as a DALiuGE pipeline
+- Testing under higher scaled deployments 
 
