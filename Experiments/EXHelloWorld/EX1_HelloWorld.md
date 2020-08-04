@@ -35,7 +35,7 @@ between the two hashes is greater than 230 of 256 bytes.
   - There is only one leaf in both graphs and therefore agglomeration is not necessary
 ```python
 def compare(h1, h2):
-    distance = 0    
+    distance = abs(len(h1) - len(h2))    
     for i in range(min(len(h1), len(h2))):
         if h1[i] != h2[i]:
             distance+=1   
