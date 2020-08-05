@@ -20,11 +20,10 @@
         }
     ],
     "modelData": {
-        "filePath": "HelloWorldBash.graph",
+        "filePath": "HelloSBash.graph",
         "fileType": "graph",
         "git_url": "",
         "repo": "",
-        "repoBranch": "",
         "repoService": "Unknown",
         "sha": ""
     },
@@ -32,51 +31,43 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "file",
+            "category": "File",
             "categoryType": "Data",
             "collapsed": false,
-            "color": "#394BB2",
+            "colour": "#394BB2",
             "description": "",
             "drawOrderHint": 0,
-            "exitApplicationName": "",
-            "exitApplicationType": "None",
-            "expanded": false,
+            "exitAppName": "",
             "fields": [
                 {
-                    "description": "",
                     "name": "data_volume",
                     "text": "Data volume",
                     "value": "5"
                 },
                 {
-                    "description": "",
                     "name": "group_end",
                     "text": "Group end",
                     "value": "0"
                 },
                 {
-                    "description": "",
                     "name": "check_filepath_exists",
                     "text": "Check file path exists",
                     "value": "1"
                 },
                 {
-                    "description": "",
                     "name": "filepath",
                     "text": "File path",
                     "value": "result2.in"
                 },
                 {
-                    "description": "",
                     "name": "dirname",
                     "text": "Directory name",
                     "value": ""
                 }
             ],
-            "height": 200,
             "inputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
+            "inputAppName": "",
+            "inputApplication": "Unknown",
             "inputLocalPorts": [],
             "inputPorts": [
                 {
@@ -87,9 +78,10 @@
             "isData": true,
             "isGroup": false,
             "key": -1,
+            "loc": "464 225",
             "outputAppFields": [],
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
+            "outputAppName": "",
+            "outputApplication": "Unknown",
             "outputLocalPorts": [],
             "outputPorts": [
                 {
@@ -97,63 +89,50 @@
                     "IdText": "event"
                 }
             ],
-            "selected": false,
-            "showPorts": true,
             "streaming": false,
             "subject": null,
-            "text": "File",
-            "width": 200,
-            "x": 1434,
-            "y": 413
+            "text": "File"
         },
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "file",
+            "category": "File",
             "categoryType": "Data",
             "collapsed": false,
-            "color": "#394BB2",
+            "colour": "#394BB2",
             "description": "",
             "drawOrderHint": 0,
-            "exitApplicationName": "",
-            "exitApplicationType": "None",
-            "expanded": false,
+            "exitAppName": "",
             "fields": [
                 {
-                    "description": "",
                     "name": "data_volume",
                     "text": "Data volume",
                     "value": "5"
                 },
                 {
-                    "description": "",
                     "name": "group_end",
                     "text": "Group end",
                     "value": "0"
                 },
                 {
-                    "description": "",
                     "name": "check_filepath_exists",
                     "text": "Check file path exists",
                     "value": "1"
                 },
                 {
-                    "description": "",
                     "name": "filepath",
                     "text": "File path",
                     "value": "result2.out"
                 },
                 {
-                    "description": "",
                     "name": "dirname",
                     "text": "Directory name",
                     "value": ""
                 }
             ],
-            "height": 200,
             "inputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
+            "inputAppName": "",
+            "inputApplication": "Unknown",
             "inputLocalPorts": [],
             "inputPorts": [
                 {
@@ -164,19 +143,15 @@
             "isData": true,
             "isGroup": false,
             "key": -2,
+            "loc": "993 208",
             "outputAppFields": [],
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
+            "outputAppName": "",
+            "outputApplication": "Unknown",
             "outputLocalPorts": [],
             "outputPorts": [],
-            "selected": false,
-            "showPorts": true,
             "streaming": false,
             "subject": null,
-            "text": "File",
-            "width": 200,
-            "x": 1434,
-            "y": 413
+            "text": "File"
         },
         {
             "canHaveInputs": true,
@@ -184,55 +159,44 @@
             "category": "BashShellApp",
             "categoryType": "Application",
             "collapsed": false,
-            "color": "#1C2833",
+            "colour": "#1C2833",
             "description": "An application component run within the Bash Shell",
             "drawOrderHint": 0,
-            "exitApplicationName": "",
-            "exitApplicationType": "None",
-            "expanded": false,
+            "exitAppName": "",
             "fields": [
                 {
-                    "description": "",
                     "name": "execution_time",
                     "text": "Execution time",
                     "value": "5"
                 },
                 {
-                    "description": "",
                     "name": "num_cpus",
                     "text": "Num CPUs",
                     "value": "1"
                 },
                 {
-                    "description": "",
                     "name": "group_start",
                     "text": "Group start",
                     "value": "0"
                 },
                 {
-                    "description": "The command line to be executed",
                     "name": "Arg01",
                     "text": "Arg01",
                     "value": "echo -en 'world' > %o0"
                 }
             ],
-            "height": 200,
             "inputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
+            "inputAppName": "",
+            "inputApplication": "Unknown",
             "inputLocalPorts": [],
-            "inputPorts": [
-                {
-                    "Id": "3i1",
-                    "IdText": "event"
-                }
-            ],
+            "inputPorts": [],
             "isData": false,
             "isGroup": false,
             "key": -3,
+            "loc": "86 220",
             "outputAppFields": [],
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
+            "outputAppName": "",
+            "outputApplication": "Unknown",
             "outputLocalPorts": [],
             "outputPorts": [
                 {
@@ -240,14 +204,9 @@
                     "IdText": "event"
                 }
             ],
-            "selected": false,
-            "showPorts": false,
             "streaming": true,
             "subject": null,
-            "text": "Bash Shell App",
-            "width": 200,
-            "x": 1009,
-            "y": 412
+            "text": "Bash Shell App"
         },
         {
             "canHaveInputs": true,
@@ -255,42 +214,35 @@
             "category": "BashShellApp",
             "categoryType": "Application",
             "collapsed": false,
-            "color": "#1C2833",
+            "colour": "#1C2833",
             "description": "An application component run within the Bash Shell",
             "drawOrderHint": 0,
-            "exitApplicationName": "",
-            "exitApplicationType": "None",
-            "expanded": false,
+            "exitAppName": "",
             "fields": [
                 {
-                    "description": "",
                     "name": "execution_time",
                     "text": "Execution time",
                     "value": "5"
                 },
                 {
-                    "description": "",
                     "name": "num_cpus",
                     "text": "Num CPUs",
                     "value": "1"
                 },
                 {
-                    "description": "",
                     "name": "group_start",
                     "text": "Group start",
                     "value": "0"
                 },
                 {
-                    "description": "The command line to be executed",
                     "name": "Arg01",
                     "text": "Arg01",
                     "value": "echo 'Hello' $(<%i0) > %o0"
                 }
             ],
-            "height": 200,
             "inputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
+            "inputAppName": "",
+            "inputApplication": "Unknown",
             "inputLocalPorts": [],
             "inputPorts": [
                 {
@@ -301,9 +253,10 @@
             "isData": false,
             "isGroup": false,
             "key": -4,
+            "loc": "680 194",
             "outputAppFields": [],
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
+            "outputAppName": "",
+            "outputApplication": "Unknown",
             "outputLocalPorts": [],
             "outputPorts": [
                 {
@@ -311,14 +264,9 @@
                     "IdText": "event"
                 }
             ],
-            "selected": false,
-            "showPorts": false,
             "streaming": false,
             "subject": null,
-            "text": "Bash Shell App",
-            "width": 200,
-            "x": 721,
-            "y": 437
+            "text": "Bash Shell App"
         }
     ]
 }
