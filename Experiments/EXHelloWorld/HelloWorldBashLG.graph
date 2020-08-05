@@ -1,0 +1,351 @@
+{
+  "linkDataArray": [
+    {
+      "from": -3,
+      "fromPort": "3o1",
+      "to": -1,
+      "toPort": "1i1"
+    },
+    {
+      "from": -1,
+      "fromPort": "1o1",
+      "to": -4,
+      "toPort": "4i1"
+    },
+    {
+      "from": -4,
+      "fromPort": "4o1",
+      "to": -2,
+      "toPort": "2i1"
+    }
+  ],
+  "modelData": {
+    "filePath": "HelloWorldBash.graph",
+    "fileType": "graph",
+    "git_url": "",
+    "repo": "",
+    "repoService": "Unknown",
+    "sha": ""
+  },
+  "nodeDataArray": [
+    {
+      "canHaveInputs": true,
+      "canHaveOutputs": true,
+      "category": "File",
+      "categoryType": "Data",
+      "collapsed": false,
+      "colour": "#394BB2",
+      "description": "",
+      "drawOrderHint": 0,
+      "exitAppName": "",
+      "fields": [
+        {
+          "name": "data_volume",
+          "text": "Data volume",
+          "value": "5"
+        },
+        {
+          "name": "group_end",
+          "text": "Group end",
+          "value": "0"
+        },
+        {
+          "name": "check_filepath_exists",
+          "text": "Check file path exists",
+          "value": "1"
+        },
+        {
+          "name": "filepath",
+          "text": "File path",
+          "value": "result1.in"
+        },
+        {
+          "name": "dirname",
+          "text": "Directory name",
+          "value": ""
+        }
+      ],
+      "inputAppFields": [],
+      "inputAppName": "",
+      "inputApplication": "Unknown",
+      "inputLocalPorts": [],
+      "inputPorts": [
+        {
+          "Id": "1i1",
+          "IdText": "event"
+        }
+      ],
+      "isData": true,
+      "isGroup": false,
+      "key": -1,
+      "loc": "538 309",
+      "outputAppFields": [],
+      "outputAppName": "",
+      "outputApplication": "Unknown",
+      "outputLocalPorts": [],
+      "outputPorts": [
+        {
+          "Id": "1o1",
+          "IdText": "event"
+        }
+      ],
+      "streaming": false,
+      "subject": null,
+      "text": "File",
+      "reprodata": {
+        "rmode": "1",
+        "lgt_data": {
+          "category_type": "Data",
+          "category": "File",
+          "numInputPorts": 1,
+          "numOutputPorts": 1,
+          "streaming": false,
+          "merkleroot": "8c402d94ffb07e9bff50c15e2f2c0aea1bc22061e954bd43e2e8bba804076a6a"
+        },
+        "lg_parenthashes": [
+          "104ac798c11610e034cbfa15290d51dc93ed064e2b863a21c484290e401a5722"
+        ],
+        "lg_data": {
+          "merkleroot": null
+        },
+        "lg_blockhash": "3f5c8e6cdd45bd5193c7968a7a5bff3b60b698f145f060acc571ec23ccf7d234"
+      }
+    },
+    {
+      "canHaveInputs": true,
+      "canHaveOutputs": true,
+      "category": "File",
+      "categoryType": "Data",
+      "collapsed": false,
+      "colour": "#394BB2",
+      "description": "",
+      "drawOrderHint": 0,
+      "exitAppName": "",
+      "fields": [
+        {
+          "name": "data_volume",
+          "text": "Data volume",
+          "value": "5"
+        },
+        {
+          "name": "group_end",
+          "text": "Group end",
+          "value": "0"
+        },
+        {
+          "name": "check_filepath_exists",
+          "text": "Check file path exists",
+          "value": "1"
+        },
+        {
+          "name": "filepath",
+          "text": "File path",
+          "value": "result1.out"
+        },
+        {
+          "name": "dirname",
+          "text": "Directory name",
+          "value": ""
+        }
+      ],
+      "inputAppFields": [],
+      "inputAppName": "",
+      "inputApplication": "Unknown",
+      "inputLocalPorts": [],
+      "inputPorts": [
+        {
+          "Id": "2i1",
+          "IdText": "event"
+        }
+      ],
+      "isData": true,
+      "isGroup": false,
+      "key": -2,
+      "loc": "814 477",
+      "outputAppFields": [],
+      "outputAppName": "",
+      "outputApplication": "Unknown",
+      "outputLocalPorts": [],
+      "outputPorts": [],
+      "streaming": false,
+      "subject": null,
+      "text": "File",
+      "reprodata": {
+        "rmode": "1",
+        "lgt_data": {
+          "category_type": "Data",
+          "category": "File",
+          "numInputPorts": 1,
+          "numOutputPorts": 0,
+          "streaming": false,
+          "merkleroot": "4a69fe8e351b340f367382587d0158b42832cab6454d0ed7771dd1a3f022cd8b"
+        },
+        "lg_parenthashes": [
+          "d4409ed29fa28ae0632bf3d8a91db7d4f8de74477aba365428ff665129f7743f"
+        ],
+        "lg_data": {
+          "merkleroot": null
+        },
+        "lg_blockhash": "59566ab947cc1d98719648aac31a1f7db671cdaacdc3a891f70f91d841d07336"
+      }
+    },
+    {
+      "canHaveInputs": true,
+      "canHaveOutputs": true,
+      "category": "BashShellApp",
+      "categoryType": "Application",
+      "collapsed": false,
+      "colour": "#1C2833",
+      "description": "An application component run within the Bash Shell",
+      "drawOrderHint": 0,
+      "exitAppName": "",
+      "fields": [
+        {
+          "name": "execution_time",
+          "text": "Execution time",
+          "value": "5"
+        },
+        {
+          "name": "num_cpus",
+          "text": "Num CPUs",
+          "value": "1"
+        },
+        {
+          "name": "group_start",
+          "text": "Group start",
+          "value": "0"
+        },
+        {
+          "name": "Arg01",
+          "text": "Arg01",
+          "value": "echo -en 'Hello world' > %o0"
+        }
+      ],
+      "inputAppFields": [],
+      "inputAppName": "",
+      "inputApplication": "Unknown",
+      "inputLocalPorts": [],
+      "inputPorts": [],
+      "isData": false,
+      "isGroup": false,
+      "key": -3,
+      "loc": "222 343",
+      "outputAppFields": [],
+      "outputAppName": "",
+      "outputApplication": "Unknown",
+      "outputLocalPorts": [],
+      "outputPorts": [
+        {
+          "Id": "3o1",
+          "IdText": "event"
+        }
+      ],
+      "streaming": true,
+      "subject": null,
+      "text": "Bash Shell App",
+      "reprodata": {
+        "rmode": "1",
+        "lgt_data": {
+          "category_type": "Application",
+          "category": "BashShellApp",
+          "numInputPorts": 0,
+          "numOutputPorts": 1,
+          "streaming": true,
+          "merkleroot": "237a93a3bd4db55a2211a4c198b8474109bd9a5b53681d56ad1b610e1ca0258d"
+        },
+        "lg_parenthashes": [],
+        "lg_data": {
+          "merkleroot": null
+        },
+        "lg_blockhash": "104ac798c11610e034cbfa15290d51dc93ed064e2b863a21c484290e401a5722"
+      }
+    },
+    {
+      "canHaveInputs": true,
+      "canHaveOutputs": true,
+      "category": "BashShellApp",
+      "categoryType": "Application",
+      "collapsed": false,
+      "colour": "#1C2833",
+      "description": "An application component run within the Bash Shell",
+      "drawOrderHint": 0,
+      "exitAppName": "",
+      "fields": [
+        {
+          "name": "execution_time",
+          "text": "Execution time",
+          "value": "5"
+        },
+        {
+          "name": "num_cpus",
+          "text": "Num CPUs",
+          "value": "1"
+        },
+        {
+          "name": "group_start",
+          "text": "Group start",
+          "value": "0"
+        },
+        {
+          "name": "Arg01",
+          "text": "Arg01",
+          "value": "cp %i0 %o0"
+        }
+      ],
+      "inputAppFields": [],
+      "inputAppName": "",
+      "inputApplication": "Unknown",
+      "inputLocalPorts": [],
+      "inputPorts": [
+        {
+          "Id": "4i1",
+          "IdText": "event"
+        }
+      ],
+      "isData": false,
+      "isGroup": false,
+      "key": -4,
+      "loc": "684 176",
+      "outputAppFields": [],
+      "outputAppName": "",
+      "outputApplication": "Unknown",
+      "outputLocalPorts": [],
+      "outputPorts": [
+        {
+          "Id": "4o1",
+          "IdText": "event"
+        }
+      ],
+      "streaming": false,
+      "subject": null,
+      "text": "Bash Shell App",
+      "reprodata": {
+        "rmode": "1",
+        "lgt_data": {
+          "category_type": "Application",
+          "category": "BashShellApp",
+          "numInputPorts": 1,
+          "numOutputPorts": 1,
+          "streaming": false,
+          "merkleroot": "7fd00248d402f09e3f1b5463ab781331a9d6bed396179e1bb4b0f3228b62aa88"
+        },
+        "lg_parenthashes": [
+          "3f5c8e6cdd45bd5193c7968a7a5bff3b60b698f145f060acc571ec23ccf7d234"
+        ],
+        "lg_data": {
+          "merkleroot": null
+        },
+        "lg_blockhash": "d4409ed29fa28ae0632bf3d8a91db7d4f8de74477aba365428ff665129f7743f"
+      }
+    }
+  ],
+  "reprodata": {
+    "rmode": "1",
+    "meta_data": {
+      "repro_protocol": 0.1,
+      "hashing_alg": "_sha3.sha3_256"
+    },
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
+    "signature": "9e4150d712f26e1f99bf42a438bdaee34237939ada83b534c8411b3723c032a1"
+  }
+}

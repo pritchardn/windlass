@@ -5,13 +5,13 @@ from dlg.common.reproducibility.reproducibility import ReproducibilityFlags
 from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map, dlg_submit
 
 
-def run_full_workflow(workflow: str, rmode: ReproducibilityFlags):
-    lgt = workflow + ".graph"
-    lg = workflow + "LG.graph"
-    pgs = workflow + "PGS.graph"
-    pgt = workflow + "PGT.graph"
-    pg = workflow + "PG.graph"
-    rg = workflow + ".out"
+def run_full_workflow(rmode: ReproducibilityFlags, workflow: str, workflow_loc='./', out_loc='./'):
+    lgt = workflow_loc + workflow + ".graph"
+    lg = out_loc + workflow + "LG.graph"
+    pgs = out_loc + workflow + "PGS.graph"
+    pgt = out_loc + workflow + "PGT.graph"
+    pg = out_loc + workflow + "PG.graph"
+    rg = out_loc + workflow + ".out"
 
     rmodes = str(rmode.value)
 
@@ -35,7 +35,7 @@ def test_identical(w1: str, w2: str):
     f1.close()
     f2.close()
 
-    return set(r1['reprodata']['leaves']) == set(r2['reprodata']['leaves'])
+    return r1['reprodata']['signature'] == r2['reprodata']['signature']
 
 
 def summarise_run(record: dict):
