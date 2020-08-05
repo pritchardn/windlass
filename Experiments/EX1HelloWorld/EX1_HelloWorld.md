@@ -32,7 +32,7 @@ between the two hashes is greater than 230 of 256 bytes.
     - Command `echo 'Hello' $(<%i0) > %o0`
   - File `result2.out`
 - Comparison
-  - There is only one leaf in both graphs and therefore agglomeration is not necessary
+  - Agglomeration is now implemented so we refer to the 'signature' of each workflow run.
 ```python
 def compare(h1, h2):
     distance = abs(len(h1) - len(h2))    
@@ -45,7 +45,7 @@ def compare(h1, h2):
 ## Results
 | Mode | Graph 1 | Graph 2 | ED |
 |:------:|:---------:|:---------:|:----:|
-| RR   | 8e44a6dd6bdbb741437de588b33f46c47a1ec9b67b952181d759877b132191b3 | 8e44a6dd6bdbb741437de588b33f46c47a1ec9b67b952181d759877b132191b3 |  0  |
+| RR   | 94e51251a5bbf63d1b5f56acb396f7740164a0072bbe84cf4f2d52222a0cf636 | 94e51251a5bbf63d1b5f56acb396f7740164a0072bbe84cf4f2d52222a0cf636 |  0  |
 | RT   |         |         |    |
 | RP   |         |         |    |
 | RPLS |         |         |    |
