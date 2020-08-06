@@ -1,0 +1,70 @@
+{
+  "1_-1_0": {
+    "oid": "1_-1_0",
+    "app": "dlg.apps.bash_shell_app.BashShellApp",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "tw": 5,
+    "command": "echo Hello World",
+    "num_cpus": 1,
+    "iid": "0",
+    "lg_key": -1,
+    "dt": "BashShellApp",
+    "nm": "HelloWorld",
+    "reprodata": {
+      "rmode": "2",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "BashShellApp",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "7fd00248d402f09e3f1b5463ab781331a9d6bed396179e1bb4b0f3228b62aa88"
+      },
+      "lg_parenthashes": [],
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "command": "echo Hello World",
+        "merkleroot": "05e64b6bc022f7d5c409dbc4389180f0c4be70bf552442cb49eeacd8c6b0459c"
+      },
+      "lg_blockhash": "bcd9dadb49f12eee0bba069045acd72a1f60171ec6cfdb360638d11e10788e7d",
+      "pgt_parenthashes": [],
+      "pgt_data": {
+        "type": "app",
+        "rank": [
+          0
+        ],
+        "app": "dlg.apps.bash_shell_app.BashShellApp",
+        "node": "0",
+        "island": "0",
+        "merkleroot": "25564e5644204728aae347e3f49cae5063feabe8b09e1e6c57944ac165593ac3"
+      },
+      "pgt_blockhash": "dbcb89318a565627e671c3ceb17384f92803622cd7a38f80afb005c35726173f",
+      "pg_parenthashes": [],
+      "pg_data": {
+        "node": "127.0.0.1",
+        "island": "127.0.0.1",
+        "run_data": [
+          2
+        ],
+        "run_merkleroot": "6d1be79de51c1a5846bb0498b7779802710b2452c20e1b65013ad3ebe459f51e",
+        "merkleroot": "463c0a77411b363bdeaf0a28e56a3ee832239e57afcd63443da7cbdd772fd583"
+      },
+      "pg_blockhash": "e08e8c7df324a8b7d363630b5fe35d5ac03b48e6be56bb19b6c9f179ac5b1061"
+    },
+    "node": "127.0.0.1",
+    "island": "127.0.0.1"
+  },
+  "reprodata": {
+    "rmode": "2",
+    "meta_data": {
+      "repro_protocol": 0.1,
+      "hashing_alg": "_sha3.sha3_256"
+    },
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
+    "signature": "a99956c80f389ea3e1191b8d8783ca2a9d1f37fec47e1238974a8536863723c5"
+  }
+}
