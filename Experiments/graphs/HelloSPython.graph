@@ -57,7 +57,7 @@
                 {
                     "name": "appclass",
                     "text": "Appclass",
-                    "value": "test.graphsRepository"
+                    "value": "dlg.apps.simple.CopyApp"
                 }
             ],
             "inputAppFields": [],
@@ -112,12 +112,12 @@
                 {
                     "name": "filepath",
                     "text": "File path",
-                    "value": ""
+                    "value": "result3.in"
                 },
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": ""
+                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/EX2HelloWorld"
                 }
             ],
             "inputAppFields": [],
@@ -177,7 +177,7 @@
                 {
                     "name": "appclass",
                     "text": "Appclass",
-                    "value": "test.graphsRepository"
+                    "value": "Experiments.apps.python.apps.CopyApp"
                 }
             ],
             "inputAppFields": [],
@@ -232,17 +232,17 @@
                 {
                     "name": "check_filepath_exists",
                     "text": "Check file path exists",
-                    "value": "1"
+                    "value": "0"
                 },
                 {
                     "name": "filepath",
                     "text": "File path",
-                    "value": ""
+                    "value": "result3.out"
                 },
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": ""
+                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/EX2HelloWorld"
                 }
             ],
             "inputAppFields": [],
