@@ -1,10 +1,9 @@
-# Experiment 2: Hello World 2
+# Experiment 4: Hello World 4
 
 ## Aim 
-Determine if Merkle-DAG driven compression successfully discriminates between two conceptually different yet practically
-identical computational workflows. 
+Determine if Merkle-DAG driven compression matches a workflow generating data and a data-object in isolation.
 
-## Hypotheses
+## Hypothesis
 We present four hypotheses in this experiment
 - !RR(G1, G2) - These graphs are not a rerun
 - !RT(G1, G2) - These graphs are not a repeat
@@ -18,20 +17,15 @@ between the two hashes is greater than 230 of 256 bytes.
 ## Method
 - The description of the Windlass DALiuGE extension is separate
 - Hash-function (SHA-256)
-- Graph 1 `HelloSPython.graph`
-  - PythonComponent
-    - appClass `` 
-  - File `result2_1.in`
-  - PythonComponent
-    - appClass ``
-  - File `result2_1.out`
-- Graph 2 `HelloSBash.graph`
+- Graph 1 `HelloWorldBash.graph`
   - BashShell
-    - Command `echo -en 'world' > %o0`
-  - File `result2_2.in`
+    - Command `echo -en 'Hello world > %o0` 
+  - File `result4_1.in`
   - BashShell
-    - Command `echo 'Hello' $(<%i0) > %o0`
-  - File `result2_2.out`
+    - Command `cp %i0 %o0`
+  - File `result4_1.out`
+- Graph 2 `HelloWorldFile.graph`
+  - File `result4_2.out`
 - Comparison
   - Agglomeration is now implemented so we refer to the 'signature' of each workflow run.
 ```python
@@ -46,7 +40,7 @@ def compare(h1, h2):
 ## Results
 | Mode | Graph 1 | Graph 2 | ED |
 |:------:|:---------:|:---------:|:----:|
-| RR   |  |  |  0  |
+| RR   |         |         |    |
 | RT   |         |         |    |
 | RP   |         |         |    |
 | RPLS |         |         |    |
