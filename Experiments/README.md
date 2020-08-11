@@ -26,7 +26,7 @@ Here we list a variety of possible planned experiments and track their developme
 
 ## HelloWorld 4
 - G1 = HelloWorldBash
-- G2 = HelloWorldMemory
+- G2 = HelloWorldFile
 - Different logical graph
 - Same Data? (Different data DROP)
 
