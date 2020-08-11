@@ -57,7 +57,7 @@
                 {
                     "name": "appclass",
                     "text": "Appclass",
-                    "value": "dlg.apps.simple.CopyApp"
+                    "value": "dlg.common.reproducibility.apps.HelloWorldPythonIn"
                 }
             ],
             "inputAppFields": [],
@@ -177,7 +177,7 @@
                 {
                     "name": "appclass",
                     "text": "Appclass",
-                    "value": "Experiments.apps.python.apps.CopyApp"
+                    "value": "dlg.common.reproducibility.apps.HelloWorldPythonOut"
                 }
             ],
             "inputAppFields": [],
