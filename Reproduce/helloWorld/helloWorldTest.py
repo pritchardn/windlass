@@ -14,12 +14,13 @@ print(HOME)
 print(TEMP)
 print(LGFILES)
 
-lgt = 'HelloWorld3.graph'
-lg = 'HelloWorld3LG.graph'
-pgt = 'HelloWorld3PGT.graph'
-pgs = 'HelloWorld3PGS.graph'
-pg = 'HelloWorld3PG.graph'
-rg = 'HelloWorld3PG_final.graph'
+graph = 'HelloSBash'
+lgt = graph + '.graph'
+lg = graph + 'LG.graph'
+pgt = graph + 'PGT.graph'
+pgs = graph + 'PGS.graph'
+pg = graph + 'PG.graph'
+rg = graph + 'PG_final.graph'
 
 parser = optparse.OptionParser()
 dlg_fill(parser, ['-L', lgt, '-R', '3', '-o', lg, '-f', 'newline'])
