@@ -1,5 +1,6 @@
 import json
 import optparse
+import csv
 
 from dlg.common.reproducibility.reproducibility import ReproducibilityFlags
 from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map, dlg_submit
@@ -34,10 +35,31 @@ def test_identical(w1: str, w2: str):
     r2 = json.load(f2)
     f1.close()
     f2.close()
-
-    return r1['reprodata']['signature'] == r2['reprodata']['signature']
+    h1 = r1['reprodata']['signature']
+    h2 = r2['reprodata']['signature']
+    return h1 == h2, h1, h2
 
 
 def summarise_run(record: dict):
     return {'result_hash': record['reprodata']['leaves'], 'meta_data': record['reprodata']['meta_data'],
             'meta_merkleroot': record['reprodata']['merkleroot']}
+
+
+def graph_trial(w1, w2, loc, flag=ReproducibilityFlags.NOTHING):
+    run_full_workflow(flag, w1, loc)
+    run_full_workflow(flag, w2, loc)
+    result, h1, h2 = test_identical(w1, w2)
+    return {'Hash': flag,
+            w1: h1,
+            w2: h2,
+            'Match': result}
+
+
+def full_trial(w1, w2, loc):
+    with open('out.csv', 'w', newline='') as file:
+        fieldnames = ['Hash', w1, w2, 'Match']
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.RERUN))
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPEAT))
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPRODUCE))

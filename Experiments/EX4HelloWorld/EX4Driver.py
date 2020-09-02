@@ -6,4 +6,4 @@
 from Experiments.tools.labTools import full_trial
 
 if __name__ == "__main__":
-    full_trial('HelloSBash', 'HelloSPython', '../graphs/')
+    full_trial('HelloWorldBash', 'HelloWorldFile', '../graphs/')

@@ -3,12 +3,7 @@
 # Ensure a DALiuGE Master Manager is running on port 9000
 # Ensure a DALiuGE Daemon is running on port 8000
 
-from dlg.common.reproducibility.reproducibility import ReproducibilityFlags
-
-from Experiments.tools.labTools import run_full_workflow, test_identical
+from Experiments.tools.labTools import full_trial
 
 if __name__ == "__main__":
-    run_full_workflow(ReproducibilityFlags.RERUN, 'HelloSBash', '../graphs/')
-    run_full_workflow(ReproducibilityFlags.RERUN, 'HelloWorldBash', '../graphs/')
-    result = test_identical("HelloSBash", "HelloWorldBash")
-    print(result)
+    full_trial('HelloSBash', 'HelloWorldBash', '../graphs/')
