@@ -31,7 +31,7 @@
     {
       "canHaveInputs": true,
       "canHaveOutputs": true,
-      "category": "memory",
+      "category": "Memory",
       "categoryType": "Data",
       "collapsed": false,
       "colour": "#394BB2",
@@ -72,23 +72,26 @@
       "subject": null,
       "text": "Memory",
       "reprodata": {
+        "rmode": "1",
         "lgt_data": {
           "category_type": "Data",
-          "category": "memory",
+          "category": "Memory",
+          "numInputPorts": 0,
+          "numOutputPorts": 1,
           "streaming": false,
-          "merkleroot": "b50bf2f9e958f0186246fa8e9c399d8eeee4470b4670760d782837b6294e8c97"
+          "merkleroot": "f14c8451028998ed505703e0ff3f75197de7a2231f04d2db98d0ff84b9f10112"
         },
         "lg_parenthashes": [],
         "lg_data": {
           "merkleroot": null
         },
-        "lg_blockhash": "1b6710806653affedc525236d2d420447e58cba63c71fdf66e33f52ebccd4868"
+        "lg_blockhash": "19c0b4414cba71f4dfeecf4f44579fb6437c4a2cd2ba509c2f97c80fc5c6f192"
       }
     },
     {
       "canHaveInputs": true,
       "canHaveOutputs": true,
-      "category": "file",
+      "category": "File",
       "categoryType": "Data",
       "collapsed": false,
       "colour": "#394BB2",
@@ -144,19 +147,22 @@
       "subject": null,
       "text": "File",
       "reprodata": {
+        "rmode": "1",
         "lgt_data": {
           "category_type": "Data",
-          "category": "file",
+          "category": "File",
+          "numInputPorts": 1,
+          "numOutputPorts": 0,
           "streaming": false,
-          "merkleroot": "ec0395adcb56d92e134f3d909b6c7eb142c5c038da1bea9e1e8282d0e21e6fe2"
+          "merkleroot": "4a69fe8e351b340f367382587d0158b42832cab6454d0ed7771dd1a3f022cd8b"
         },
         "lg_parenthashes": [
-          "3ea041eedef931c94f9d6b77b6562f9c4ce524f147c23a24bca88be7995942ed"
+          "a1509084b7f4c406e3abefa688c2139a0c0284934b3882f59f3aa1b6333db0b3"
         ],
         "lg_data": {
           "merkleroot": null
         },
-        "lg_blockhash": "bf60c33d83f2e0bd0f397dbc3dd59449e407809c2dee38fc2560f4eeec91e90f"
+        "lg_blockhash": "be7a0b427b1ef8fa610027f7ec73dc080829affa4517303677396938855961db"
       }
     },
     {
@@ -218,19 +224,22 @@
       "subject": null,
       "text": "Bash Shell App",
       "reprodata": {
+        "rmode": "1",
         "lgt_data": {
           "category_type": "Application",
           "category": "BashShellApp",
+          "numInputPorts": 1,
+          "numOutputPorts": 1,
           "streaming": false,
-          "merkleroot": "d52b7bca6c7ee897bff54c321459be59d331c366f54fa9eb9975a781152f9223"
+          "merkleroot": "7fd00248d402f09e3f1b5463ab781331a9d6bed396179e1bb4b0f3228b62aa88"
         },
         "lg_parenthashes": [
-          "1b6710806653affedc525236d2d420447e58cba63c71fdf66e33f52ebccd4868"
+          "19c0b4414cba71f4dfeecf4f44579fb6437c4a2cd2ba509c2f97c80fc5c6f192"
         ],
         "lg_data": {
           "merkleroot": null
         },
-        "lg_blockhash": "a1ff2e1b78e22c46997b9ec96abf8555a1b5cb5f389b83d43e85306765a2a048"
+        "lg_blockhash": "db6f0673f9305bddea743edb9fe695542f70c79c8083ebba8f8e2875a1b0834e"
       }
     },
     {
@@ -292,19 +301,22 @@
       "subject": null,
       "text": "Bash Shell App",
       "reprodata": {
+        "rmode": "1",
         "lgt_data": {
           "category_type": "Application",
           "category": "BashShellApp",
+          "numInputPorts": 1,
+          "numOutputPorts": 1,
           "streaming": false,
-          "merkleroot": "d52b7bca6c7ee897bff54c321459be59d331c366f54fa9eb9975a781152f9223"
+          "merkleroot": "7fd00248d402f09e3f1b5463ab781331a9d6bed396179e1bb4b0f3228b62aa88"
         },
         "lg_parenthashes": [
-          "a1ff2e1b78e22c46997b9ec96abf8555a1b5cb5f389b83d43e85306765a2a048"
+          "db6f0673f9305bddea743edb9fe695542f70c79c8083ebba8f8e2875a1b0834e"
         ],
         "lg_data": {
           "merkleroot": null
         },
-        "lg_blockhash": "3ea041eedef931c94f9d6b77b6562f9c4ce524f147c23a24bca88be7995942ed"
+        "lg_blockhash": "a1509084b7f4c406e3abefa688c2139a0c0284934b3882f59f3aa1b6333db0b3"
       }
     }
   ],
@@ -314,6 +326,7 @@
       "repro_protocol": 0.1,
       "hashing_alg": "_sha3.sha3_256"
     },
-    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a"
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
+    "signature": "c6f2a27ce3b870ebce1efd5fc49ad2c99bd52a56fba1522bb4b5735a338f4b94"
   }
 }

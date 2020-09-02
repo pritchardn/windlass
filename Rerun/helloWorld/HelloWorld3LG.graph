@@ -1,0 +1,97 @@
+{
+  "linkDataArray": [],
+  "modelData": {
+    "filePath": "",
+    "fileType": "graph",
+    "git_url": "",
+    "repo": "",
+    "repoService": "Unknown",
+    "sha": ""
+  },
+  "nodeDataArray": [
+    {
+      "canHaveInputs": true,
+      "canHaveOutputs": true,
+      "category": "BashShellApp",
+      "categoryType": "Application",
+      "collapsed": false,
+      "colour": "#1C2833",
+      "description": "An application component run within the Bash Shell",
+      "exitAppName": "",
+      "fields": [
+        {
+          "name": "execution_time",
+          "text": "Execution time",
+          "value": "5"
+        },
+        {
+          "name": "num_cpus",
+          "text": "Num CPUs",
+          "value": "1"
+        },
+        {
+          "name": "group_start",
+          "text": "Group start",
+          "value": "0"
+        },
+        {
+          "name": "Arg01",
+          "text": "Arg01",
+          "value": "echo Hello World"
+        }
+      ],
+      "inputAppFields": [],
+      "inputAppName": "",
+      "inputApplication": "Unknown",
+      "inputLocalPorts": [],
+      "inputPorts": [
+        {
+          "Id": "61a5560f-8031-451d-a221-899b00a6be18",
+          "IdText": "event"
+        }
+      ],
+      "isData": false,
+      "isGroup": false,
+      "key": -1,
+      "loc": "298 99",
+      "outputAppFields": [],
+      "outputAppName": "",
+      "outputApplication": "Unknown",
+      "outputLocalPorts": [],
+      "outputPorts": [
+        {
+          "Id": "3b1f68ef-e1e9-4fe2-aba5-25b2049642ac",
+          "IdText": "event"
+        }
+      ],
+      "streaming": false,
+      "subject": null,
+      "text": "HelloWorld",
+      "reprodata": {
+        "rmode": "1",
+        "lgt_data": {
+          "category_type": "Application",
+          "category": "BashShellApp",
+          "numInputPorts": 1,
+          "numOutputPorts": 1,
+          "streaming": false,
+          "merkleroot": "7fd00248d402f09e3f1b5463ab781331a9d6bed396179e1bb4b0f3228b62aa88"
+        },
+        "lg_parenthashes": [],
+        "lg_data": {
+          "merkleroot": null
+        },
+        "lg_blockhash": "e8c7107abdaee02d5de50498a190cc50564ded0820864869b1827246ef8916e1"
+      }
+    }
+  ],
+  "reprodata": {
+    "rmode": "1",
+    "meta_data": {
+      "repro_protocol": 0.1,
+      "hashing_alg": "_sha3.sha3_256"
+    },
+    "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
+    "signature": "3a82965f225f14ca73f41f8a2123aa2a36f5cd62c29c2d8283a21d32495b39c2"
+  }
+}

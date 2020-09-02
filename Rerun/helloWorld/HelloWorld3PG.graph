@@ -1,6 +1,7 @@
-{
-  "1_-1_0": {
+[
+  {
     "oid": "1_-1_0",
+    "type": "app",
     "app": "dlg.apps.bash_shell_app.BashShellApp",
     "rank": [
       0
@@ -42,24 +43,18 @@
       "pg_data": {
         "merkleroot": null
       },
-      "pg_blockhash": "abada9c1c7f405db5252e502911afa063b900de1911e0d22306307b5001d5797",
-      "rg_data": {
-        "status": 2,
-        "merkleroot": "b66112175428291e1f3168b2bed74236ffef4b3416f90eef6554b8d8ca08efe8"
-      },
-      "rg_parenthashes": [],
-      "rg_blockhash": "abe8cf88b5423881ae4af732642ada65a8249041c4add7ae7f2d342819bfc2b3"
+      "pg_blockhash": "abada9c1c7f405db5252e502911afa063b900de1911e0d22306307b5001d5797"
     },
     "node": "127.0.0.1",
     "island": "127.0.0.1"
   },
-  "reprodata": {
+  {
     "rmode": "1",
     "meta_data": {
       "repro_protocol": 0.1,
       "hashing_alg": "_sha3.sha3_256"
     },
     "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
-    "signature": "0e22508a0d42eecb0340ba5d73340a8b9c311993b04a115b36e89571c8c9ab9d"
+    "signature": "01e366e549191c5a77f697893bdec76bdbc8170c64f4f1a00626e92085c86aff"
   }
-}
+]

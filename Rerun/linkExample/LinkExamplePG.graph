@@ -36,11 +36,18 @@
         "storage": "Memory",
         "merkleroot": "2f87ad2abd3b40d114a0733fd1c93052cbb3f22909a6d3bf248f8198d8a62fcd"
       },
-      "pgt_blockhash": "9d74de57c047c9ab7117a2e9762a0f1adb1c3d008fb2ac9b51e07e3fab5f5321"
+      "pgt_blockhash": "9d74de57c047c9ab7117a2e9762a0f1adb1c3d008fb2ac9b51e07e3fab5f5321",
+      "pg_parenthashes": [],
+      "pg_data": {
+        "merkleroot": null
+      },
+      "pg_blockhash": "f3711ae5d095c7760c955226870c2e2467749730e73f45c7f723cda0982c5d0c"
     },
     "consumers": [
       "1_-3_0"
-    ]
+    ],
+    "node": "127.0.0.1",
+    "island": "127.0.0.1"
   },
   {
     "oid": "1_-2_0",
@@ -84,11 +91,20 @@
         "storage": "File",
         "merkleroot": "b4473081e81152b2119b5b47d3ef9dcedb59dadde6716844100debcdb67511bd"
       },
-      "pgt_blockhash": "98cd6fcbb2a4b457a1a1e6be6246e7a498ab2b8a16f89d2a6cdc6a965cb9f4b1"
+      "pgt_blockhash": "98cd6fcbb2a4b457a1a1e6be6246e7a498ab2b8a16f89d2a6cdc6a965cb9f4b1",
+      "pg_parenthashes": [
+        "92dee391960bb6a7d741cc485da55a8d04191c59fbad96963a7fb2025c7ff536"
+      ],
+      "pg_data": {
+        "merkleroot": null
+      },
+      "pg_blockhash": "b8ac68cdffb3c2e88a3b14d6161df864f8d44f77091e8e9040d49ef03442dfb7"
     },
     "producers": [
       "1_-4_0"
-    ]
+    ],
+    "node": "127.0.0.1",
+    "island": "127.0.0.1"
   },
   {
     "oid": "1_-3_0",
@@ -133,14 +149,23 @@
         "app": "dlg.apps.bash_shell_app.BashShellApp",
         "merkleroot": "da04e413e259561f12bf79983b1b77ad72063efe69ace04ff19c84afa7f69d21"
       },
-      "pgt_blockhash": "bbc20c1e3748820e082e721b5dc0e5e6b9b53b44138754fbe71f0ad79b9ca775"
+      "pgt_blockhash": "bbc20c1e3748820e082e721b5dc0e5e6b9b53b44138754fbe71f0ad79b9ca775",
+      "pg_parenthashes": [
+        "f3711ae5d095c7760c955226870c2e2467749730e73f45c7f723cda0982c5d0c"
+      ],
+      "pg_data": {
+        "merkleroot": null
+      },
+      "pg_blockhash": "f89c1f9c75c2bd69336ae71e9924bc5968b0b323eb25632d8b71a6ffba2cf34c"
     },
     "inputs": [
       "1_-1_0"
     ],
     "outputs": [
       "1_-4_0"
-    ]
+    ],
+    "node": "127.0.0.1",
+    "island": "127.0.0.1"
   },
   {
     "oid": "1_-4_0",
@@ -185,14 +210,23 @@
         "app": "dlg.apps.bash_shell_app.BashShellApp",
         "merkleroot": "da04e413e259561f12bf79983b1b77ad72063efe69ace04ff19c84afa7f69d21"
       },
-      "pgt_blockhash": "87d5a01e3e9d3663f0b410b3f7e3299cb27d18261815b649cb08406c07be39d2"
+      "pgt_blockhash": "87d5a01e3e9d3663f0b410b3f7e3299cb27d18261815b649cb08406c07be39d2",
+      "pg_parenthashes": [
+        "f89c1f9c75c2bd69336ae71e9924bc5968b0b323eb25632d8b71a6ffba2cf34c"
+      ],
+      "pg_data": {
+        "merkleroot": null
+      },
+      "pg_blockhash": "92dee391960bb6a7d741cc485da55a8d04191c59fbad96963a7fb2025c7ff536"
     },
     "producers": [
       "1_-3_0"
     ],
     "outputs": [
       "1_-2_0"
-    ]
+    ],
+    "node": "127.0.0.1",
+    "island": "127.0.0.1"
   },
   {
     "rmode": "1",
@@ -201,6 +235,6 @@
       "hashing_alg": "_sha3.sha3_256"
     },
     "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
-    "signature": "aec4bfd3968225a96dfe679f04506ba60dd92511cef41f653a2c9ffb7117b1fc"
+    "signature": "2cc5e9781ff3bddb0fc5b1bab51702efee6e058a792158ece70ca1471f8aa5cd"
   }
 ]

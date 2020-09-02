@@ -31,7 +31,7 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "memory",
+            "category": "Memory",
             "categoryType": "Data",
             "collapsed": false,
             "colour": "#394BB2",
@@ -75,7 +75,7 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "file",
+            "category": "File",
             "categoryType": "Data",
             "collapsed": false,
             "colour": "#394BB2",

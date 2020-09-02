@@ -47,13 +47,15 @@
       "pg_data": {
         "node": "127.0.0.1",
         "island": "127.0.0.1",
-        "run_data": [
-          2
-        ],
-        "run_merkleroot": "6d1be79de51c1a5846bb0498b7779802710b2452c20e1b65013ad3ebe459f51e",
-        "merkleroot": "463c0a77411b363bdeaf0a28e56a3ee832239e57afcd63443da7cbdd772fd583"
+        "merkleroot": "e723d791b3915fe4ec2cfb49e01708cdfe447bf3d02c3760b6c24800b8a4a968"
       },
-      "pg_blockhash": "e08e8c7df324a8b7d363630b5fe35d5ac03b48e6be56bb19b6c9f179ac5b1061"
+      "pg_blockhash": "159c10e2303d488b484a2179e3efd72049afd245e08d4ec365aeed62a212af3b",
+      "rg_data": {
+        "status": 2,
+        "merkleroot": "b66112175428291e1f3168b2bed74236ffef4b3416f90eef6554b8d8ca08efe8"
+      },
+      "rg_parenthashes": [],
+      "rg_blockhash": "22e9216f66845640525b7358aaa5db04294488f4512f9310b0c0f0721025e442"
     },
     "node": "127.0.0.1",
     "island": "127.0.0.1"
@@ -65,6 +67,6 @@
       "hashing_alg": "_sha3.sha3_256"
     },
     "merkleroot": "36a6a91ac5597edf77861887720d933d2fb6545f2d6aac11ab6e6bac5203f13a",
-    "signature": "a99956c80f389ea3e1191b8d8783ca2a9d1f37fec47e1238974a8536863723c5"
+    "signature": "60bfbceb2483656d7a54d9cdf132705ff83e443ae8bb9cb5627ee31535378b2f"
   }
 }
