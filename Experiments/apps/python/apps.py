@@ -1,7 +1,7 @@
-from Experiments import droputils
-from ..drop import BarrierAppDROP, ContainerDROP
-from ..meta import dlg_float_param, dlg_component, dlg_batch_input, \
-    dlg_batch_output, dlg_streaming_input
+import dlg
+from dlg import droputils
+from dlg.drop import BarrierAppDROP, ContainerDROP
+from dlg.meta import dlg_component, dlg_batch_input, dlg_batch_output, dlg_streaming_input
 
 
 class CopyApp(BarrierAppDROP):
