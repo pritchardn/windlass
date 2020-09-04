@@ -63,3 +63,5 @@ def full_trial(w1, w2, loc):
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.RERUN))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPEAT))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPRODUCE))
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_SCI))
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_COMP))
