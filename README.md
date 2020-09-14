@@ -55,15 +55,24 @@ An overview of what is here
 ### Hardware Requirements
 No specialised hardware is required for execution of this software.
 ## Installation Guide
+- In a Python environment of your choice (system, conda or virtual environment)
 To simply use Windlass alone
-- `pip install windlass`
+- `pip install windlass` which should also install all necessary dependencies
 Or for development
 - `git clone https://github.com/pritchardn/windlass`
 - `pip install -e windlass`
 ### Typical Install Time
 - < 10 mins
 ## Demo
+- In a unix terminal with your activated python environment
+- Start a DALiuGE daemon (with verbose logging for reference)
+  - `$ dlg daemon  -v -v -v -mm`
+- In a separate terminal window in the same activated python environment
+  - `$ python Experiments\EX1HelloWorld\EX1Driver.py` to run a series of example workflows
 ### Expected Output
+- See Experiments\EX1HelloWorld\expected.csv for expected outputs
+- The file your execution generated (Experiments\EX1HelloWorld\out.csv) should be identical in contents
 ### Expected Runtime
+- Since eight workflows are run start to finish execution should take around three minutes
 ## Instructions for Use
 ### Reproduction Instructions
