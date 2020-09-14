@@ -51,12 +51,17 @@ An overview of what is here
 - DALiuGE 1.0+
 - Merklelib 1.0
 - Jupyter Notebook
-- Voila 
 ### Tested Versions
 ### Hardware Requirements
 No specialised hardware is required for execution of this software.
 ## Installation Guide
+To simply use Windlass alone
+- `pip install windlass`
+Or for development
+- `git clone https://github.com/pritchardn/windlass`
+- `pip install -e windlass`
 ### Typical Install Time
+- < 10 mins
 ## Demo
 ### Expected Output
 ### Expected Runtime
