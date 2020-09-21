@@ -1,6 +1,6 @@
+import csv
 import json
 import optparse
-import csv
 
 from dlg.common.reproducibility.reproducibility import ReproducibilityFlags
 from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map, dlg_submit
@@ -55,8 +55,8 @@ def graph_trial(w1, w2, loc, flag=ReproducibilityFlags.NOTHING):
             'Match': result}
 
 
-def full_trial(w1, w2, loc):
-    with open('out.csv', 'w', newline='') as file:
+def full_trial(w1, w2, loc, sav='./'):
+    with open(sav + 'out.csv', 'w', newline='') as file:
         fieldnames = ['Hash', w1, w2, 'Match']
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
