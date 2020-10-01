@@ -1,0 +1,402 @@
+{
+    "linkDataArray": [
+        {
+            "from": -5,
+            "fromPort": "844c8ff2-098c-4166-acf4-7fef721d735d",
+            "to": -1,
+            "toPort": "4a73a0dd-4443-4343-b094-ffbd73ae18e8"
+        },
+        {
+            "from": -2,
+            "fromPort": "e675421f-3b3c-404e-bc15-7cf02c3525c5",
+            "to": -4,
+            "toPort": "1a8e5e1e-9444-434f-98ef-1252ee04895a"
+        },
+        {
+            "from": -1,
+            "fromPort": "3c681f8a-3d78-43de-aa98-67750c1a277b",
+            "to": -3,
+            "toPort": "697b56e3-0884-433f-bfd5-32d31a184f17"
+        },
+        {
+            "from": -3,
+            "fromPort": "605d90ce-a642-4d39-a4b0-2444c3095cdd",
+            "to": -2,
+            "toPort": "d4123002-7d7b-43d0-b283-a8083ec250e7"
+        }
+    ],
+    "modelData": {
+        "filePath": "averageMySimple.graph",
+        "fileType": "graph",
+        "git_url": "",
+        "repo": "",
+        "repoBranch": "",
+        "repoService": "Unknown",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Component",
+            "categoryType": "Application",
+            "collapsed": false,
+            "color": "#3498DB",
+            "description": "An application component in the form of a Python app",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "execution_time",
+                    "text": "Execution time",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "num_cpus",
+                    "text": "Num CPUs",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "group_start",
+                    "text": "Group start",
+                    "value": "0"
+                },
+                {
+                    "description": "",
+                    "name": "appclass",
+                    "text": "Appclass",
+                    "value": "dlg.common.reproducibility.apps.MyAverage"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "4a73a0dd-4443-4343-b094-ffbd73ae18e8",
+                    "IdText": "numbers"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -1,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "3c681f8a-3d78-43de-aa98-67750c1a277b",
+                    "IdText": "average"
+                }
+            ],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Python App",
+            "width": 200,
+            "x": 369,
+            "y": 109
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "File",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                },
+                {
+                    "description": "",
+                    "name": "check_filepath_exists",
+                    "text": "Check file path exists",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "filepath",
+                    "text": "File path",
+                    "value": "myaverage.out"
+                },
+                {
+                    "description": "",
+                    "name": "dirname",
+                    "text": "Directory name",
+                    "value": "/home/nicholas/PycharmProjects/windlass/Experiments/data"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "1a8e5e1e-9444-434f-98ef-1252ee04895a",
+                    "IdText": "average"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -4,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "File",
+            "width": 200,
+            "x": 1288,
+            "y": 111
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "File",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                },
+                {
+                    "description": "",
+                    "name": "check_filepath_exists",
+                    "text": "Check file path exists",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "filepath",
+                    "text": "File path",
+                    "value": "numbers1.in"
+                },
+                {
+                    "description": "",
+                    "name": "dirname",
+                    "text": "Directory name",
+                    "value": "/home/nicholas/PycharmProjects/windlass/Experiments/data"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [],
+            "isData": true,
+            "isGroup": false,
+            "key": -5,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "844c8ff2-098c-4166-acf4-7fef721d735d",
+                    "IdText": "numbers"
+                }
+            ],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "File",
+            "width": 200,
+            "x": 119,
+            "y": 109
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "BashShellApp",
+            "categoryType": "Application",
+            "collapsed": false,
+            "color": "#1C2833",
+            "description": "An application component run within the Bash Shell",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "execution_time",
+                    "text": "Execution time",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "num_cpus",
+                    "text": "Num CPUs",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "group_start",
+                    "text": "Group start",
+                    "value": "0"
+                },
+                {
+                    "description": "The command line to be executed",
+                    "name": "Arg01",
+                    "text": "Arg01",
+                    "value": "echo $(<%i0) > %o0"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "d4123002-7d7b-43d0-b283-a8083ec250e7",
+                    "IdText": "average"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -2,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "e675421f-3b3c-404e-bc15-7cf02c3525c5",
+                    "IdText": "average"
+                }
+            ],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Echo_to_File",
+            "width": 200,
+            "x": 951,
+            "y": 135
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "File",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                },
+                {
+                    "description": "",
+                    "name": "check_filepath_exists",
+                    "text": "Check file path exists",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "filepath",
+                    "text": "File path",
+                    "value": "scratch.txt"
+                },
+                {
+                    "description": "",
+                    "name": "dirname",
+                    "text": "Directory name",
+                    "value": "/home/nicholas/PycharmProjects/windlass/Experiments/data"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "697b56e3-0884-433f-bfd5-32d31a184f17",
+                    "IdText": "average"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -3,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "605d90ce-a642-4d39-a4b0-2444c3095cdd",
+                    "IdText": "average"
+                }
+            ],
+            "selected": true,
+            "showPorts": true,
+            "streaming": false,
+            "subject": null,
+            "text": "File",
+            "width": 200,
+            "x": 664,
+            "y": 101
+        }
+    ]
+}
