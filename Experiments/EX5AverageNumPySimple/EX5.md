@@ -10,3 +10,12 @@ We present four hypothesis
   - RP(G1, G2)
   - RPLS(G1, G2)
   - !RPLC(G1, G2)
+  
+## Results
+| Mode | Match |
+|:------:|:----:|
+| RR   | True |
+| RT   | False |
+| RP   | True |
+| RPLS | True |
+| RPLC | False |
