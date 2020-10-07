@@ -62,7 +62,7 @@
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": ""
+                    "value": "/home/nicholas/PycharmProjects/windlass/Experiments/data"
                 }
             ],
             "inputAppFields": [],
@@ -127,7 +127,7 @@
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": ""
+                    "value": "/home/nicholas/PycharmProjects/windlass/Experiments/data"
                 }
             ],
             "inputAppFields": [],

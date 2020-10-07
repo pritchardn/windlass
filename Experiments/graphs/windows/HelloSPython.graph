@@ -117,7 +117,7 @@
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/EX2HelloWorld"
+                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/data"
                 }
             ],
             "inputAppFields": [],
@@ -242,7 +242,7 @@
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/EX2HelloWorld"
+                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/data"
                 }
             ],
             "inputAppFields": [],

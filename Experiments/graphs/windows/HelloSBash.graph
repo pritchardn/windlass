@@ -62,7 +62,7 @@
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": ""
+                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/data"
                 }
             ],
             "inputAppFields": [],
@@ -127,7 +127,7 @@
                 {
                     "name": "dirname",
                     "text": "Directory name",
-                    "value": ""
+                    "value": "/mnt/c/Users/Nicho/PycharmProjects/windlass/Experiments/data"
                 }
             ],
             "inputAppFields": [],
@@ -237,7 +237,7 @@
                 {
                     "name": "Arg01",
                     "text": "Arg01",
-                    "value": "echo 'Hello' $(<%i0) > %o0"
+                    "value": "echo -en 'Hello' $(<%i0) > %o0"
                 }
             ],
             "inputAppFields": [],
