@@ -43,12 +43,12 @@ def compare(h1, h2):
 ```
 
 ## Results
-| Mode | Graph 1 | Graph 2 | ED |
-|:------:|:---------:|:---------:|:----:|
-| RR   |         |         |    |
-| RT   |         |         |    |
-| RP   |         |         |    |
-| RPLS |         |         |    |
-| RPLC |         |         |    |
+| Mode | Match |
+|:------:|:----:|
+| RR   | True |
+| RT   | True |
+| RP   | True |
+| RPLS | True |
+| RPLC | True |
 
 ## Discussion

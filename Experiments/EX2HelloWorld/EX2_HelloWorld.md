@@ -44,12 +44,15 @@ def compare(h1, h2):
 ```
 
 ## Results
-| Mode | Graph 1 | Graph 2 | ED |
-|:------:|:---------:|:---------:|:----:|
-| RR   |  |  |  0  |
-| RT   |         |         |    |
-| RP   |         |         |    |
-| RPLS |         |         |    |
-| RPLC |         |         |    |
+| Mode | Match |
+|:------:|:----:|
+| RR   | False |
+| RT   | False |
+| RP   | _False_ |
+| RPLS | False |
+| RPLC | False |
 
 ## Discussion
+The unexpected failure to achieve reproduction points out an important part of our scheme.
+The exact data representation matters absolutely in this scheme.
+Stay tuned for a follow up that adds an extra post-processing step, ensuring reproducibility.

@@ -44,12 +44,14 @@ def compare(h1, h2):
 ```
 
 ## Results
-| Mode | Graph 1 | Graph 2 | ED |
-|:------:|:---------:|:---------:|:----:|
-| RR   | 94e51251a5bbf63d1b5f56acb396f7740164a0072bbe84cf4f2d52222a0cf636 | 94e51251a5bbf63d1b5f56acb396f7740164a0072bbe84cf4f2d52222a0cf636 |  0  |
-| RT   |         |         |    |
-| RP   |         |         |    |
-| RPLS |         |         |    |
-| RPLC |         |         |    |
+| Mode | Match |
+|:------:|:----:|
+| RR   | True |
+| RT   | False |
+| RP   | False |
+| RPLS | False |
+| RPLC | False |
 
 ## Discussion
+Failure to reperoduce and hence replicate-scientifically is surprising since the output data is precisely the same.
+The input data however, is not and this is a key observation to make.
