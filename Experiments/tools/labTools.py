@@ -40,9 +40,11 @@ def test_identical(w1: str, w2: str):
     return h1 == h2, h1, h2
 
 
-def summarise_run(record: dict):
-    return {'result_hash': record['reprodata']['leaves'], 'meta_data': record['reprodata']['meta_data'],
-            'meta_merkleroot': record['reprodata']['merkleroot']}
+def test_single(w1: str):
+    f1 = open(w1 + '.out')
+    r1 = json.load(f1)
+    f1.close()
+    return r1['reprodata']['signature']
 
 
 def graph_trial(w1, w2, loc, flag=ReproducibilityFlags.NOTHING):
@@ -53,6 +55,24 @@ def graph_trial(w1, w2, loc, flag=ReproducibilityFlags.NOTHING):
             w1: h1,
             w2: h2,
             'Match': result}
+
+
+def graph_trial_single(w1, loc, flag=ReproducibilityFlags.NOTHING):
+    run_full_workflow(flag, w1, loc)
+    return {'Hash': flag,
+            w1: test_single(w1)}
+
+
+def full_trial_single(w1, loc, sav='./'):
+    with open(sav + 'out.csv', 'w', newline='') as file:
+        fieldnames = ['Hash', w1]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.RERUN))
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPEAT))
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPRODUCE))
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_SCI))
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_COMP))
 
 
 def full_trial(w1, w2, loc, sav='./'):
