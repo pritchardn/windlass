@@ -1,11 +1,11 @@
 # (c) Nicholas Pritchard 2020
 # A simple Python script to setup both an EAGLE and DALiuGE server
 
+import logging
 import optparse
 import pathlib
-import logging
 
-from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map
+from dlg.translator.tool_commands import dlg_fill, dlg_unroll, dlg_partition, dlg_map, dlg_submit
 
 HOME = pathlib.Path(__file__).parent.absolute()
 TEMP = HOME / "temp/"
@@ -15,11 +15,13 @@ print(HOME)
 print(TEMP)
 print(LGFILES)
 
-lgt = 'groupUse.graph'
-lg = 'groupUseLG.graph'
-pgt = 'groupUsePGT.graph'
-pgs = 'groupUsePGS.graph'
-pg = 'groupUsePG.graph'
+graphname = 'scatterBash'
+
+lgt = graphname + '.graph'
+lg = graphname + 'LG.graph'
+pgt = graphname + 'PGT.graph'
+pgs = graphname + 'PGS.graph'
+pg = graphname + 'PG.graph'
 
 lumberjack = logging.getLogger("dlg.common.reproducibility.reproducibility")
 lumberjack.setLevel(logging.INFO)
@@ -33,4 +35,4 @@ dlg_partition(parser, ['-P', pgt, '-o', pgs, '-f', 'newline'])
 parser = optparse.OptionParser()
 dlg_map(parser, ['-P', pgs, '-N', '127.0.0.1,127.0.0.1', '-o', pg, '-f', 'newline'])
 parser = optparse.OptionParser()
-# dlg_submit(parser, ['-P', pg, '-p', '8000', '-w'])
+dlg_submit(parser, ['-P', pg, '-p', '8000', '-w'])
