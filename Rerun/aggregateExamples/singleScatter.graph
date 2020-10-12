@@ -1,0 +1,229 @@
+{
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "2572650f-0ebf-4047-8fcb-cb85c5cb35f9",
+            "to": -3,
+            "toPort": "c7d0c4ba-40d4-49f5-a9e2-71d44fd4f5a1"
+        },
+        {
+            "from": -3,
+            "fromPort": "4be75b74-1c30-48dd-9047-3bcefac111c8",
+            "to": -2,
+            "toPort": "ef193aae-ff09-4198-b5a6-fe107534dea4"
+        }
+    ],
+    "modelData": {
+        "filePath": "",
+        "fileType": "graph",
+        "git_url": "",
+        "repo": "",
+        "repoBranch": "",
+        "repoService": "Unknown",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [],
+            "isData": true,
+            "isGroup": false,
+            "key": -1,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "2572650f-0ebf-4047-8fcb-cb85c5cb35f9",
+                    "IdText": "event"
+                }
+            ],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Memory",
+            "width": 200,
+            "x": 298,
+            "y": 101
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "data_volume",
+                    "text": "Data volume",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "group_end",
+                    "text": "Group end",
+                    "value": "0"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "ef193aae-ff09-4198-b5a6-fe107534dea4",
+                    "IdText": "event"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -2,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Memory",
+            "width": 200,
+            "x": 1005,
+            "y": 138
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Scatter",
+            "categoryType": "Group",
+            "collapsed": false,
+            "color": "#DDAD00",
+            "description": "Placeholder 'scatter' description",
+            "drawOrderHint": 0,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "num_of_copies",
+                    "text": "Number of copies",
+                    "value": "4"
+                },
+                {
+                    "description": "",
+                    "name": "scatter_axis",
+                    "text": "Scatter axis",
+                    "value": "time"
+                }
+            ],
+            "height": 200,
+            "inputAppFields": [
+                {
+                    "description": "",
+                    "name": "execution_time",
+                    "text": "Execution time",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "num_cpus",
+                    "text": "Num CPUs",
+                    "value": "1"
+                },
+                {
+                    "description": "",
+                    "name": "group_start",
+                    "text": "Group start",
+                    "value": "0"
+                },
+                {
+                    "description": "The command line to be executed",
+                    "name": "Arg01",
+                    "text": "Arg01",
+                    "value": "sleep 1"
+                }
+            ],
+            "inputApplicationName": "Sleep",
+            "inputApplicationType": "BashShellApp",
+            "inputLocalPorts": [
+                {
+                    "Id": "f8470d9d-f627-4f98-885c-d97023e6b214",
+                    "IdText": "event"
+                }
+            ],
+            "inputPorts": [
+                {
+                    "Id": "c7d0c4ba-40d4-49f5-a9e2-71d44fd4f5a1",
+                    "IdText": "event"
+                }
+            ],
+            "isData": false,
+            "isGroup": true,
+            "key": -3,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [
+                {
+                    "Id": "ddf13b62-352a-4169-be61-315f96680df2",
+                    "IdText": "event"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "4be75b74-1c30-48dd-9047-3bcefac111c8",
+                    "IdText": "event"
+                }
+            ],
+            "selected": true,
+            "showPorts": true,
+            "streaming": false,
+            "subject": null,
+            "text": "Scatter",
+            "width": 200,
+            "x": 630,
+            "y": 122
+        }
+    ]
+}
