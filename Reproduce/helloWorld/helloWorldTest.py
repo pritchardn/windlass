@@ -23,7 +23,7 @@ pg = graph + 'PG.graph'
 rg = graph + 'PG_final.graph'
 
 parser = optparse.OptionParser()
-dlg_fill(parser, ['-L', lgt, '-R', '3', '-o', lg, '-f', 'newline'])
+dlg_fill(parser, ['-L', lgt, '-R', '4', '-o', lg, '-f', 'newline'])
 parser = optparse.OptionParser()
 dlg_unroll(parser, ['-L', lg, '-o', pgt, '-f', 'newline'])
 parser = optparse.OptionParser()

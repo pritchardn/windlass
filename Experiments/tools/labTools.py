@@ -70,9 +70,11 @@ def full_trial_single(w1, loc, sav='./'):
         writer.writeheader()
         writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.RERUN))
         writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPEAT))
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.RECOMPUTE))
         writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPRODUCE))
         writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_SCI))
         writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_COMP))
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_TOTAL))
 
 
 def full_trial(w1, w2, loc, sav='./'):
@@ -82,6 +84,8 @@ def full_trial(w1, w2, loc, sav='./'):
         writer.writeheader()
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.RERUN))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPEAT))
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.RECOMPUTE))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPRODUCE))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_SCI))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_COMP))
+        writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_TOTAL))
