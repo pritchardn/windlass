@@ -167,7 +167,7 @@
                     "readonly": false,
                     "text": "File path",
                     "type": "Unknown",
-                    "value": "filter.out"
+                    "value": "filter_fftw.out"
                 },
                 {
                     "description": "",
