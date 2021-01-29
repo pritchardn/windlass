@@ -89,3 +89,35 @@ def full_trial(w1, w2, loc, sav='./'):
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_SCI))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_COMP))
         writer.writerow(graph_trial(w1, w2, loc, ReproducibilityFlags.REPLICATE_TOTAL))
+
+
+def compare_numpy_files(f1, f2):
+    import numpy as np
+    arr1 = np.fromfile(f1)
+    arr2 = np.fromfile(f2)
+    print("ARRAY 1 =======")
+    print(arr1)
+    print("ARRAY 2 =======")
+    print(arr2)
+    diffs = arr2 - arr1
+    print("DIFFERENCES ==")
+    print(diffs)
+    print(np.allclose(arr1, arr2))
+
+
+def plot_numpy_files(f1, f2):
+    import numpy as np
+    from matplotlib import pyplot as plt
+    arr1 = np.fromfile(f1)
+    arr2 = np.fromfile(f2)
+    fig = plt.figure()
+    axis = fig.add_subplot(111)
+    axis.plot(np.real(arr1))
+    axis.plot(np.real(arr2))
+    axis.set_xlim(0, len(arr2))
+    axis.set_ylim(-2, 2)
+    axis.set(title='Filtered signal',
+             ylabel='Amplitude',
+             xlabel='Time (samples)')
+    plt.savefig('filtered.png', dpi=300)
+    plt.show()
