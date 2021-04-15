@@ -15,22 +15,15 @@
             "toPort": "8c9663ed-0617-450b-836a-c142ea6b4a4d"
         },
         {
-            "from": -6,
-            "fromPort": "6dbeb133-808f-4df4-9f40-9b2fe4fa122e",
-            "loop_aware": "0",
-            "to": -3,
-            "toPort": "2"
-        },
-        {
             "from": -4,
             "fromPort": "6dbeb133-808f-4df4-9f40-9b2fe4fa122e",
             "loop_aware": "0",
-            "to": -1,
-            "toPort": "f924ba37-fccd-4f1a-9afe-d943d0fb34f6"
+            "to": -7,
+            "toPort": "eb91b0ac-b6f1-478a-b622-98841c0ba011"
         },
         {
-            "from": -1,
-            "fromPort": "887c1122-4d01-4d58-9dd4-44949f744cb4",
+            "from": -7,
+            "fromPort": "76078840-580b-4db8-8889-d56c5257bf12",
             "loop_aware": "0",
             "to": -6,
             "toPort": "8c9663ed-0617-450b-836a-c142ea6b4a4d"
@@ -39,20 +32,27 @@
             "from": -5,
             "fromPort": "6dbeb133-808f-4df4-9f40-9b2fe4fa122e",
             "loop_aware": "0",
-            "to": -7,
-            "toPort": "e72eda6a-4f2d-4974-95a9-5cb6dae5abc0"
+            "to": -8,
+            "toPort": "3f1f8f0d-5c7d-407b-b8e7-ef51a94cfcff"
         },
         {
-            "from": -7,
-            "fromPort": "b46c9027-752b-4c79-800c-b69471a3307c",
+            "from": -8,
+            "fromPort": "e896d30e-0908-423c-add3-6e2e3a9326f1",
             "loop_aware": "0",
             "to": -6,
             "toPort": "3"
+        },
+        {
+            "from": -6,
+            "fromPort": "6dbeb133-808f-4df4-9f40-9b2fe4fa122e",
+            "loop_aware": "0",
+            "to": -3,
+            "toPort": "2"
         }
     ],
     "modelData": {
-        "eagleCommitHash": "c68cc1ea2e7806d903851a15d56684382dc02806",
-        "eagleVersion": "v2.8.6",
+        "eagleCommitHash": "Unknown",
+        "eagleVersion": "Unknown",
         "filePath": "fftw_fft.graph",
         "fileType": "graph",
         "git_url": "",
@@ -199,8 +199,8 @@
             "outputApplicationType": "None",
             "outputLocalPorts": [],
             "outputPorts": [],
-            "selected": false,
-            "showPorts": false,
+            "selected": true,
+            "showPorts": true,
             "streaming": false,
             "subject": null,
             "text": "End",
@@ -258,6 +258,14 @@
                         1000,
                         2000
                     ]
+                },
+                {
+                    "description": "The noise parameters used ",
+                    "name": "noise",
+                    "readonly": false,
+                    "text": "noise",
+                    "type": "List",
+                    "value": []
                 },
                 {
                     "description": "Estimated execution time",
@@ -356,7 +364,7 @@
                     "readonly": false,
                     "text": "length",
                     "type": "Integer",
-                    "value": 600
+                    "value": 500
                 },
                 {
                     "description": "The sample rate of the signal",
@@ -526,7 +534,7 @@
         {
             "canHaveInputs": true,
             "canHaveOutputs": true,
-            "category": "File",
+            "category": "Memory",
             "categoryType": "Data",
             "collapsed": false,
             "color": "#394BB2",
@@ -552,30 +560,6 @@
                     "text": "Group end",
                     "type": "Unknown",
                     "value": "0"
-                },
-                {
-                    "description": "",
-                    "name": "check_filepath_exists",
-                    "readonly": false,
-                    "text": "Check file path exists",
-                    "type": "Unknown",
-                    "value": "1"
-                },
-                {
-                    "description": "",
-                    "name": "filepath",
-                    "readonly": false,
-                    "text": "File path",
-                    "type": "Unknown",
-                    "value": "signal.out"
-                },
-                {
-                    "description": "",
-                    "name": "dirname",
-                    "readonly": false,
-                    "text": "Directory name",
-                    "type": "Unknown",
-                    "value": ""
                 }
             ],
             "flipPorts": false,
@@ -586,98 +570,7 @@
             "inputLocalPorts": [],
             "inputPorts": [
                 {
-                    "Id": "f924ba37-fccd-4f1a-9afe-d943d0fb34f6",
-                    "IdText": "array",
-                    "event": false
-                }
-            ],
-            "isData": true,
-            "isGroup": false,
-            "key": -1,
-            "outputAppFields": [],
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
-            "outputLocalPorts": [],
-            "outputPorts": [
-                {
-                    "Id": "887c1122-4d01-4d58-9dd4-44949f744cb4",
-                    "IdText": "array",
-                    "event": false
-                }
-            ],
-            "selected": false,
-            "showPorts": false,
-            "streaming": false,
-            "subject": null,
-            "text": "array",
-            "width": 200,
-            "x": 777.5,
-            "y": 367
-        },
-        {
-            "canHaveInputs": true,
-            "canHaveOutputs": true,
-            "category": "File",
-            "categoryType": "Data",
-            "collapsed": false,
-            "color": "#394BB2",
-            "description": "",
-            "drawOrderHint": 0,
-            "exitAppFields": [],
-            "exitApplicationName": "",
-            "exitApplicationType": "None",
-            "expanded": false,
-            "fields": [
-                {
-                    "description": "",
-                    "name": "data_volume",
-                    "readonly": false,
-                    "text": "Data volume",
-                    "type": "Unknown",
-                    "value": "5"
-                },
-                {
-                    "description": "",
-                    "name": "group_end",
-                    "readonly": false,
-                    "text": "Group end",
-                    "type": "Unknown",
-                    "value": "0"
-                },
-                {
-                    "description": "",
-                    "name": "check_filepath_exists",
-                    "readonly": false,
-                    "text": "Check file path exists",
-                    "type": "Unknown",
-                    "value": "1"
-                },
-                {
-                    "description": "",
-                    "name": "filepath",
-                    "readonly": false,
-                    "text": "File path",
-                    "type": "Unknown",
-                    "value": "window.out"
-                },
-                {
-                    "description": "",
-                    "name": "dirname",
-                    "readonly": false,
-                    "text": "Directory name",
-                    "type": "Unknown",
-                    "value": ""
-                }
-            ],
-            "flipPorts": false,
-            "height": 200,
-            "inputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
-            "inputLocalPorts": [],
-            "inputPorts": [
-                {
-                    "Id": "e72eda6a-4f2d-4974-95a9-5cb6dae5abc0",
+                    "Id": "eb91b0ac-b6f1-478a-b622-98841c0ba011",
                     "IdText": "array",
                     "event": false
                 }
@@ -691,7 +584,7 @@
             "outputLocalPorts": [],
             "outputPorts": [
                 {
-                    "Id": "b46c9027-752b-4c79-800c-b69471a3307c",
+                    "Id": "76078840-580b-4db8-8889-d56c5257bf12",
                     "IdText": "array",
                     "event": false
                 }
@@ -700,7 +593,74 @@
             "showPorts": false,
             "streaming": false,
             "subject": null,
-            "text": "array",
+            "text": "signal to filter",
+            "width": 200,
+            "x": 777.5,
+            "y": 367
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "",
+                    "name": "data_volume",
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Unknown",
+                    "value": "5"
+                },
+                {
+                    "description": "",
+                    "name": "group_end",
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Unknown",
+                    "value": "0"
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "3f1f8f0d-5c7d-407b-b8e7-ef51a94cfcff",
+                    "IdText": "array",
+                    "event": false
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -8,
+            "outputAppFields": [],
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "e896d30e-0908-423c-add3-6e2e3a9326f1",
+                    "IdText": "array",
+                    "event": false
+                }
+            ],
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "window to filter",
             "width": 200,
             "x": 733,
             "y": 454

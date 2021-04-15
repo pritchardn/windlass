@@ -247,19 +247,6 @@
                     "value": 5000
                 },
                 {
-                    "description": "The frequencies used ",
-                    "name": "freqs",
-                    "readonly": false,
-                    "text": "frequencies",
-                    "type": "List",
-                    "value": [
-                        440,
-                        800,
-                        1000,
-                        2000
-                    ]
-                },
-                {
                     "description": "The noise parameters used ",
                     "name": "noise",
                     "readonly": false,
@@ -364,7 +351,7 @@
                     "readonly": false,
                     "text": "length",
                     "type": "Integer",
-                    "value": 500
+                    "value": 600
                 },
                 {
                     "description": "The sample rate of the signal",

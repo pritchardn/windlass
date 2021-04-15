@@ -167,7 +167,7 @@
                     "readonly": false,
                     "text": "File path",
                     "type": "Unknown",
-                    "value": "filter_np_fft.out"
+                    "value": "filter_fftw.out"
                 },
                 {
                     "description": "",
@@ -255,7 +255,7 @@
                     "value": [
                         440,
                         800,
-                        1000,
+                        1200,
                         2000
                     ]
                 },
@@ -364,7 +364,7 @@
                     "readonly": false,
                     "text": "length",
                     "type": "Integer",
-                    "value": 500
+                    "value": 600
                 },
                 {
                     "description": "The sample rate of the signal",
@@ -442,7 +442,7 @@
             "categoryType": "Application",
             "collapsed": false,
             "color": "#3498DB",
-            "description": "Filter FFT Numpy",
+            "description": "Filter FFT FFTW",
             "drawOrderHint": 0,
             "exitAppFields": [],
             "exitApplicationName": "",
@@ -463,7 +463,7 @@
                     "readonly": true,
                     "text": "appclass",
                     "type": "String",
-                    "value": "dlg.common.reproducibility.apps_lowpass.LP_filter_fft_np"
+                    "value": "dlg.common.reproducibility.apps_lowpass.LP_filter_fft_fftw"
                 },
                 {
                     "description": "Estimated execution time",
@@ -526,7 +526,7 @@
             "showPorts": false,
             "streaming": false,
             "subject": null,
-            "text": "Numpy fft filter",
+            "text": "fftw fft filter",
             "width": 200,
             "x": 914,
             "y": 405.5

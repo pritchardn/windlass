@@ -255,7 +255,7 @@
                     "value": [
                         440,
                         800,
-                        1000,
+                        1200,
                         2000
                     ]
                 },
@@ -364,7 +364,7 @@
                     "readonly": false,
                     "text": "length",
                     "type": "Integer",
-                    "value": 500
+                    "value": 600
                 },
                 {
                     "description": "The sample rate of the signal",
