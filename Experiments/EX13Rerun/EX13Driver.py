@@ -8,7 +8,7 @@ from Experiments.tools.labTools import full_trial_single
 
 
 def main():
-    methods = ['cuda_fft']
+    methods = ['fftw_fft', 'numpy_fft', 'numpy_pointwise']
     for method in methods:
         for i in range(0, 14):
             prefix = method + '_' + str(i)
