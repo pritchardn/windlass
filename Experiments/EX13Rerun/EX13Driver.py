@@ -8,9 +8,9 @@ from Experiments.tools.labTools import full_trial_single
 
 
 def main():
-    methods = ['fftw_fft', 'numpy_fft', 'numpy_pointwise']
+    methods = ['fftw_fft', 'numpy_fft', 'numpy_pointwise', 'cuda_fft']
     for method in methods:
-        for i in range(0, 14):
+        for i in range(1, 14):
             prefix = method + '_' + str(i)
             print(prefix)
             full_trial_single(prefix, '../../lowpass_graphs/', './' + prefix + '_')
