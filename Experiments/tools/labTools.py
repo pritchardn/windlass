@@ -69,12 +69,12 @@ def full_trial_single(w1, loc, sav='./'):
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.RERUN))
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPEAT))
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.RECOMPUTE))
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPRODUCE))
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_SCI))
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_COMP))
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_TOTAL))
+        #writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPEAT))
+        #writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.RECOMPUTE))
+        #writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPRODUCE))
+        #writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_SCI))
+        #writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_COMP))
+        #writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.REPLICATE_TOTAL))
 
 
 def full_trial(w1, w2, loc, sav='./'):

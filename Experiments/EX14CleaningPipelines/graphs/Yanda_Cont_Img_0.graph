@@ -1,0 +1,1668 @@
+{
+    "modelData": {
+        "fileType": "graph",
+        "repoService": "GitHub",
+        "repoBranch": "master",
+        "repo": "ICRAR/EAGLE-graph-repo",
+        "filePath": "SDP Pipelines/Yanda_Cont_Img.graph",
+        "sha": "",
+        "git_url": "",
+        "eagleVersion": "v3.0.1",
+        "eagleCommitHash": "932a1061decbdc0412cbe07df0570614e792a160",
+        "schemaVersion": "OJS",
+        "readonly": true
+    },
+    "nodeDataArray": [
+        {
+            "category": "Description",
+            "categoryType": "Other",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": false,
+            "canHaveOutputs": false,
+            "color": "#9B3065",
+            "drawOrderHint": 0,
+            "key": -1,
+            "text": "Description",
+            "description": "",
+            "x": 705.5352778427458,
+            "y": 92.60670731707323,
+            "width": 207,
+            "height": 100,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [],
+            "outputPorts": [],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "",
+                    "name": "",
+                    "value": "Yandasoft based continuum pipeline running on DALiuGE.",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "File",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -2,
+            "text": "Config",
+            "description": "",
+            "x": 551.5019174374469,
+            "y": 474.66846836810936,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "48ad7359-66ab-4d2e-ad04-3c5d4abd7047",
+                    "IdText": "config",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "5fe7e0da-d881-495e-acfb-1d3539cd46c8",
+                    "IdText": "config",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": "5",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": "0",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Check file path exists",
+                    "name": "check_filepath_exists",
+                    "value": false,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "File path",
+                    "name": "filepath",
+                    "value": "/var/dlg_home/testdata/yanda/functest.in",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Directory name",
+                    "name": "dirname",
+                    "value": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "Docker",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#331C54",
+            "drawOrderHint": 0,
+            "key": -4,
+            "text": "yanda_imager",
+            "description": "This docker app runs the Yandasoft Imager. It uses an askapsoft compliant configuration file on input, which defines all the required parameters.",
+            "x": 711.3195980917105,
+            "y": 547.0489983034782,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "2bd70c65-e0d5-443a-9d64-46724b140491",
+                    "IdText": "config",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "d9d67262-47a7-44b3-a7df-ddab74a0dcbe",
+                    "IdText": "residual_image",
+                    "event": false,
+                    "type": "Unknown"
+                },
+                {
+                    "Id": "cff7e896-e69f-4ade-8c59-42346b1b5b91",
+                    "IdText": "restored_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "description": "Number of CPUs used for this application.",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Image",
+                    "name": "image",
+                    "value": "icrar/yanda_imager:0.2",
+                    "description": "Name of the docker image to be used for this application",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Command",
+                    "name": "command",
+                    "value": "cd /var/dlg_home/workspace/yanda && mpirun -np 4 --allow-run-as-root imager -c %i0",
+                    "description": "The command line to run within the docker instance",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "User",
+                    "name": "user",
+                    "value": "",
+                    "description": "Username of the user who will run the application within the docker image",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Ensure User And Switch",
+                    "name": "ensureUserAndSwitch",
+                    "value": 0,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Remove Container",
+                    "name": "removeContainer",
+                    "value": 1,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Additional Bindings",
+                    "name": "additionalBindings",
+                    "value": "/var/dlg_home:/var/dlg_home",
+                    "description": "Any additional bindings that should be passed through to the image",
+                    "readonly": false,
+                    "type": ""
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "BashShellApp",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#1C2833",
+            "drawOrderHint": 0,
+            "key": -7,
+            "text": "Pack results",
+            "description": "This is just a tar command packing the output directories together.",
+            "x": 1176.3602376653282,
+            "y": 559.7244083344118,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "f7699400-43c4-4eca-86a6-517a0020ab33",
+                    "IdText": "residual_image",
+                    "event": false,
+                    "type": "Unknown"
+                },
+                {
+                    "Id": "0cac193d-0de9-4aba-9dd5-9344081e6f36",
+                    "IdText": "restored_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "51c774e6-d9cb-4ce1-8cf7-7c669a8bfa56",
+                    "IdText": "output",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Arg01",
+                    "name": "Arg01",
+                    "value": "tar --dereference -cvjf %o0 %i0 %i1",
+                    "description": "The command line to be executed",
+                    "readonly": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "Docker",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#331C54",
+            "drawOrderHint": 0,
+            "key": -6,
+            "text": "imgstat QA",
+            "description": "This docker app runs the casacore imgstat application on its input.",
+            "x": 1181.3555741076998,
+            "y": 712.8330026048982,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "c1de70ac-a1b4-4272-9590-7f783df1f79e",
+                    "IdText": "restored_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "877e3e58-d841-49d3-adb0-c5d4f1b43a3a",
+                    "IdText": "result",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "description": "Number of CPUs used for this application.",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Image",
+                    "name": "image",
+                    "value": "icrar/yanda_imgstat:0.1",
+                    "description": "Name of the docker image to be used for this application",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Command",
+                    "name": "command",
+                    "value": "imgstat %i0> %o0",
+                    "description": "The command line to run within the docker instance",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "User",
+                    "name": "user",
+                    "value": "",
+                    "description": "Username of the user who will run the application within the docker image",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Ensure User And Switch",
+                    "name": "ensureUserAndSwitch",
+                    "value": 0,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Remove Container",
+                    "name": "removeContainer",
+                    "value": 1,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Additional Bindings",
+                    "name": "additionalBindings",
+                    "value": "/var/dlg_home:/var/dlg_home",
+                    "description": "Any additional bindings that should be passed through to the image",
+                    "readonly": false,
+                    "type": ""
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "BashShellApp",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#1C2833",
+            "drawOrderHint": 0,
+            "key": -10,
+            "text": "Test",
+            "description": "Another bash command to extract the the relevant result line and test whether it is in the desired range.",
+            "x": 1587.7235254700977,
+            "y": 715.1011182633058,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "98c622e3-b565-428d-95f7-16e9a0e9cfee",
+                    "IdText": "result",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "ebe7d512-90fb-4c87-8b42-d4f3670871bb",
+                    "IdText": "event",
+                    "event": true,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": "5",
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": "1",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Command",
+                    "name": "Arg01",
+                    "value": "cat %i0 | head -1 | awk '{ if ( $1 < 0.99 || $1 > 1.01 ) exit(1); else exit(0) }'",
+                    "description": "The command line to be executed",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "File",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -11,
+            "text": "result",
+            "description": "",
+            "x": 1386.6934394990717,
+            "y": 686.2404139775942,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "d75627ae-542b-4953-b9f7-97d1b0cabed3",
+                    "IdText": "result",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "bb5381c3-37d9-45fe-9958-3f5893949bdf",
+                    "IdText": "result",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": 5,
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": false,
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Check file path exists",
+                    "name": "check_filepath_exists",
+                    "value": false,
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "File path",
+                    "name": "filepath",
+                    "value": "result.txt",
+                    "description": "Path to the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Directory name",
+                    "name": "dirname",
+                    "value": "",
+                    "description": "Name of the directory containing the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "File",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -12,
+            "text": "functest.tar.gz",
+            "description": "",
+            "x": 1388.6565879436182,
+            "y": 537.7430625649249,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "014634a9-3798-4f14-a3d7-f437663a1d2e",
+                    "IdText": "output",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "d8e957ce-07b6-4157-b5c8-b02999cb63e4",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": "5",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": "0",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Check file path exists",
+                    "name": "check_filepath_exists",
+                    "value": "1",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "File path",
+                    "name": "filepath",
+                    "value": "functest.tar.gz",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                },
+                {
+                    "text": "Directory name",
+                    "name": "dirname",
+                    "value": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "File",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -3,
+            "text": "image.cont.taylor.0.restored",
+            "description": "",
+            "x": 946.8249278718572,
+            "y": 614.3409972751181,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "9bca7d4d-ce74-457c-bd2a-d1d2bb59482e",
+                    "IdText": "restored_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "5c78339a-2cbf-482c-9df2-7cb9bc4879e0",
+                    "IdText": "restored_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": 5,
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": false,
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Check file path exists",
+                    "name": "check_filepath_exists",
+                    "value": false,
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "File path",
+                    "name": "filepath",
+                    "value": "/var/dlg_home/workspace/image.cont.taylor.0.restored",
+                    "description": "Path to the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Directory name",
+                    "name": "dirname",
+                    "value": "",
+                    "description": "Name of the directory containing the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "File",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -5,
+            "text": "residual.cont.taylor.0",
+            "description": "",
+            "x": 948.8329225420771,
+            "y": 445.84765950030135,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "deac61fc-431f-4103-90bb-39a9aff2166f",
+                    "IdText": "residual_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "9ca5af16-63db-43d1-b029-83f1beec4888",
+                    "IdText": "residual_image",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": 5,
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": false,
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Check file path exists",
+                    "name": "check_filepath_exists",
+                    "value": false,
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "File path",
+                    "name": "filepath",
+                    "value": "/var/dlg_home/workspace/residual.cont.taylor.0",
+                    "description": "Path to the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Directory name",
+                    "name": "dirname",
+                    "value": "",
+                    "description": "Name of the directory containing the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "NGAS",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -8,
+            "text": "NGAS functest.tar.gz",
+            "description": "",
+            "x": 1795.410389871375,
+            "y": 548.2737154001115,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "286968cf-3200-4074-ac54-43ec869a431c",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": 5,
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": false,
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "NGAS Server",
+                    "name": "ngasSrv",
+                    "value": "ngas.ddns.net",
+                    "description": "The URL of the NGAS Server",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "NGAS Port",
+                    "name": "ngasPort",
+                    "value": 7777,
+                    "description": "The port of the NGAS Server",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Mime Type",
+                    "name": "ngasMime",
+                    "value": "application/octet-stream",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "File ID",
+                    "name": "ngasFileId",
+                    "value": "functest_yanda.tar.gz",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#3498DB",
+            "drawOrderHint": 0,
+            "key": -9,
+            "text": "Archive results",
+            "description": "A simple APP that copies its inputs into its outputs. All inputs are copied into all outputs in the order they were declared in the graph. If an input is a container (e.g. a directory) it copies the content recursively.",
+            "x": 1589.0739223688463,
+            "y": 570.6820636213961,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": true,
+            "inputPorts": [
+                {
+                    "Id": "2dd8717e-6f53-4b4e-96eb-c150afed1b84",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "066a0d33-876a-41ba-920e-df8354455fb8",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "appclass",
+                    "name": "appclass",
+                    "value": "dlg.apps.simple.CopyApp",
+                    "description": "Application class",
+                    "readonly": true,
+                    "type": "String"
+                },
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "description": "Estimated execution time",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "description": "Number of cores used",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "Component is start of a group",
+                    "readonly": false,
+                    "type": "Boolean"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "NGAS",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -13,
+            "text": "NGAS ContImg_Test.tar.gz",
+            "description": "",
+            "x": 458.45661735305885,
+            "y": 96.63604273549097,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": true,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "ed9e200c-e8a2-4e3c-96bc-0c9e15230c6d",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": 5,
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": false,
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "NGAS Server",
+                    "name": "ngasSrv",
+                    "value": "ngas.ddns.net",
+                    "description": "The URL of the NGAS Server",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "NGAS Port",
+                    "name": "ngasPort",
+                    "value": 7777,
+                    "description": "The port of the NGAS Server",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Mime Type",
+                    "name": "ngasMime",
+                    "value": "application/octet-stream",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "File ID",
+                    "name": "ngasFileId",
+                    "value": "ContImg_Test.tar.gz",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#3498DB",
+            "drawOrderHint": 0,
+            "key": -14,
+            "text": "Get data",
+            "description": "A simple APP that copies its inputs into its outputs. All inputs are copied into all outputs in the order they were declared in the graph. If an input is a container (e.g. a directory) it copies the content recursively.",
+            "x": 458.96123590693753,
+            "y": 173.1646679427606,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": true,
+            "inputPorts": [
+                {
+                    "Id": "ff90812f-3db9-4c7a-a5d4-4e6730373547",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "c45c8ba6-d14a-48bd-8383-a94919648c6f",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "appclass",
+                    "name": "appclass",
+                    "value": "dlg.apps.simple.CopyApp",
+                    "description": "Application class",
+                    "readonly": true,
+                    "type": "String"
+                },
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "description": "Estimated execution time",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "description": "Number of cores used",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "Component is start of a group",
+                    "readonly": false,
+                    "type": "Boolean"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "File",
+            "categoryType": "Data",
+            "isData": true,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#394BB2",
+            "drawOrderHint": 0,
+            "key": -15,
+            "text": "ContImg_Test.tar.gz",
+            "description": "",
+            "x": 458.11548631713225,
+            "y": 256.46869694895577,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": true,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "2769aca5-365a-45c5-8b16-95b132b0a170",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "211a479e-de29-4842-b31a-36a2bd97e042",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Data volume",
+                    "name": "data_volume",
+                    "value": 5,
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Group end",
+                    "name": "group_end",
+                    "value": false,
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Check file path exists",
+                    "name": "check_filepath_exists",
+                    "value": false,
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "File path",
+                    "name": "filepath",
+                    "value": "ContImg_Test.tar.gz",
+                    "description": "Path to the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                },
+                {
+                    "text": "Directory name",
+                    "name": "dirname",
+                    "value": "",
+                    "description": "Name of the directory containing the file for this node",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        },
+        {
+            "category": "BashShellApp",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "color": "#1C2833",
+            "drawOrderHint": 0,
+            "key": -16,
+            "text": "Unpack",
+            "description": "An application component run within the Bash Shell",
+            "x": 456.90766997664645,
+            "y": 337.7770438633542,
+            "width": 200,
+            "height": 200,
+            "collapsed": false,
+            "showPorts": false,
+            "flipPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "readonly": false,
+            "inputPorts": [
+                {
+                    "Id": "faae21fb-87bf-4aeb-b533-0851696e7e20",
+                    "IdText": "fileObject",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "94f65e2d-df6c-49de-9ec5-cbad244765f7",
+                    "IdText": "config",
+                    "event": false,
+                    "type": "Unknown"
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Float"
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "description": "Number of CPUs used for this application.",
+                    "readonly": false,
+                    "type": "Integer"
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean"
+                },
+                {
+                    "text": "Command",
+                    "name": "Arg01",
+                    "value": "tar -xf %i0 -C /var/dlg_home/testdata && mkdir -p yanda && cd /var/dlg_home/testdata/yanda && mv ../functest.in .",
+                    "description": "The command line to be executed",
+                    "readonly": false,
+                    "type": "String"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "exitAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "exitApplicationKey": null
+        }
+    ],
+    "linkDataArray": [
+        {
+            "from": -2,
+            "fromPort": "5fe7e0da-d881-495e-acfb-1d3539cd46c8",
+            "to": -4,
+            "toPort": "2bd70c65-e0d5-443a-9d64-46724b140491",
+            "loop_aware": "0"
+        },
+        {
+            "from": -6,
+            "fromPort": "877e3e58-d841-49d3-adb0-c5d4f1b43a3a",
+            "to": -11,
+            "toPort": "d75627ae-542b-4953-b9f7-97d1b0cabed3",
+            "loop_aware": "0"
+        },
+        {
+            "from": -11,
+            "fromPort": "bb5381c3-37d9-45fe-9958-3f5893949bdf",
+            "to": -10,
+            "toPort": "98c622e3-b565-428d-95f7-16e9a0e9cfee",
+            "loop_aware": "0"
+        },
+        {
+            "from": -12,
+            "fromPort": "d8e957ce-07b6-4157-b5c8-b02999cb63e4",
+            "to": -9,
+            "toPort": "2dd8717e-6f53-4b4e-96eb-c150afed1b84",
+            "loop_aware": "0"
+        },
+        {
+            "from": -7,
+            "fromPort": "51c774e6-d9cb-4ce1-8cf7-7c669a8bfa56",
+            "to": -12,
+            "toPort": "014634a9-3798-4f14-a3d7-f437663a1d2e",
+            "loop_aware": "0"
+        },
+        {
+            "from": -9,
+            "fromPort": "066a0d33-876a-41ba-920e-df8354455fb8",
+            "to": -8,
+            "toPort": "286968cf-3200-4074-ac54-43ec869a431c",
+            "loop_aware": "0"
+        },
+        {
+            "from": -16,
+            "fromPort": "94f65e2d-df6c-49de-9ec5-cbad244765f7",
+            "to": -2,
+            "toPort": "48ad7359-66ab-4d2e-ad04-3c5d4abd7047",
+            "loop_aware": "0"
+        },
+        {
+            "from": -13,
+            "fromPort": "ed9e200c-e8a2-4e3c-96bc-0c9e15230c6d",
+            "to": -14,
+            "toPort": "ff90812f-3db9-4c7a-a5d4-4e6730373547",
+            "loop_aware": "0"
+        },
+        {
+            "from": -14,
+            "fromPort": "c45c8ba6-d14a-48bd-8383-a94919648c6f",
+            "to": -15,
+            "toPort": "2769aca5-365a-45c5-8b16-95b132b0a170",
+            "loop_aware": "0"
+        },
+        {
+            "from": -15,
+            "fromPort": "211a479e-de29-4842-b31a-36a2bd97e042",
+            "to": -16,
+            "toPort": "faae21fb-87bf-4aeb-b533-0851696e7e20",
+            "loop_aware": "0"
+        },
+        {
+            "from": -4,
+            "fromPort": "cff7e896-e69f-4ade-8c59-42346b1b5b91",
+            "to": -3,
+            "toPort": "9bca7d4d-ce74-457c-bd2a-d1d2bb59482e",
+            "loop_aware": "0"
+        },
+        {
+            "from": -4,
+            "fromPort": "d9d67262-47a7-44b3-a7df-ddab74a0dcbe",
+            "to": -5,
+            "toPort": "deac61fc-431f-4103-90bb-39a9aff2166f",
+            "loop_aware": "0"
+        },
+        {
+            "from": -3,
+            "fromPort": "5c78339a-2cbf-482c-9df2-7cb9bc4879e0",
+            "to": -6,
+            "toPort": "c1de70ac-a1b4-4272-9590-7f783df1f79e",
+            "loop_aware": "0"
+        },
+        {
+            "from": -5,
+            "fromPort": "9ca5af16-63db-43d1-b029-83f1beec4888",
+            "to": -7,
+            "toPort": "f7699400-43c4-4eca-86a6-517a0020ab33",
+            "loop_aware": "0"
+        },
+        {
+            "from": -3,
+            "fromPort": "5c78339a-2cbf-482c-9df2-7cb9bc4879e0",
+            "to": -7,
+            "toPort": "0cac193d-0de9-4aba-9dd5-9344081e6f36",
+            "loop_aware": "0"
+        }
+    ]
+}
