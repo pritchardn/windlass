@@ -873,7 +873,7 @@
                 {
                     "text": "File path",
                     "name": "filepath",
-                    "value": "/var/dlg_home/workspace/image.cont.taylor.0.restored",
+                    "value": "/var/dlg_home/workspace/yanda/image.cont.taylor.0.restored",
                     "description": "Path to the file for this node",
                     "readonly": false,
                     "type": "String"
@@ -970,7 +970,7 @@
                 {
                     "text": "File path",
                     "name": "filepath",
-                    "value": "/var/dlg_home/workspace/residual.cont.taylor.0",
+                    "value": "/var/dlg_home/workspace/yanda/residual.cont.taylor.0",
                     "description": "Path to the file for this node",
                     "readonly": false,
                     "type": "String"
