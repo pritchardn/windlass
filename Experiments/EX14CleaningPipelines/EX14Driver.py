@@ -32,13 +32,13 @@ def write_summary(methods, st, end, outname, rmode: ReproducibilityFlags):
                 hashes = csv.DictReader(open(fname))
                 for line in hashes:
                     if line['Hash'] == str(rmode):
-                        row[fieldnames[i+1]] = line[prefix]
+                        row[fieldnames[i]] = line[prefix]
             writer.writerow(row)
 
 
 if __name__ == "__main__":
     graphs = ['Yanda_Cont_Img']
-    first = 1
+    first = 0
     last = 2
     main(graphs, first, last)
     write_summary(graphs, first, last, 'rerun', ReproducibilityFlags.RERUN)
