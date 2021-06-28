@@ -1,0 +1,1046 @@
+[
+  {
+    "oid": "1_-5_0/0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": "5.",
+    "tw": 5,
+    "num_cpus": "1",
+    "execution_time": "5",
+    "group_start": "0",
+    "appclass": "dlg.apps.simple.SleepApp",
+    "Arg01": "sleepTime=5.",
+    "iid": "0/0",
+    "lg_key": -5,
+    "dt": "PythonApp",
+    "nm": "Average in Freq & Time",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "PythonApp",
+        "numInputPorts": 3,
+        "numOutputPorts": 2,
+        "streaming": false,
+        "merkleroot": "259814742940e45735b1d2eea96a3e8794e031e21e68e1ee292d2419abf95d3c"
+      },
+      "lg_parenthashes": {
+        "-19": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+        "-12": "b9e7e301a48c8f061a0f9e4aa6398473a48ba9292351dd4d808a7b3a4700c590"
+      },
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "merkleroot": "8428378d44393f8cc1dab46197e950d728a6f3a7f324df8f0e65242d9fa5c5ce"
+      },
+      "lg_blockhash": "769e22b1a1f008f973966d630d2671d73c626c958b63877145eabd46889de4ac",
+      "pgt_parenthashes": {
+        "1_-19_0/0": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0",
+        "1_-12_0/0": "72760c915df538ca92fb8d3f6d5a2c0f11d9ae67a3f48a0e98f8ce73448f8129"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "c74b1e3fe8e011f2551fb49afd7b7d904d2eeef71770f8073542d70dcd120baf"
+    },
+    "outputs": [
+      "1_-10_0/0"
+    ],
+    "inputs": [
+      "1_-12_0/0",
+      "1_-19_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-22_0/0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": "1",
+    "execution_time": "5",
+    "group_start": "0",
+    "appclass": "dlg.apps.simple.SleepApp",
+    "iid": "0/0",
+    "lg_key": -22,
+    "dt": "PythonApp",
+    "nm": "Apply Inversion",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "PythonApp",
+        "numInputPorts": 3,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "28215ec59a31411d4a2b11cc099fbc76a23b8bf9b2fd257393317cc90e6c209a"
+      },
+      "lg_parenthashes": {
+        "-19": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+        "-9": "ecdba73f003630068cb55849ad52db95b1b49ecae16bf4df42ceb815cec8619f",
+        "-10": "a905ecf79fd599deb030a2d1a11e0de669cfe997adb0cb2de5cd566222c4ab27"
+      },
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "merkleroot": "8428378d44393f8cc1dab46197e950d728a6f3a7f324df8f0e65242d9fa5c5ce"
+      },
+      "lg_blockhash": "b2f4337e57c3d8e47fd6cee3c2ac26487c996cb40075bd2b3c3f82d553950a3f",
+      "pgt_parenthashes": {
+        "1_-19_0/0": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0",
+        "1_-9_0/0": "2a464525a411265833b4d61709656b334f6f2c0842fc05b1f9aecb69650778e3",
+        "1_-10_0/0": "b5502bb4fb75b1144e86aa266848752b233630ef6c269651ad94a3605a3172d4"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "50aea807831337933a7d82661cf3e1107ca27d7da9d90d2beda1238bafbf063c"
+    },
+    "inputs": [
+      "1_-10_0/0",
+      "1_-9_0/0",
+      "1_-19_0/0"
+    ],
+    "outputs": [
+      "1_-14_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-2_0/0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": "1",
+    "execution_time": "5",
+    "group_start": "0",
+    "appclass": "dlg.apps.simple.SleepApp",
+    "iid": "0/0",
+    "lg_key": -2,
+    "dt": "PythonApp",
+    "nm": "Calculate Cal Matrix",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "PythonApp",
+        "numInputPorts": 4,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "3ddf0badecf66ba5fb7a9edec0e046f7a644e2c1f97a116b3f66003e1f803691"
+      },
+      "lg_parenthashes": {
+        "-19": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+        "-4": "249be6494c78b02320b3740cf4b6eca2ce5eea4e5ce23d8b98dd737f5de36887"
+      },
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "merkleroot": "8428378d44393f8cc1dab46197e950d728a6f3a7f324df8f0e65242d9fa5c5ce"
+      },
+      "lg_blockhash": "16de968c669c760e1a7d906156ea24ad3ee90f0bf5d8e469b9a01fa6d68a9e9b",
+      "pgt_parenthashes": {
+        "1_-4_0": "20e4f57b19a08613bb24a0ccbebb249b481c8e0d96ba27553804ca884196be5b",
+        "1_-19_0/0": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "33c1dbb1ccf46678bf1b4ddda3605a75243a8a8df44dcdb7b5c83d3d033067f5"
+    },
+    "outputs": [
+      "1_-9_0/0"
+    ],
+    "inputs": [
+      "1_-4_0",
+      "1_-19_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-1_0/0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": "1",
+    "execution_time": "5",
+    "group_start": "0",
+    "appclass": "dlg.apps.simple.SleepApp",
+    "iid": "0/0",
+    "lg_key": -1,
+    "dt": "PythonApp",
+    "nm": "Phase Rotate Data",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "PythonApp",
+        "numInputPorts": 3,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "28215ec59a31411d4a2b11cc099fbc76a23b8bf9b2fd257393317cc90e6c209a"
+      },
+      "lg_parenthashes": {
+        "-19": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+        "-4": "249be6494c78b02320b3740cf4b6eca2ce5eea4e5ce23d8b98dd737f5de36887",
+        "-6": "80fae9b919025a9a74d27a979333bd806016fea36ba7d95dbf037343304808a6"
+      },
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "merkleroot": "8428378d44393f8cc1dab46197e950d728a6f3a7f324df8f0e65242d9fa5c5ce"
+      },
+      "lg_blockhash": "41bb166550cd96ff4b160185f5f389c2a8e819b6fbaf5c24e38f044b1ae19ed9",
+      "pgt_parenthashes": {
+        "1_-4_0": "20e4f57b19a08613bb24a0ccbebb249b481c8e0d96ba27553804ca884196be5b",
+        "1_-19_0/0": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0",
+        "1_-6_0/0": "ae528e3621ef383e401650aee0c03096620dfe0df098b99cd7a6fed9e9c64fb4"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "9e6de61a0544cd9469a0613f5c29200acfb63964b0271f3e84aa11a37eb69624"
+    },
+    "inputs": [
+      "1_-4_0",
+      "1_-6_0/0",
+      "1_-19_0/0"
+    ],
+    "outputs": [
+      "1_-12_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-3_0/0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": "1",
+    "execution_time": "5",
+    "group_start": "0",
+    "appclass": "dlg.apps.simple.SleepApp",
+    "iid": "0/0",
+    "lg_key": -3,
+    "dt": "PythonApp",
+    "nm": "Calc DD Rotation",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "PythonApp",
+        "numInputPorts": 3,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "28215ec59a31411d4a2b11cc099fbc76a23b8bf9b2fd257393317cc90e6c209a"
+      },
+      "lg_parenthashes": {
+        "-19": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+        "-8": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+        "-4": "249be6494c78b02320b3740cf4b6eca2ce5eea4e5ce23d8b98dd737f5de36887"
+      },
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "merkleroot": "8428378d44393f8cc1dab46197e950d728a6f3a7f324df8f0e65242d9fa5c5ce"
+      },
+      "lg_blockhash": "25b7b4e3c3159dac3f06d8dec760e3f7e42c44eb492fc04186610464b4614d7d",
+      "pgt_parenthashes": {
+        "1_-4_0": "20e4f57b19a08613bb24a0ccbebb249b481c8e0d96ba27553804ca884196be5b",
+        "1_-19_0/0": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0",
+        "1_-8_0/0": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "fcd46f969d4e4f24999f0012424f1219ffe17fa62c500d550baea9b013943d42"
+    },
+    "outputs": [
+      "1_-6_0/0"
+    ],
+    "inputs": [
+      "1_-4_0",
+      "1_-8_0/0",
+      "1_-19_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-9_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -9,
+    "dt": "Memory",
+    "nm": "CalMatrix",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {
+        "-2": "16de968c669c760e1a7d906156ea24ad3ee90f0bf5d8e469b9a01fa6d68a9e9b"
+      },
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "ecdba73f003630068cb55849ad52db95b1b49ecae16bf4df42ceb815cec8619f",
+      "pgt_parenthashes": {
+        "1_-2_0/0": "33c1dbb1ccf46678bf1b4ddda3605a75243a8a8df44dcdb7b5c83d3d033067f5"
+      },
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "2a464525a411265833b4d61709656b334f6f2c0842fc05b1f9aecb69650778e3"
+    },
+    "producers": [
+      "1_-2_0/0"
+    ],
+    "consumers": [
+      "1_-22_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-10_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -10,
+    "dt": "Memory",
+    "nm": "avgRotData",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {
+        "-5": "769e22b1a1f008f973966d630d2671d73c626c958b63877145eabd46889de4ac"
+      },
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "a905ecf79fd599deb030a2d1a11e0de669cfe997adb0cb2de5cd566222c4ab27",
+      "pgt_parenthashes": {
+        "1_-5_0/0": "c74b1e3fe8e011f2551fb49afd7b7d904d2eeef71770f8073542d70dcd120baf"
+      },
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "b5502bb4fb75b1144e86aa266848752b233630ef6c269651ad94a3605a3172d4"
+    },
+    "producers": [
+      "1_-5_0/0"
+    ],
+    "consumers": [
+      "1_-22_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-12_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -12,
+    "dt": "Memory",
+    "nm": "rotData",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {
+        "-1": "41bb166550cd96ff4b160185f5f389c2a8e819b6fbaf5c24e38f044b1ae19ed9"
+      },
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "b9e7e301a48c8f061a0f9e4aa6398473a48ba9292351dd4d808a7b3a4700c590",
+      "pgt_parenthashes": {
+        "1_-1_0/0": "9e6de61a0544cd9469a0613f5c29200acfb63964b0271f3e84aa11a37eb69624"
+      },
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "72760c915df538ca92fb8d3f6d5a2c0f11d9ae67a3f48a0e98f8ce73448f8129"
+    },
+    "consumers": [
+      "1_-5_0/0"
+    ],
+    "producers": [
+      "1_-1_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-14_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -14,
+    "dt": "Memory",
+    "nm": "solution",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {
+        "-22": "b2f4337e57c3d8e47fd6cee3c2ac26487c996cb40075bd2b3c3f82d553950a3f"
+      },
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "a01dba0298069122361714e25b66d53a829617bb1290bf416999d380a02d8150",
+      "pgt_parenthashes": {
+        "1_-22_0/0": "50aea807831337933a7d82661cf3e1107ca27d7da9d90d2beda1238bafbf063c"
+      },
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "cdb0186b19918d9351c0db5924348a61bef70e4863de5c84314c75992ba818d9"
+    },
+    "producers": [
+      "1_-22_0/0"
+    ],
+    "consumers": [
+      "1_-13_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-6_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -6,
+    "dt": "Memory",
+    "nm": "rotMatrix",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {
+        "-3": "25b7b4e3c3159dac3f06d8dec760e3f7e42c44eb492fc04186610464b4614d7d"
+      },
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "80fae9b919025a9a74d27a979333bd806016fea36ba7d95dbf037343304808a6",
+      "pgt_parenthashes": {
+        "1_-3_0/0": "fcd46f969d4e4f24999f0012424f1219ffe17fa62c500d550baea9b013943d42"
+      },
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "ae528e3621ef383e401650aee0c03096620dfe0df098b99cd7a6fed9e9c64fb4"
+    },
+    "producers": [
+      "1_-3_0/0"
+    ],
+    "consumers": [
+      "1_-1_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-8_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -8,
+    "dt": "Memory",
+    "nm": "direction",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {},
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+      "pgt_parenthashes": {},
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0"
+    },
+    "consumers": [
+      "1_-3_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-19_0/0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0/0",
+    "lg_key": -19,
+    "dt": "Memory",
+    "nm": "config",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {},
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "0c30c64ceb3504a5230a050174412b5df89200946935215d33d9e973faad92ef",
+      "pgt_parenthashes": {},
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "394d2a01ca4998d16642dae29d3703d895430d3ac0203abec033c087df7a41e0"
+    },
+    "consumers": [
+      "1_-3_0/0",
+      "1_-5_0/0",
+      "1_-22_0/0",
+      "1_-1_0/0",
+      "1_-2_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-16_0/0",
+    "type": "plain",
+    "storage": "File",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "check_filepath_exists": "1",
+    "filepath": "/var/dlg_home/leaptest/calTable.out",
+    "data_volume": "5",
+    "group_end": "0",
+    "dirname": "",
+    "iid": "0/0",
+    "lg_key": -16,
+    "dt": "File",
+    "nm": "CalTable",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "File",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "b5aa98d04984e4fc7a5790b85e6f1a5381e90b91018daeaa46470ebca4362e2d"
+      },
+      "lg_parenthashes": {},
+      "lg_data": {
+        "data_volume": "5",
+        "check_filepath_exists": "1",
+        "merkleroot": "835dcfae47784746386b3f91cb8ce6f6410fb857a498cee07b3c6477b0546c96"
+      },
+      "lg_blockhash": "abcd535c0b34ed3d5c67864238cbee81c8342ec143d5737caac65f3faea012e4",
+      "pgt_parenthashes": {},
+      "pgt_data": {
+        "type": "plain",
+        "storage": "File",
+        "merkleroot": "ac4b69fa6dd5a7a3180d694714490c63e9b34f2a3a706ad80733cd43640160ce"
+      },
+      "pgt_blockhash": "6762d1f3c124760f7f2fa1330a811b94d51eb82d6bd21ea3efd28b74241a2c86"
+    },
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-13_0/0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0,
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": 1,
+    "iid": "0/0",
+    "lg_key": -13,
+    "dt": "PythonApp",
+    "nm": "CalTableWriter",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Group",
+        "category": "Gather",
+        "numInputPorts": 1,
+        "numOutputPorts": 0,
+        "streaming": false,
+        "merkleroot": "42a522615e82afb7fcd357be902d4cab71bb08610bc1bb6d3724f1aa64362435"
+      },
+      "lg_parenthashes": {
+        "-14": "a01dba0298069122361714e25b66d53a829617bb1290bf416999d380a02d8150"
+      },
+      "lg_data": {
+        "inputApplicationName": "sleep",
+        "inputApplicationType": "PythonApp",
+        "num_of_inputs": "10",
+        "gather_axis": "duplication",
+        "merkleroot": "a2deee8dbd5f60c76e53a48a630d52c1b5dd3f299ffb5cf045eafe2e53776751"
+      },
+      "lg_blockhash": "941e6ebb41363a3fa4c7ca3a6758d23959dbf0340613928d1301d65f0d049fd1",
+      "pgt_parenthashes": {
+        "1_-14_0/0": "cdb0186b19918d9351c0db5924348a61bef70e4863de5c84314c75992ba818d9"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "b8941beb9dd401e49f542cfdb5886ac6ea8f6aa11458cc2857537bbe3b001591"
+    },
+    "inputs": [
+      "1_-14_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-4_0",
+    "type": "plain",
+    "storage": "File",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "check_filepath_exists": "1",
+    "filepath": "/var/dlg_home/leaptest/measure.in",
+    "data_volume": "5",
+    "group_end": "0",
+    "dirname": "",
+    "iid": "0",
+    "lg_key": -4,
+    "dt": "File",
+    "nm": "MeasurementSet",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "File",
+        "numInputPorts": 1,
+        "numOutputPorts": 6,
+        "streaming": false,
+        "merkleroot": "279448e818755c3fdf4806d6bff3c007c9976afd7d3fcc638817d0591cfc838f"
+      },
+      "lg_parenthashes": {},
+      "lg_data": {
+        "data_volume": "5",
+        "check_filepath_exists": "1",
+        "merkleroot": "835dcfae47784746386b3f91cb8ce6f6410fb857a498cee07b3c6477b0546c96"
+      },
+      "lg_blockhash": "249be6494c78b02320b3740cf4b6eca2ce5eea4e5ce23d8b98dd737f5de36887",
+      "pgt_parenthashes": {},
+      "pgt_data": {
+        "type": "plain",
+        "storage": "File",
+        "merkleroot": "ac4b69fa6dd5a7a3180d694714490c63e9b34f2a3a706ad80733cd43640160ce"
+      },
+      "pgt_blockhash": "20e4f57b19a08613bb24a0ccbebb249b481c8e0d96ba27553804ca884196be5b"
+    },
+    "consumers": [
+      "1_-2_0/0",
+      "1_-3_0/0",
+      "1_-23_0",
+      "1_-1_0/0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-18_0",
+    "type": "plain",
+    "storage": "File",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "check_filepath_exists": "1",
+    "filepath": "/var/dlg_home/leaptest/config.json",
+    "data_volume": "5",
+    "group_end": "0",
+    "dirname": "",
+    "iid": "0",
+    "lg_key": -18,
+    "dt": "File",
+    "nm": "Config",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "File",
+        "numInputPorts": 0,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "79871cc43d0f138821260d1080f7dd058dd6d8c37d848ad427d5ed2fc51aac3c"
+      },
+      "lg_parenthashes": {},
+      "lg_data": {
+        "data_volume": "5",
+        "check_filepath_exists": "1",
+        "merkleroot": "835dcfae47784746386b3f91cb8ce6f6410fb857a498cee07b3c6477b0546c96"
+      },
+      "lg_blockhash": "83e7f02df19cfe19cc5d6873ceb98300e170fb2a287756f88c5312a859474819",
+      "pgt_parenthashes": {},
+      "pgt_data": {
+        "type": "plain",
+        "storage": "File",
+        "merkleroot": "ac4b69fa6dd5a7a3180d694714490c63e9b34f2a3a706ad80733cd43640160ce"
+      },
+      "pgt_blockhash": "15f66e282fa4f67ad2d80fc96c94920d5bad53bdcc3766095ceae6f1f5794732"
+    },
+    "consumers": [
+      "1_-11_0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-23_0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": "1",
+    "execution_time": "5",
+    "group_start": "0",
+    "appclass": "dlg.apps.simple.SleepApp",
+    "iid": "0",
+    "lg_key": -23,
+    "dt": "PythonApp",
+    "nm": "Get Cal Sources",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Application",
+        "category": "PythonApp",
+        "numInputPorts": 2,
+        "numOutputPorts": 2,
+        "streaming": false,
+        "merkleroot": "67bf96b4a71aef4e725e45d74f129aac6ebb568324ce3a9cb636a25334ff9a24"
+      },
+      "lg_parenthashes": {
+        "-4": "249be6494c78b02320b3740cf4b6eca2ce5eea4e5ce23d8b98dd737f5de36887"
+      },
+      "lg_data": {
+        "execution_time": "5",
+        "num_cpus": "1",
+        "merkleroot": "8428378d44393f8cc1dab46197e950d728a6f3a7f324df8f0e65242d9fa5c5ce"
+      },
+      "lg_blockhash": "110382eb01d0e64762829289b9964d186e5673049d7bfab93373eb356facdfa8",
+      "pgt_parenthashes": {
+        "1_-4_0": "20e4f57b19a08613bb24a0ccbebb249b481c8e0d96ba27553804ca884196be5b"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "8146b08db0f39d7b01c5bcb3f501e114c46f0301160973c94a2983d9400cddce"
+    },
+    "inputs": [
+      "1_-4_0"
+    ],
+    "outputs": [
+      "1_-25_0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-25_0",
+    "type": "plain",
+    "storage": "Memory",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "dw": 5,
+    "data_volume": "5",
+    "group_end": "0",
+    "iid": "0",
+    "lg_key": -25,
+    "dt": "Memory",
+    "nm": "directionList",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Data",
+        "category": "Memory",
+        "numInputPorts": 1,
+        "numOutputPorts": 1,
+        "streaming": false,
+        "merkleroot": "c47a10d8081f121ae692f50aa602efdbe2b9f6d6c9e155a41330cde32392f42d"
+      },
+      "lg_parenthashes": {
+        "-23": "110382eb01d0e64762829289b9964d186e5673049d7bfab93373eb356facdfa8"
+      },
+      "lg_data": {
+        "data_volume": "5",
+        "merkleroot": "5aa5cea2c967aa3f8492cd996dee79a80a3a16a9bdae6170e5b3c7f9d9671d2e"
+      },
+      "lg_blockhash": "20285b523a724d486f662c47ab844d592684a29d359928d9cb0b740d794de102",
+      "pgt_parenthashes": {
+        "1_-23_0": "8146b08db0f39d7b01c5bcb3f501e114c46f0301160973c94a2983d9400cddce"
+      },
+      "pgt_data": {
+        "type": "plain",
+        "storage": "Memory",
+        "merkleroot": "6ac9192343696189b459fd7e71186ad0ffa3c254d0978db1f8aad8fac3e220ec"
+      },
+      "pgt_blockhash": "6891f11446cc7b2702f7b3817e41a16d051c51a689343d3c94d2d6813d1cc8eb"
+    },
+    "producers": [
+      "1_-23_0"
+    ],
+    "consumers": [
+      "1_-11_0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "oid": "1_-11_0",
+    "type": "app",
+    "app": "dlg.apps.simple.SleepApp",
+    "rank": [
+      0
+    ],
+    "loop_cxt": null,
+    "sleepTime": 5,
+    "tw": 5,
+    "num_cpus": 1,
+    "iid": "0",
+    "lg_key": -11,
+    "dt": "PythonApp",
+    "nm": "Direction Processing",
+    "reprodata": {
+      "rmode": "8",
+      "lgt_data": {
+        "category_type": "Group",
+        "category": "Scatter",
+        "numInputPorts": 2,
+        "numOutputPorts": 0,
+        "streaming": false,
+        "merkleroot": "ea0a5b94b344fff37913ff6d62e5917db2338fc122d98336f9a9188557728eb3"
+      },
+      "lg_parenthashes": {
+        "-18": "83e7f02df19cfe19cc5d6873ceb98300e170fb2a287756f88c5312a859474819",
+        "-25": "20285b523a724d486f662c47ab844d592684a29d359928d9cb0b740d794de102"
+      },
+      "lg_data": {
+        "inputApplicationName": "Distribute Config",
+        "inputApplicationType": "PythonApp",
+        "num_of_copies": "1",
+        "scatter_axis": "duplication",
+        "merkleroot": "46628851d72a821adcf0c67b7bba04a8511e7019b7a34bfd29592466737b9cd2"
+      },
+      "lg_blockhash": "97d3b62c77ce73a6dc03d0da3c61155e86d03cd75f7f9da1fe33b7229a565431",
+      "pgt_parenthashes": {
+        "1_-18_0": "15f66e282fa4f67ad2d80fc96c94920d5bad53bdcc3766095ceae6f1f5794732",
+        "1_-25_0": "6891f11446cc7b2702f7b3817e41a16d051c51a689343d3c94d2d6813d1cc8eb"
+      },
+      "pgt_data": {
+        "type": "app",
+        "dt": "PythonApp",
+        "merkleroot": "fe7fb331db91dd57ac5a532b1cdd7f9173aeb53bb1d84920539a78b362b8f11b"
+      },
+      "pgt_blockhash": "a39cfc59ac6e48bb5f4be0e9af520f32496498289ab57954871acf9ee56583ad"
+    },
+    "inputs": [
+      "1_-18_0",
+      "1_-25_0"
+    ],
+    "node": "#0",
+    "island": "#0"
+  },
+  {
+    "rmode": "8",
+    "meta_data": {
+      "repro_protocol": 0.1,
+      "hashing_alg": "_sha3.sha3_256"
+    },
+    "merkleroot": "08ef271a520aec97cea2fdec454dbb971e711d28def30c356549964ee364ca16",
+    "signature": "f1deb4504a21029b61131c4f01cee70d1c7f6f60a288fdb7507ceccc6f27d209"
+  }
+]
