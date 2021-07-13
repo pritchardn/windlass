@@ -11,42 +11,33 @@ from dlg.common.reproducibility.constants import ReproducibilityFlags
 from Experiments.tools.labTools import full_trial_single
 
 
-def main(methods, st, end):
+def main(methods):
     for method in methods:
-        for i in range(st, end + 1):
-            prefix = method + '_' + str(i)
-            print(prefix)
-            full_trial_single(prefix, './graphs/', './' + prefix + '_')
+        full_trial_single(method, './graphs/', './' + method + '_')
 
 
-def write_summary(methods, st, end, outname, rmode: ReproducibilityFlags):
+def write_summary(methods, outname, rmode: ReproducibilityFlags):
     with open(outname + '.csv', 'w') as csvf:
-        fieldnames = ['Method']
-        for i in range(st, end + 1):
-            fieldnames.append(str(i))
+        fieldnames = ['Graph', 'Hash']
         writer = csv.DictWriter(csvf, fieldnames=fieldnames)
         writer.writeheader()
         for method in methods:
             row = {fieldnames[0]: method}
-            for i in range(st, end + 1):
-                prefix = method + '_' + str(i)
-                fname = prefix + '_out.csv'
-                hashes = csv.DictReader(open(fname))
-                for line in hashes:
-                    if line['Hash'] == str(rmode):
-                        row[fieldnames[i]] = line[prefix]
+            fname = method + '_out.csv'
+            hashes = csv.DictReader(open(fname))
+            for line in hashes:
+                if line['Hash'] == str(rmode):
+                    row[fieldnames[1]] = line[method]
             writer.writerow(row)
 
 
 if __name__ == "__main__":
-    graphs = ['LEAP_CLI']  # ['LEAP']
-    first = 0
-    last = 0
-    main(graphs, first, last)
-    write_summary(graphs, first, last, 'rerun', ReproducibilityFlags.RERUN)
-    write_summary(graphs, first, last, 'repeat', ReproducibilityFlags.REPEAT)
-    write_summary(graphs, first, last, 'recompute', ReproducibilityFlags.RECOMPUTE)
-    write_summary(graphs, first, last, 'reproduce', ReproducibilityFlags.REPRODUCE)
-    write_summary(graphs, first, last, 'replicate_sci', ReproducibilityFlags.REPLICATE_SCI)
-    write_summary(graphs, first, last, 'replicate_comp', ReproducibilityFlags.REPLICATE_COMP)
-    write_summary(graphs, first, last, 'replicate_total', ReproducibilityFlags.REPLICATE_TOTAL)
+    graphs = ['LEAP_CLI_0', 'LEAP_CLI_1', 'LEAP_0', 'LEAP_1']
+    main(graphs)
+    write_summary(graphs, 'rerun', ReproducibilityFlags.RERUN)
+    write_summary(graphs, 'repeat', ReproducibilityFlags.REPEAT)
+    write_summary(graphs, 'recompute', ReproducibilityFlags.RECOMPUTE)
+    write_summary(graphs, 'reproduce', ReproducibilityFlags.REPRODUCE)
+    write_summary(graphs, 'replicate_sci', ReproducibilityFlags.REPLICATE_SCI)
+    write_summary(graphs, 'replicate_comp', ReproducibilityFlags.REPLICATE_COMP)
+    write_summary(graphs, 'replicate_total', ReproducibilityFlags.REPLICATE_TOTAL)
