@@ -3,7 +3,7 @@
 # Ensure a DALiuGE Daemon is running on port 8000
 
 # Note, input data comes from https://developer.skatelescope.org/projects/icrar-leap-accelerate/en/latest/md/Docker.html
-
+# This is also useful https://developer.skao.int/_/downloads/icrar-leap-accelerate/en/stable/pdf/
 import csv
 
 from dlg.common.reproducibility.constants import ReproducibilityFlags
@@ -39,9 +39,9 @@ def write_summary(methods, st, end, outname, rmode: ReproducibilityFlags):
 
 
 if __name__ == "__main__":
-    graphs = ['LEAP']
+    graphs = ['LEAP_CLI']  # ['LEAP']
     first = 0
-    last = 1
+    last = 0
     main(graphs, first, last)
     write_summary(graphs, first, last, 'rerun', ReproducibilityFlags.RERUN)
     write_summary(graphs, first, last, 'repeat', ReproducibilityFlags.REPEAT)
