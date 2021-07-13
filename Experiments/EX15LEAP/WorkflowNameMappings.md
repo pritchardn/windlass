@@ -8,3 +8,5 @@ For the sake of automated testing and indicating this is a linear process, here 
 | LEAP-Work-Flow            | LEAP_0        | No scattering
 | LEAP-Work-Flow             | LEAP_1        | Scattering |
 | leap-cli-dir|LEAP_CLI_0|Changed directory for leap_drops and directions.csv to /var/dlg_home/|
+| leap-cli-dir|LEAP_CLI_1|Changed directory for leap_drops and directions.csv to /var/dlg_home/ and cuda implementation|
+
