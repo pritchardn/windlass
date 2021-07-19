@@ -93,7 +93,7 @@
                 {
                     "text": "appclass",
                     "name": "appclass",
-                    "value": "dlg.common.leap_drops.ProduceConfig.ProduceConfig",
+                    "value": "leap_drops.ProduceConfig.ProduceConfig",
                     "description": "The path to the class that implements this app",
                     "readonly": true,
                     "type": "String"
