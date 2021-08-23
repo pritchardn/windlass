@@ -1,0 +1,595 @@
+{
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "ebaab08c-0459-46e7-abde-ef54f6d166f3",
+            "loop_aware": "0",
+            "to": -3,
+            "toPort": "9356555d-5b2d-4b08-a918-f731bd366208"
+        },
+        {
+            "from": -3,
+            "fromPort": "4c4996db-25a1-41da-a311-7e59e3e25735",
+            "loop_aware": "0",
+            "to": -2,
+            "toPort": "62ebebc4-e1ef-4634-9e44-2c845d8da6c0"
+        },
+        {
+            "from": -1,
+            "fromPort": "ebaab08c-0459-46e7-abde-ef54f6d166f3",
+            "loop_aware": "0",
+            "to": -4,
+            "toPort": "4f19b7b5-2b8c-46ba-8b80-aff8155f3870"
+        },
+        {
+            "from": -1,
+            "fromPort": "ebaab08c-0459-46e7-abde-ef54f6d166f3",
+            "loop_aware": "0",
+            "to": -5,
+            "toPort": "672e4fae-848e-442a-bf17-1b5a3988a5e0"
+        },
+        {
+            "from": -1,
+            "fromPort": "ebaab08c-0459-46e7-abde-ef54f6d166f3",
+            "loop_aware": "0",
+            "to": -6,
+            "toPort": "bdebeb76-9cfa-4051-b833-315977971cf3"
+        },
+        {
+            "from": -4,
+            "fromPort": "7e29e354-ba10-491f-9659-ac2bf8e1fbf8",
+            "loop_aware": "0",
+            "to": -2,
+            "toPort": "62ebebc4-e1ef-4634-9e44-2c845d8da6c0"
+        },
+        {
+            "from": -5,
+            "fromPort": "e17c95a4-11c2-4443-859b-4a32ecea6aeb",
+            "loop_aware": "0",
+            "to": -2,
+            "toPort": "62ebebc4-e1ef-4634-9e44-2c845d8da6c0"
+        },
+        {
+            "from": -6,
+            "fromPort": "c6a1d7e2-e8aa-4e05-bfef-e53dd6fa4aa7",
+            "loop_aware": "0",
+            "to": -2,
+            "toPort": "62ebebc4-e1ef-4634-9e44-2c845d8da6c0"
+        }
+    ],
+    "modelData": {
+        "eagleCommitHash": "9dffb2c3f02e3f230247356191a5ca4e8e2c11a1",
+        "eagleVersion": "v3.0.4",
+        "filePath": "Diagram-2021-08-23-16-17-31.graph",
+        "fileType": "graph",
+        "git_url": "",
+        "readonly": true,
+        "repo": "",
+        "repoBranch": "",
+        "repoService": "Unknown",
+        "schemaVersion": "OJS",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimated size of the data contained in this node",
+                    "name": "data_volume",
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Is this node the end of a group?",
+                    "name": "group_end",
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Boolean",
+                    "value": false
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [],
+            "isData": true,
+            "isGroup": false,
+            "key": -1,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "ebaab08c-0459-46e7-abde-ef54f6d166f3",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "readonly": false,
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Start",
+            "width": 200,
+            "x": 380,
+            "y": 314.5
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "Memory",
+            "categoryType": "Data",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimated size of the data contained in this node",
+                    "name": "data_volume",
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Is this node the end of a group?",
+                    "name": "group_end",
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Boolean",
+                    "value": false
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "62ebebc4-e1ef-4634-9e44-2c845d8da6c0",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -2,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "readonly": false,
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "End",
+            "width": 200,
+            "x": 913,
+            "y": 320.5
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "collapsed": false,
+            "color": "#3498DB",
+            "description": "An application component in the form of a Python app",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "name": "execution_time",
+                    "readonly": false,
+                    "text": "Execution time",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Number of CPUs used for this application.",
+                    "name": "num_cpus",
+                    "readonly": false,
+                    "text": "Num CPUs",
+                    "type": "Integer",
+                    "value": 1
+                },
+                {
+                    "description": "Is this node the start of a group?",
+                    "name": "group_start",
+                    "readonly": false,
+                    "text": "Group start",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "The python class that implements this application",
+                    "name": "appclass",
+                    "readonly": false,
+                    "text": "Appclass",
+                    "type": "String",
+                    "value": "dlg.apps.simple.ListAppendThrashingApp"
+                },
+                {
+                    "description": "",
+                    "name": "size",
+                    "readonly": false,
+                    "text": "size",
+                    "type": "Integer",
+                    "value": 10000000
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "9356555d-5b2d-4b08-a918-f731bd366208",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -3,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "4c4996db-25a1-41da-a311-7e59e3e25735",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "readonly": false,
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Python App",
+            "width": 200,
+            "x": 640,
+            "y": 86
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "collapsed": false,
+            "color": "#3498DB",
+            "description": "An application component in the form of a Python app",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "name": "execution_time",
+                    "readonly": false,
+                    "text": "Execution time",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Number of CPUs used for this application.",
+                    "name": "num_cpus",
+                    "readonly": false,
+                    "text": "Num CPUs",
+                    "type": "Integer",
+                    "value": 1
+                },
+                {
+                    "description": "Is this node the start of a group?",
+                    "name": "group_start",
+                    "readonly": false,
+                    "text": "Group start",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "The python class that implements this application",
+                    "name": "appclass",
+                    "readonly": false,
+                    "text": "Appclass",
+                    "type": "String",
+                    "value": "dlg.apps.simple.ListAppendThrashingApp"
+                },
+                {
+                    "description": "",
+                    "name": "size",
+                    "readonly": false,
+                    "text": "size",
+                    "type": "Integer",
+                    "value": 10000000
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "4f19b7b5-2b8c-46ba-8b80-aff8155f3870",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -4,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "7e29e354-ba10-491f-9659-ac2bf8e1fbf8",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "readonly": false,
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Python App",
+            "width": 200,
+            "x": 650.5,
+            "y": 210.25
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "collapsed": false,
+            "color": "#3498DB",
+            "description": "An application component in the form of a Python app",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "name": "execution_time",
+                    "readonly": false,
+                    "text": "Execution time",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Number of CPUs used for this application.",
+                    "name": "num_cpus",
+                    "readonly": false,
+                    "text": "Num CPUs",
+                    "type": "Integer",
+                    "value": 1
+                },
+                {
+                    "description": "Is this node the start of a group?",
+                    "name": "group_start",
+                    "readonly": false,
+                    "text": "Group start",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "The python class that implements this application",
+                    "name": "appclass",
+                    "readonly": false,
+                    "text": "Appclass",
+                    "type": "String",
+                    "value": "dlg.apps.simple.ListAppendThrashingApp"
+                },
+                {
+                    "description": "",
+                    "name": "size",
+                    "readonly": false,
+                    "text": "size",
+                    "type": "Integer",
+                    "value": 10000000
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "672e4fae-848e-442a-bf17-1b5a3988a5e0",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -5,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "e17c95a4-11c2-4443-859b-4a32ecea6aeb",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "readonly": false,
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Python App",
+            "width": 200,
+            "x": 651.5,
+            "y": 339.25
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "collapsed": false,
+            "color": "#3498DB",
+            "description": "An application component in the form of a Python app",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "name": "execution_time",
+                    "readonly": false,
+                    "text": "Execution time",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Number of CPUs used for this application.",
+                    "name": "num_cpus",
+                    "readonly": false,
+                    "text": "Num CPUs",
+                    "type": "Integer",
+                    "value": 1
+                },
+                {
+                    "description": "Is this node the start of a group?",
+                    "name": "group_start",
+                    "readonly": false,
+                    "text": "Group start",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "The python class that implements this application",
+                    "name": "appclass",
+                    "readonly": false,
+                    "text": "Appclass",
+                    "type": "String",
+                    "value": "dlg.apps.simple.ListAppendThrashingApp"
+                },
+                {
+                    "description": "",
+                    "name": "size",
+                    "readonly": false,
+                    "text": "size",
+                    "type": "Integer",
+                    "value": 10000000
+                }
+            ],
+            "flipPorts": false,
+            "height": 200,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "bdebeb76-9cfa-4051-b833-315977971cf3",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -6,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "c6a1d7e2-e8aa-4e05-bfef-e53dd6fa4aa7",
+                    "IdText": "test",
+                    "event": false,
+                    "type": "String"
+                }
+            ],
+            "readonly": false,
+            "selected": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "Python App",
+            "width": 200,
+            "x": 644.5,
+            "y": 469.25
+        }
+    ]
+}
