@@ -63,6 +63,14 @@ def graph_trial_single(w1, loc, flag=ReproducibilityFlags.NOTHING):
             w1: test_single(w1)}
 
 
+def single_trial_single(w1, loc, sav='./'):
+    with open(sav + 'out.csv', 'w', newline='') as file:
+        fieldnames = ['Hash', w1]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.NOTHING))
+
+
 def full_trial_single(w1, loc, sav='./'):
     with open(sav + 'out.csv', 'w', newline='') as file:
         fieldnames = ['Hash', w1]
