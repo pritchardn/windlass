@@ -256,7 +256,7 @@
                     "readonly": false,
                     "text": "size",
                     "type": "Integer",
-                    "value": 10000000
+                    "value": 8000
                 }
             ],
             "flipPorts": false,
@@ -353,7 +353,7 @@
                     "readonly": false,
                     "text": "size",
                     "type": "Integer",
-                    "value": 10000000
+                    "value": 8000
                 }
             ],
             "flipPorts": false,
@@ -450,7 +450,7 @@
                     "readonly": false,
                     "text": "size",
                     "type": "Integer",
-                    "value": 10000000
+                    "value": 8000
                 }
             ],
             "flipPorts": false,
@@ -547,7 +547,7 @@
                     "readonly": false,
                     "text": "size",
                     "type": "Integer",
-                    "value": 10000000
+                    "value": 8000
                 }
             ],
             "flipPorts": false,
