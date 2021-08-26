@@ -68,7 +68,7 @@ def single_trial_single(w1, loc, sav='./'):
         fieldnames = ['Hash', w1]
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerow(graph_trial_single(w1, loc, ReproducibilityFlags.NOTHING))
+        writer.writerow(graph_trial_single(w1, loc))
 
 
 def full_trial_single(w1, loc, sav='./'):
